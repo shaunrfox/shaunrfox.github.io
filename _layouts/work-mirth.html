@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section class="project-wrapper">
+	<header id="project" class="project-header header-photo" style="background-image:url('../assets/img/header-images/{{ page.header_image }}');">
+	</header>
+
+	<div class="container project">
+		<div class="threecol description" id="description">
+			<h1>{{ page.title }}</h1>
+			<div class="post">
+				{{ content }}
+			</div>
+
+			<div id="post-navigation">
+		        {% if page.next.url %}
+	                <a href="{{page.next.url}}" title="next Post:
+		{{page.next.title}}" class="post-nav post-left">
+						<svg viewBox="0 0 30 30" class="ico-pointer-left">
+							<use xlink:href="#ico-pointer-left"></use>
+						</svg> Previous
+					</a>
+		        {% endif %}
+
+		        {% if page.previous.url %}
+	                <a href="{{page.previous.url}}" title="Previous Post:
+		{{page.previous.title}}" class="post-nav post-right">
+						<svg viewBox="0 0 30 30" class="ico-pointer-right">
+							<use xlink:href="#ico-pointer-right"></use>
+						</svg> Next
+					</a>
+		        {% endif %}
+			</div>
+		</div>
+
+		<div class="threecol-2" id="work-images">
+			<div class="project-video">
+				<iframe src="//player.vimeo.com/video/55420202?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			{% for image in page.work_images %}
+				<img src="../assets/img/work-images/{{ image }}">
+			{% endfor %}
+		</div>
+	</div>
+</section>

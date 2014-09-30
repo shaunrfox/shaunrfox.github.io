@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+<section class="project-wrapper">
+	<header id="project" class="project-header" style="background:#{{ page.header_color }};">
+		<div class="container">
+			<div class="onecol">
+				<img src="../assets/img/header-images/{{ page.header_image }}">
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</header>
+
+	<div class="container project">
+		<div class="threecol description" id="description">
+			<h1>{{ page.title }}</h1>
+			<div class="post">
+				{{ content }}
+			</div>
+
+			<div id="post-navigation">
+		        {% if page.next.url %}
+	                <a href="{{page.next.url}}" title="next Post:
+		{{page.next.title}}" class="post-nav post-left">
+						<svg viewBox="0 0 30 30" class="ico-pointer-left">
+							<use xlink:href="#ico-pointer-left"></use>
+						</svg> Previous
+					</a>
+		        {% endif %}
+
+		        {% if page.previous.url %}
+	                <a href="{{page.previous.url}}" title="Previous Post:
+		{{page.previous.title}}" class="post-nav post-right">
+						<svg viewBox="0 0 30 30" class="ico-pointer-right">
+							<use xlink:href="#ico-pointer-right"></use>
+						</svg> Next
+					</a>
+		        {% endif %}
+			</div>
+		</div>
+
+		<div class="threecol-2" id="work-images">
+			<div class="flexslider computer tall">
+				<ul class="slides">
+					{% for image in page.work_images %}
+						<li><img src="../assets/img/work-images/{{ image }}"></li>
+					{% endfor %}
+				</ul>
+			</div>
+
+			{% for image in page.additional_images %}
+				<img src="../assets/img/work-images/{{ image }}">
+			{% endfor %}
+
+		</div>
+	</div>
+</section>

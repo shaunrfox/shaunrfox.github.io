@@ -1,0 +1,24 @@
+.container.photos {
+ 	max-width: 1200px;
+ 	max-height: 1000px;
+ 	padding: 0 10px;
+
+ 	.photo {
+ 		padding: 10px;
+ 	}
+}
+
+.photo-column {
+	width: 50%;
+	float: left;
+ 	@include transition(all ease 400ms);
+
+ 	@media (max-width: 540px) { width: 100%; }
+
+ 	img {
+ 		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+ 	}
+}

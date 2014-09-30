@@ -1,0 +1,108 @@
+.project-header {
+	width:100%;
+	margin-bottom: 50px;
+
+	.container { padding: 0; }
+
+	img {
+		margin:0 auto;
+		display:block;
+		max-width: 800px;
+	}
+
+	&.header-photo {
+		height:340px;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+		@include breakpoint(medium) { height: 290px; }
+		@include breakpoint(small) { height: 180px; }
+	}
+}
+
+.project {
+	@extend %clearfix;
+	margin-bottom: 30px;
+
+	@media (max-width: 1200px) {
+		padding: 0 20px;
+	}
+
+	@include breakpoint(small) {
+		padding: 0 10px;
+	}
+
+	h1 {
+		@include font-size(3);
+		margin-bottom: 20px;
+	}
+
+	.threecol {
+		float: right;
+		@include breakpoint(large) { width: 100%; }
+	}
+
+	.threecol-2 {
+		float: right;
+		@include breakpoint(large) { width: 100%; }
+	}
+
+	img {
+		margin-bottom: 4em;
+		@include breakpoint(medium) { margin-bottom: 3em; }
+		@include breakpoint(small) { margin-bottom: 2em; }
+	}
+}
+
+.project-video {
+	margin-bottom: 30px;
+	background: $white;
+}
+
+.description {
+	top:-20px;
+	padding-top:20px;
+
+	@include breakpoint(large) {
+		top: 0;
+		padding-top:0;
+	}
+}
+
+.fixed {
+	position: fixed;
+	top: 19px;
+	@include breakpoint(extra-large) { right: 20px; left: auto;}
+	@include breakpoint(large) {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+
+.left {
+	float:left !important;
+	@include breakpoint(large) { float:right !important; }
+}
+
+.icon-project .shaun-icons {
+	width: percentage(1/7);
+	height: 110px;
+	float: left;
+	background: lighten($light-grey, 8);
+	border: 5px solid $body-background;
+
+	@include breakpoint(medium) {
+		width: percentage(1/6);
+	}
+
+	@include breakpoint(medium-step) {
+		width: percentage(1/5);
+	}
+
+	@include breakpoint(small) {
+		width: percentage(1/5);
+		height: 80px;
+	}
+}

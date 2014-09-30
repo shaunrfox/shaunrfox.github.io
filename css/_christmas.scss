@@ -1,0 +1,156 @@
+$wreath-size: 120px;
+$wreath-line: 4px;
+$wreath-color: green;
+
+@mixin star {
+	display: inline-block;
+	// width: $wreath-size;
+	// height: $wreath-size;
+	border: $wreath-line solid $wreath-color;
+	border-radius: $wreath-size/3 - $wreath-line;
+
+	&:hover {
+		border: $wreath-line solid $wreath-color;
+	}
+}
+
+#menu a.logo.christmas img {
+	@include star;
+	position: relative;
+	overflow: visible;
+	color: $wreath-color;
+	width: $wreath-size;
+    height: $wreath-size;
+    padding: 2px;
+    margin-top: -40px;
+    margin-bottom: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo2.christmas img {
+	@include star;
+	position: relative;
+	overflow: visible;
+	color: $wreath-color;
+	width: $wreath-size;
+    height: $wreath-size;
+    padding: 2px;
+    margin-top: -6px;
+    // margin-bottom: 18px;
+    // margin-right: 20px;
+    // margin-left: 20px;
+}
+
+#menu a.logo.christmas {
+
+    &:before,
+    &:after {
+	    @include star;
+	    content: "";
+	    position: absolute;
+	    width: $wreath-size;
+	    height: $wreath-size;
+	    padding: 2px;
+	    // top: -$wreath-line;
+	    // left: -$wreath-line;
+	    top: -120px;
+	    left: 20px;
+	    z-index: 100;
+	}
+
+	&:before {
+		@include transform(rotate(30deg));
+		border: $wreath-line solid lighten($wreath-color, 5%);
+	}
+	&:after {
+		@include transform(rotate(60deg));
+		border: $wreath-line solid darken($wreath-color, 5%);
+	}
+
+	&:hover {
+		&:before,
+		&:after {
+			margin-left: 10px;
+		}
+	}
+}
+
+.logo2.christmas {
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	&:before,
+    &:after {
+	    @include star;
+	    content: "";
+	    position: absolute;
+	    width: $wreath-size;
+	    height: $wreath-size;
+	    padding: 2px;
+	    // top: -$wreath-line;
+	    // left: -$wreath-line;
+	    top: -6px;
+	    left: 0;
+	    z-index: 100;
+	}
+
+	&:before {
+		@include transform(rotate(30deg));
+		border: $wreath-line solid lighten($wreath-color, 5%);
+	}
+	&:after {
+		@include transform(rotate(60deg));
+		border: $wreath-line solid darken($wreath-color, 5%);
+	}
+
+	&:hover {
+		&:before,
+		&:after {
+			margin-left: 0;
+		}
+	}
+}
+
+.bow { display: none; }
+
+.christmas .bow {
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	z-index: 200;
+	width: 100%;
+
+	&:before,
+	&:after {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		bottom: 0;
+		width: 0;
+		height: 0;
+	}
+
+	&:before {
+		border-top: 20px solid transparent;
+		border-right: 30px solid $red;
+		border-bottom: 20px solid transparent;
+		border-radius: 10px;
+		left: 45%;
+	}
+
+	&:after {
+		border-top: 20px solid transparent;
+		border-left: 30px solid $red;
+		border-bottom: 20px solid transparent;
+		border-radius: 10px;
+		right: 45%;
+	}
+}
+
+.logo2.christmas .bow {
+	bottom: -28px;
+	left: 5px;
+}

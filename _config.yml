@@ -1,0 +1,8 @@
+name: shaunfox.com
+markdown: redcarpet
+highlighter: pygments
+site.name: shaunfox.com
+permalink: none
+url: http://localhost:3000/
+
+relative_permalinks: true

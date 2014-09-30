@@ -1,0 +1,12 @@
+---
+layout: work
+title:  "Illustrations, Etc."
+date:   2014-04-19
+categories: Projects
+home_image: illos-home.jpg
+header_image: illos-header.png
+header_color: f3aaaa
+work_images: ["illos-1.jpg", "illos-2.jpg", "illos-3.jpg", "illos-4.jpg", "illos-5.jpg", "illos-6.jpg", "illos-7.jpg", "illos-8.jpg", "illos-9.jpg", "illos-10.jpg", "illos-11.jpg", "illos-12.jpg"]
+---
+
+This is a collection of some of my favorite illustrations that I&rsquo;ve done for different projects over the years. Enjoy.
