@@ -642,6 +642,54 @@ p.note {
   background: #aaa;
   margin: 10px 0 30px; }
 
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * ICON ANIMATIONS
+ * * * * * * * * * * * * * * * * * * *
+ */
+.spin-the-spinner {
+  display: inline-block;
+  -webkit-animation: spin 1.35s linear infinite;
+  -moz-animation: spin 1.35s linear infinite;
+  -ms-animation: spin 1.35s linear infinite;
+  -o-animation: spin 1.35s linear infinite;
+  animation: spin 1.35s linear infinite; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  50% {
+    -webkit-transform: rotate(180deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg); }
+  50% {
+    -moz-transform: rotate(180deg); }
+  to {
+    -moz-transform: rotate(360deg); } }
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg); }
+  50% {
+    -ms-transform: rotate(180deg); }
+  to {
+    -ms-transform: rotate(360deg); } }
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0deg); }
+  50% {
+    -o-transform: rotate(180deg); }
+  to {
+    -o-transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(180deg); }
+  to {
+    transform: rotate(360deg); } }
 html {
   font-size: 62.5%;
   color: #111;
@@ -1864,39 +1912,5 @@ img#back {
 	margin:30px 0;
 
 }*/
-/*
- * * * * * * * * * * * * * * * * * * *
- * NOTICE
- * * * * * * * * * * * * * * * * * * *
- */
-.notice {
-  position: absolute;
-  top: 10px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: auto;
-  max-width: 80%;
-  height: auto;
-  padding: 30px;
-  background: #fff;
-  line-height: 1.4;
-  border: 1px solid #eaeaea;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px rgba(17, 17, 17, 0.5);
-  -moz-box-shadow: 2px 2px 2px rgba(17, 17, 17, 0.5);
-  -webkit-box-shadow: 2px 2px 2px rgba(17, 17, 17, 0.5);
-  z-index: 10000; }
-  .notice svg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30px;
-    height: 30px;
-    fill: #ed1c24; }
-    .notice svg:hover {
-      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
