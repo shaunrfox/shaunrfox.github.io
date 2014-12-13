@@ -440,7 +440,7 @@ p.note {
 
 .logo2.christmas .bow {
   bottom: -28px;
-  left: 5px; }
+  left: 0; }
 
 /*~~~~~~~~~~~ GRID ~~~~~~~~~~~~~~*/
 /*
@@ -1265,7 +1265,7 @@ nav {
 #aboutnav,
 #xnav {
   position: relative;
-  top: -76px; }
+  top: -64px; }
   @media (max-width: 768px) {
     #worknav,
     #photosnav,

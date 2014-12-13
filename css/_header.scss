@@ -94,7 +94,8 @@ nav {
 #aboutnav,
 #xnav {
  	position: relative;
- 	top: -76px;
+ 	// top: -76px; // Restore after Christmas
+ 	top: -64px; // Christmas positioning
 
  	@include breakpoint(medium) { top: 25px; }
 
