@@ -1,14 +1,21 @@
 ---
 layout: default
 title: shaunfox.com
+page-title: "Here&rsquo;s some of my work."
 ---
 
-<section class="container work content" id="home">
+<section class="container home-projects" id="home">
+  <div class="column">
     {% for post in site.posts %}
-      	<a class="project-link" href="{{ post.url }}">
-      		<img src="../assets/img/home/{{ post.home_image }}"/>
-      		<div><span>{{ post.title }}</span></div>
-      	</a>
+      <div class="project {{ post.waiting }}">
+        <div class="project-info">
+          <a class="project-link" href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+          <p class="project-home-description">{{ post.home-description }}</p>
+        </div>
+        <div class="project-image">
+          <a class="project-link" href="{{ post.url }}"><img src="../assets/img/home/{{ post.home_image }}"/></a>
+        </div>
+      </div>
     {% endfor %}
-    <div style="clear:both;"></div>
+  </div>
 </section>

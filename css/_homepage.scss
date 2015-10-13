@@ -1,0 +1,121 @@
+/* Homepage */
+
+.home-projects {
+  .project {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey;
+    padding: 30px 0;
+    margin-bottom: -1px;
+
+    &.images {
+      &:before {
+        content: 'images';
+        position: absolute;
+        top: 0;
+        left: 45px;
+        width: auto;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        background: $orange;
+      }
+    }
+
+    &.text {
+      &:after {
+        content: 'text';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        background: $green;
+      }
+    }
+  }
+
+  .project-info,
+  .project-image {
+    display: table-cell;
+    width: 48%;
+
+    @include breakpoint(medium) {
+      width: 100%;
+      padding: 15px 0;
+
+      img {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  .project:nth-child(even) {
+    .project-info {
+      float: right;
+      margin-left: 2%;
+    }
+
+    .project-image {
+      float: left;
+      margin-right: 2%;
+    }
+
+    @include breakpoint(medium) {
+      .project-info,
+      .project-image { margin: 0; }
+    }
+  }
+
+  .project:nth-child(odd) {
+    .project-info {
+      float: left;
+      margin-right: 2%;
+    }
+
+    .project-image {
+      float: right;
+      margin-left: 2%;
+    }
+
+    @include breakpoint(medium) {
+      .project-info,
+      .project-image { margin: 0; }
+    }
+  }
+
+  .project-link h2 {
+    display: block;
+    float: left;
+    @include font-size(3);
+    color: $off-black;
+    font-weight: 700;
+    border-bottom: 1px solid $light-grey;
+    margin-bottom: 20px;
+    @include transition(150ms ease all);
+
+    &:hover {
+      color: $cyan;
+      border-color: $cyan;
+    }
+  }
+
+  .project-home-description {
+    float: left;
+    clear: both;
+    @include font-size(2.4);
+    margin: 0;
+
+    @include breakpoint(small) {
+      @include font-size(2);
+      line-height: 1.4em;
+    }
+  }
+}

@@ -1,40 +1,43 @@
 /*
  * * * * * * * * * * * * * * * * * * *
- * EXTENDS
+ * @mixins
  * * * * * * * * * * * * * * * * * * *
  */
 
-// Box Sizing
-%border-box {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+// Getting Source Sans
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic);
+
+// Rooney Mixin
+@mixin chaparral() {
+	font-family: "chaparral-pro", georgia, times, serif;
 }
 
-%content-box {
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
+@mixin source-sans() {
+	font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
 }
 
-// Clearfix
-// http://nicolasgallagher.com/micro-clearfix-hack/
-// include @mixin clearfix on the parent div you want to clear
-%clearfix {
-	zoom: 1; // For IE 6/7 (trigger hasLayout)
-
-	&:after,
-	&:before {
-		content: "";
-		display: table;
-	}
-
-	&:after {
-		clear: both;
-	}
+// Helper to clear inner floats
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 }
 
-%vertical-align {
+// Slightly lighten a color
+@function tint($color, $percentage) {
+  @return mix($color, white, $percentage);
+}
+
+// Slightly darken a color
+@function shade($color, $percentage) {
+  @return mix($color, black, $percentage);
+}
+
+// Vertical align anything
+@mixin vertical-align {
+	display: block;
 	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -42,13 +45,7 @@
 	transform: translateY(-50%);
 }
 
-/*
- * * * * * * * * * * * * * * * * * * *
- * MIXINS
- * * * * * * * * * * * * * * * * * * *
- */
-
-// REM font-size
+// REM font-size with pixel backup
 @mixin font-size($size){
 	font-size: ($size * 10) + px;
 	font-size: $size + rem;
@@ -58,14 +55,6 @@
 	box-shadow: $shadows;
 	-moz-box-shadow: $shadows;
 	-webkit-box-shadow: $shadows;
-	// Single:
-	// @include box-shadow(x y blur color);
-	// Multiple:
-	// @include box-shadow(inset x y blur color, x y blur color);
-}
-
-@mixin text-shadow($horizontal, $vertical, $blur, $color, $alpha) {
-	text-shadow: $horizontal $vertical $blur rgba($color, $alpha);
 }
 
 // Border Radius, all corners
@@ -90,19 +79,45 @@
 	transition: $args;
 }
 
-@mixin transform($args) {
-  -webkit-transform: $args;
-	-moz-transform: $args;
-	-ms-transform: $args;
-	-o-transform: $args;
-	transform: $args;
+// Uppercase, 600, letter-spaced
+@mixin uppercase {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
 }
 
-%inline-block { display: inline-block; }
-%uppercase { text-transform: uppercase; }
-%letter-spacing { letter-spacing: 1px; }
+// Truncate text
+@mixin truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
-%unstyled-list{
+// Make those words wrap, yo
+@mixin word-wrap() {
+	-ms-word-break: break-all;
+	word-wrap: hyphenate;
+	word-wrap: break-word;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+// Linear gradient (top to bottom)
+@mixin linear-gradient($from, $to) {
+	background-color: $to;
+	background-image:-moz-linear-gradient($from, $to);
+	background-image:-o-linear-gradient($from, $to);
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to));
+	background-image: -webkit-linear-gradient($from, $to);
+	background-image: -ms-linear-gradient($from, $to);
+	background-image: linear-gradient($from, $to);
+}
+
+// Remove browser default list styling (make sure to add your own)
+@mixin unstyled-list {
 	display: inline-block;
 	list-style: none;
 	list-style-type: none;
@@ -114,44 +129,39 @@
 	-moz-margin-start: 0;
 	-moz-margin-end: 0;
 	-moz-padding-start: 0;
+	-moz-padding-end: 0;
 	-webkit-list-style: none none none;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 	-webkit-margin-start: 0;
 	-webkit-margin-end: 0;
 	-webkit-padding-start: 0;
+	-webkit-padding-end: 0;
+	margin: 0;
+	padding: 0;
 
 	li { display: inline-block; }
 }
 
-%truncate {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-@mixin linear-gradient($from, $to) {
-	/* Fallback for sad browsers */
-	background-color: $to;
-	/* Mozilla Firefox */
-	background-image:-moz-linear-gradient($from, $to);
-	/* Opera */
-	background-image:-o-linear-gradient($from, $to);
-	/* WebKit (Chrome 11+) */
-	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to));
-	/* WebKit (Safari 5.1+, Chrome 10+) */
-	background-image: -webkit-linear-gradient($from, $to);
-	/* IE10 */
-	background-image: -ms-linear-gradient($from, $to);
-	/* W3C */
-	background-image: linear-gradient($from, $to);
-}
-
-%unstyled-button{
+// Remove browser default button styling (make sure to add your own)
+@mixin unstyled-button {
 	border: none;
 	border-image-source: none;
 	border-image-slice: none;
 	border-image-width: none;
 	border-image-outset: none;
 	border-image-repeat: none;
+	padding: 0;
+}
+
+// Prevent User Selection
+@mixin no-select() {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
 }

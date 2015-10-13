@@ -3,15 +3,15 @@
 // Media Queries
 @mixin breakpoint($point) {
 	@if $point == extra-large {
-		@media (max-width: 1240px) { @content; }
+		@media (max-width: 1200px) { @content; }
 	} @else if $point == large {
-		@media (max-width: 960px) { @content; }
+		@media (max-width: 1000px) { @content; }
 	} @else if $point == medium {
-		@media (max-width: 768px) { @content; }
+		@media (max-width: 800px) { @content; }
 	} @else if $point == medium-step {
-		@media (max-width: 650px) { @content; }
+		@media (max-width: 600px) { @content; }
 	} @else if $point == small {
-		@media (max-width: 480px)  { @content; }
+		@media (max-width: 400px)  { @content; }
 	} @else if $point == dang-small {
 		@media (max-width: 380px)  { @content; }
 	}
@@ -19,6 +19,25 @@
 
 // Media Query Syntax: // @include breakpoint(small) { width: 60%; }
 
+// drop in a div with this class to visualize your breakpoints as you scale the page
+.breakpoint-tester {
+	position: fixed;
+	top: 50px;
+	right: 0;
+	background: $orange;
+	font-size: 20px;
+	padding: 10px 15px;
+	z-index: 1001;
+
+	&:before { content: 'default'; }
+
+	@include breakpoint(extra-large) { &:before { content: 'extra-large'; } }
+	@include breakpoint(large) { &:before { content: 'large'; } }
+	@include breakpoint(medium) { &:before { content: 'medium'; } }
+	@include breakpoint(medium-step) { &:before { content: 'medium-step'; } }
+	@include breakpoint(small) { &:before { content: 'small'; } }
+	@include breakpoint(dang-small) { &:before { content: 'dang-small'; } }
+}
 
 
 /*
@@ -27,147 +46,20 @@
  * * * * * * * * * * * * * * * * * * *
  */
 
-%standard-padding { padding: 2%; }
-/*
-.container { // use as a wrapper
-    width: 100%;
-    height: auto;
-    // max-width: 1200px; // only needed sometimes
-}
-*/
-
-.full-width { width: 100%; }
-.half-width { width: 50%; }
-
-.one-third-width { width: percentage(1/3); }
-.two-thirds-width { width: percentage(2/3); }
-
-.one-fourth-width { width: percentage(1/4); }
-.three-fourths-width { width: percentage(3/4); }
-
-.one-fifth-width { width: percentage(1/5); }
-.two-fifths-width { width: percentage(2/5)}
-.three-fifths-width {   width: percentage(3/5); }
-.four-fifths-width { width: percentage(4/5); }
-
-.one-sixth-width { width: percentage(1/6); }
-.five-sixths-width { width: percentage(5/6); }
-
-.full-height { height: 100%; }
-.half-height { height: 50%; }
-
-/*
- * * * * * * * * * * * * * * * * * * *
- * GRID MIXINS
- * * * * * * * * * * * * * * * * * * *
- */
-
-/* @mixin full-width { width: 100%; }
-@mixin half-width { width: 50%; }
-
-@mixin one-third-width { width: percentage(1/3); }
-@mixin two-thirds-width { width: percentage(2/3); }
-
-@mixin one-fourth-width { width: percentage(1/4); }
-@mixin three-fourths-width { width: percentage(3/4); }
-
-@mixin one-fifth-width { width: percentage(1/5); }
-@mixin two-fifths-width { width: percentage(2/5)}
-@mixin three-fifths-width {   width: percentage(3/5); }
-@mixin four-fifths-width { width: percentage(4/5); }
-
-@mixin one-sixth-width { width: percentage(1/6); }
-@mixin five-sixths-width { width: percentage(5/6); }
-
-@mixin full-height { height: 100%; }
-@mixin half-height { height: 50%; } */
-
-// --------------------------------------------------------
-
-/*
- * * * * * * * * * * * * * * * * * * *
- * MEDIA QUERIES
- * * * * * * * * * * * * * * * * * * *
- */
-
 .container {
-	@extend %clearfix;
-	// @extend %standard-padding;
+	position: relative;
+	display: block;
 	width: 100%;
+	max-width: 1200px;
 	height: auto;
 	margin: 0 auto;
-	clear: both;
-	display: block;
-	position: relative;
-	// padding: 0;
-	// padding: 20px;
-	max-width: 1200px;
-	//background: $orange;
-
-	@include breakpoint(extra-large) {
-		width: auto;
-		// margin: 0 20px;
-	}
-
-	// @include breakpoint(large) { margin: 0 15px; }
-	// @include breakpoint(medium) { margin: 0 10px; }
-	// @include breakpoint(small) { margin: 0 5px; }
+	@include clearfix();
+	padding: 0 15px;
 }
 
-
-.onecol,
-.twocol,
-.threecol, .threecol-2,
-.fourcol, .fourcol-3,
-.fivecol, .fivecol-2, .fivecol-3, .fivecol-4,
-.sixcol {
-	@extend %clearfix;
+.column {
 	float: left;
-	padding: 0 1%;
-	height: auto;
-	display: block;
-	position: relative;
-	@include breakpoint(large) { padding: 0 2%; }
-}
-
-.onecol			{ width: percentage(1/1); } // 100%
-.twocol			{ width: percentage(1/2); } // 50%
-.threecol		{ width: percentage(1/3); } // 33.3334%
-.threecol-2	{ width: percentage(2/3); } // 66.6667%
-.fourcol		{ width: percentage(1/4); } // 25%
-.fourcol-3	{ width: percentage(3/4); } // 75%
-.fivecol		{ width: percentage(1/5); } // 20%
-.fivecol-2	{ width: percentage(2/5); } // 40%
-.fivecol-3	{ width: percentage(3/5); } // 60%
-.fivecol-4	{ width: percentage(4/5); } // 80%
-.sixcol			{ width: percentage(1/6); } // 16.666%
-
-// Large (960px)
-.sixcol,
-.fivecol, .fivecol-2, .fivecol-3, .fivecol-4 {
-	@include breakpoint(large) { width: 33.333%; }
-}
-
-.sixcol,
-.fivecol, .fivecol-2, .fivecol-3, .fivecol-4,
-.fourcol, .fourcol-3,
-.threecol, .threecol-2 {
-	@include breakpoint(medium) { width: 50%; }
-}
-
-.work .fourcol {
-	@include breakpoint(medium) { width: percentage(1/3); }
-	@include breakpoint(medium-step) { width: percentage(1/2); }
-}
-
-.twocol {
-	@include breakpoint(medium) { width: 100%; }
-}
-
-.sixcol,
-.fivecol, .fivecol-2, .fivecol-3, .fivecol-4,
-.fourcol, .fourcol-3,
-.threecol, .threecol-2,
-.twocol {
-	@include breakpoint(small) { width: 100%; }
+	width: 100%;
+	padding: 0 15px;
+	@include clearfix();
 }

@@ -1,12 +1,7 @@
-// @import "normalize";
-@import "reset";
+@import "normalize";
 
 @import "color";
 @import "mixins";
-@import "fonts-base";
-// @import "fonts-extended";
-
-@import "christmas";
 
 @import "grid";
 @import "bits";
@@ -14,9 +9,11 @@
 
 @import "base";
 @import "header";
+@import "footer";
+@import "homepage";
+@import "post-nav";
 @import "project";
+@import "icon-page";
+@import "prettify";
 @import "photo";
-@import "slider";
-@import "device-slider";
-@import "x";
-// @import "notice";
+@import "about"
