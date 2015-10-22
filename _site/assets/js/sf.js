@@ -18,7 +18,7 @@ var navHighlight = function() {
 }
 
 // Greeting
-$(window).load(function() {
+/*$(window).load(function() {
 	// Greeting
 	var date = new Date();
 	var time = date.getHours();
@@ -37,7 +37,7 @@ $(window).load(function() {
 	setTimeout(function() {
 		$(".main-title").addClass("show");
 	}, 0);
-});
+});*/
 
 $(document).ready(function() {
 	navHighlight();
