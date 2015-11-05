@@ -20,6 +20,14 @@
 		@include breakpoint(medium) { margin-bottom: 3em; }
 		@include breakpoint(small) { margin-bottom: 2em; }
 	}
+
+	&.photos {
+		img {
+			display: block;
+			width: auto;
+			margin: 0 auto 30px;
+		}
+	}
 }
 
 .project {

@@ -12,24 +12,24 @@
     $.fn.raptorize = function(options) {
 
         //Yo' defaults
-        var defaults = {  
+        var defaults = {
             enterOn: 'click', //timer, konami-code, click
             delayTime: 5000 //time before raptor attacks on timer mode
-            };  
-        
+            };
+
         //Extend those options
-        var options = $.extend(defaults, options); 
-	
+        var options = $.extend(defaults, options);
+
         return this.each(function() {
 
 			var _this = $(this);
 			var audioSupported = !!document.createElement("audio").canPlayType;
-			
+
 			//Raptor Vars
 			var shaunPhotos = 5;
 			for(var x = 1; x <= shaunPhotos; x++){
 				var imgId = "#shaunPhoto"+x;
-				$('body').append("<img class='elFox' id='shaunPhoto"+x+"' style='display: none' src='../assets/fox/shaun"+x+".png'/>");
+				$('body').append("<img class='elFox' id='shaunPhoto"+x+"' style='display: none' src='/assets/fox/shaun"+x+".png'/>");
 				$(imgId).css({
 					"position":"fixed",
 					"bottom": "-740px",
@@ -37,49 +37,49 @@
 					"display" : "block"
 				});
 			}
-			
+
 			var foxSounds = 7;
 			if(audioSupported){
 				if(options.sounds === "fox sounds"){
 					for(var y = 1; y <= foxSounds; y++){
-						$("body").append("<audio id='foxSound"+y+"' preload='auto'><source src='../assets/fox/fox sound "+y+".mp3'/><source src='../assets/fox/fox sound "+y+".ogg'/></audio>");
+						$("body").append("<audio id='foxSound"+y+"' preload='auto'><source src='/assets/fox/fox sound "+y+".mp3'/><source src='/assets/fox/fox sound "+y+".ogg'/></audio>");
 					}
 				}
 				else{
-					$("body").append("<audio id='foxy' preload='auto'><source src='../assets/fox/foxy.mp3'/><source src='../assets/fox/foxy.ogg'/></audio>");
+					$("body").append("<audio id='foxy' preload='auto'><source src='/assets/fox/foxy.mp3'/><source src='/assets/fox/foxy.ogg'/></audio>");
 				}
 			}
 
 
-			
+
 			var locked = false;
-			
+
 			var heights = [600, 615, 600, 600, 435];
 			var widths = [400, 221, 444, 490, 433];
-			
 
-			
-			
-			
+
+
+
+
 			// Animating Code
 			function init() {
 				locked = true;
-				
-				
-				
+
+
+
 				var number = Math.floor(Math.random()*shaunPhotos);
 				var shaunId = "#shaunPhoto"+(number +1);
 				var bottom = (heights[number]*-1 -140)+"px";
 				var foxSoundId = "foxSound"+(Math.floor(Math.random()*foxSounds)+1);
-				
-				
-				
+
+
+
 				$(shaunId).css({
 					"bottom":  bottom,
 				});
-			
+
 				//Sound Hilarity
-				if(audioSupported) { 
+				if(audioSupported) {
 					function playSound() {
 						if(options.sounds !== "fox sounds"){
 							document.getElementById("foxy").play();
@@ -89,11 +89,11 @@
 					}
 					playSound();
 				}
-								
-				// Movement Hilarity	
+
+				// Movement Hilarity
 				$(shaunId).animate({
 					"bottom" : "0"
-				}, function() { 			
+				}, function() {
 					$(this).animate({
 						"bottom" : "-130px"
 					}, 100, function() {
@@ -110,8 +110,8 @@
 					});
 				});
 			}
-			
-			
+
+
 			//Determine Entrance
 			if(options.enterOn == 'timer') {
 				setTimeout(init, options.delayTime);
@@ -131,7 +131,7 @@
 			        	$(window).unbind('keydown.raptorz');
 			        }
 			    }, true);
-	
+
 			}
 			else if(options.enterOn == 'foxxy'){
 			    var foxkeys = [], foxxy = "70,79,88,88,89";
@@ -142,9 +142,9 @@
 			        	$(window).unbind('keydown.raptorz');
 			        }
 			    }, true);
-	
+
 			}
-			
+
         });//each call
     }//orbit plugin call
 })(jQuery);

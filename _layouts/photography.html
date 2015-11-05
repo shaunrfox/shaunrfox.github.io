@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="project-wrapper">
+	<div class="container project">
+		<div class="column project-description">
+			<div id="post-navigation">
+        {% if page.next.url %}
+          <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="post-nav post-left">
+						<svg viewBox="0 0 30 30" class="ico-pointer-left">
+							<use xlink:href="#ico-pointer-left"></use>
+						</svg> Previous
+					</a>
+        {% endif %}
+
+        {% if page.previous.url %}
+          <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="post-nav post-right">
+						<svg viewBox="0 0 30 30" class="ico-pointer-right">
+							<use xlink:href="#ico-pointer-right"></use>
+						</svg> Next
+					</a>
+        {% endif %}
+			</div>
+		</div>
+
+		<div class="column project-images photos">
+			{{ content }}
+		</div>
+	</div>
+</section>
