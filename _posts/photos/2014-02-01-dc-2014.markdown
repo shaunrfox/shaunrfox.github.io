@@ -5,7 +5,7 @@ date:   2014-02-01
 categories: photos
 base-path: "/assets/img/photos/2014-dc"
 home_image: lincoln.jpg
-page-title: "Shots from walking around downton DC."
+page-title: "Shots from walking around downtown DC."
 
 ---
 
