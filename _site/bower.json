@@ -15,6 +15,6 @@
     "assets/svg"
   ],
   "dependencies": {
-    "fox-icons": "1.0.0"
+    "fox-icons": "*"
   }
 }

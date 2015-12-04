@@ -2,7 +2,7 @@
 
 Hand crafted SVG icons by Shaun Fox. Free to use, not to sell.
 
-[See all the icons on my site.](http://shaunfox.com/projects/fox-icons.html)
+[See all the icons on my site.](http://shaunfox.com/icons)
 
 ### Install
 
