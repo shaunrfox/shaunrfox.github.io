@@ -15,3 +15,15 @@ bower install fox-icons
   <use xlink:href="#ico-fox"></use>
 </svg>
 ```
+
+### How to use in bower
+
+To add it to your bower file, do the usual bower thing:
+```bash
+bower install --save fox-icons
+```
+
+However, because this repository is frequently updated, I'd reccomend changing your bower file to something like this
+```json
+"fox-icons": "*"
+```
