@@ -3,7 +3,8 @@ markdown: redcarpet
 highlighter: pygments
 site.name: shaunfox.com
 permalink: /:categories/:title
-url: http://localhost:3000/
+url: http://localhost:4000
 paginate_per_category: true
 
-relative_permalinks: true
+# Build settings
+markdown: kramdown

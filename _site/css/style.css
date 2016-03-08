@@ -661,12 +661,7 @@ hr {
   margin: 30px 0 -1px 0;
   padding-bottom: 50px;
   border-bottom: 1px solid #ccc;
-  color: #111;
-  -webkit-transition: 2000ms ease all;
-  -moz-transition: 2000ms ease all;
-  -o-transition: 2000ms ease all;
-  transition: 2000ms ease all;
-  /* &.show { color: $off-black; } */ }
+  color: #111; }
   @media (max-width: 1000px) {
     .main-title {
       font-size: 52px;
@@ -1362,5 +1357,3 @@ li.L9 {
     .list a:hover {
       background: #00ccff;
       color: #fff; }
-
-/*# sourceMappingURL=style.css.map */

@@ -1,67 +1,14 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<html>
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>{{ page.title }}</title>
-	<meta name="description" content="I'm a designer living in Austin, TX, with my beautiful wife and daughters. I work as a Creative Director on a great team at Snaptrends. This is a portfolio of my work." />
+	{% include head.html %}
 
-	<meta name="keywords" content="Shaun Fox, Shaun, Fox, Design, Austin, Designer, Portfolio, Web Design, Snaptrends" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="index, follow">
-
-	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
-
-	<link href="/css/style.css" rel="stylesheet">
-
-	<!-- jQuery -->
-	<script src="/assets/js/jquery-2.0.3.min.js"></script>
-
-	<!-- ============= BEGIN GOOGLE ANALYTICS ============= -->
-
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-12932882-1");
-			pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
-
-	<!-- ============= END GOOGLE ANALYTICS ============= -->
-
-	<script src="https://use.typekit.net/ydu8urf.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-</head>
 <body>
 
 	<!-- <div class="breakpoint-tester"></div> -->
 
 	{% include fox-icons/fox-icons.svg %}
 
-	<div class="site-header">
-		<div class="container">
-			<div class="column nav-column">
-				<nav>
-					<div id="menu">
-						<a id="worknav" class="active" href="/">Work</a>
-						<a id="photosnav" href="/photos.html">Photos</a>
-						<a id="aboutnav" href="/about.html">About</a>
-					</div>
-				</nav>
-
-				<div class="main-title">Howdy, I&rsquo;m Shaun.</div>
-
-				<a href="/" class="logo-link"><img class="logo" src="/assets/img/shaun-fox-logo.gif"/></a>
-			</div>
-		</div>
-	</div><!-- /header -->
+	{% include navigation.html %}
 
 	<div class="container">
 		<div class="column">
@@ -71,58 +18,7 @@
 
 	{{ content }}
 
-	<!-- footer -->
-
-	<footer class="site-footer">
-		<div class="container">
-			<div class="column footer-column">
-				<p>Copyright &copy; 2016 &ndash; Shaun Fox</p>
-
-				<div class="connect">
-					<a href="http://twitter.com/shaunrfox">
-						<svg viewBox="0 0 30 30" class="ico-twitter">
-							<use xlink:href="#ico-twitter"></use>
-						</svg>
-					</a>
-					<a href="https://www.linkedin.com/in/shaunrfox">
-						<svg viewBox="0 0 30 30" class="ico-linkedin">
-							<use xlink:href="#ico-linkedin"></use>
-						</svg>
-					</a>
-					<a href="http://dribbble.com/shaunrfox">
-						<svg viewBox="0 0 30 30" class="ico-dribbble">
-							<use xlink:href="#ico-dribbble"></use>
-						</svg>
-					</a>
-					<a href="http://codepen.io/shaunrfox/">
-						<svg viewBox="0 0 30 30" class="ico-codepen">
-							<use xlink:href="#ico-codepen"></use>
-						</svg>
-					</a>
-					<a href="http://shaunrfox.vsco.co">
-						<svg viewBox="0 0 30 30" class="ico-vsco">
-							<use xlink:href="#ico-vsco"></use>
-						</svg>
-					</a>
-					<a href="mailto:hello@shaunfox.com?subject=Hi Shaun!">
-						<svg viewBox="0 0 30 30" class="ico-at">
-							<use xlink:href="#ico-at"></use>
-						</svg>
-					</a>
-					<a class="foxButton">
-						<svg viewBox="0 0 30 30" class="ico-fox">
-							<use xlink:href="#ico-fox"></use>
-						</svg>
-					</a>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<script src="/assets/js/jquery.flexslider-min.js"></script>
-	<script src="/assets/js/jquery.fitvids.js"></script>
-	<script src="/assets/js/jquery.fox-orize.3.0.js"></script>
-	<script src="/assets/js/sf.js"></script>
+	{% include footer.html %}
 
 </body>
 </html>
