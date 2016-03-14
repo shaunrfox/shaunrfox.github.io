@@ -1,8 +1,7 @@
 name: shaunfox.com
-markdown: redcarpet
 highlighter: pygments
 site.name: shaunfox.com
-permalink: /:categories/:title
+permalink: /:categories/:title.html
 url: http://localhost:4000
 paginate_per_category: true
 
