@@ -1,0 +1,142 @@
+/*
+ * * * * * * * * * * * * * * * * * * *
+ * Writing
+ * * * * * * * * * * * * * * * * * * *
+ */
+
+.writing-post {
+	display: block;
+	position: relative;
+	padding: 40px;
+	width: 48%;
+	margin: 20px 1%;
+	min-height: 200px;
+
+	.writing-home-image {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		opacity: .08;
+		z-index: 1;
+		@include transition(200ms ease all);
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: $blue;
+			opacity: 0;
+			@include transition(200ms ease all);
+		}
+	}
+
+	h2 {
+		position: relative;
+		display: block;
+		@include font-size(3);
+		color: $off-black;
+		font-weight: 700;
+		z-index: 10;
+
+		@include breakpoint(medium) {
+			@include font-size(1.8);
+		}
+	}
+
+	.meta {
+		@include font-size(1.4);
+		@include source-sans();
+		@include uppercase;
+		color: rgba($off-black, .5);
+	}
+
+	.excerpt {
+		position: relative;
+		width: 100%;
+		@include font-size(1.8);
+		line-height: 1.5em;
+		color: rgba($off-black, .5);
+		z-index: 10;
+		display: none;
+	}
+
+	&:hover {
+		border: none;
+
+		.writing-home-image {
+			opacity: .2;
+
+			&:before { opacity: .5; }
+		}
+	}
+
+	&.first {
+		width: 100%;
+		margin: 20px 0 50px;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 51%;
+		min-height: 300px;
+
+		.writing-home-image {
+			left: 51%;
+			opacity: 1;
+
+			&:before { display: none; }
+		}
+
+		.excerpt { display: block; }
+
+		&:hover {background: rgba($blue, .1); }
+	}
+}
+
+.writing-list-wrapper {
+	// .column { padding: 3px; }
+}
+
+.writing-post-wrapper {
+	padding: 80px;
+	max-width: 860px;
+	background: tint($off-white, 50);
+	@include box-shadow(2px 2px 3px rgba($off-black, .2));
+	margin: 0 auto;
+	@include transition(300ms ease all);
+
+	@include breakpoint(medium) {
+		padding: 0;
+		background: none;
+	}
+
+	h1 {
+		// margin-bottom: 0;
+		@include font-size(4);
+	}
+
+	.meta {
+		@include source-sans();
+		@include uppercase();
+		@include font-size(1.4);
+		color: $mid-grey;
+
+		&:after {
+			content: '';
+			display: block;
+			width: 150px;
+			height: 3px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background: tint($cyan, 20);
+		}
+	}
+}
