@@ -9,6 +9,6 @@ excerpt: "Turducken turkey leberkas brisket ribeye short ribs chuck bresaola gro
 
 My friend Tsh Oxenreider runs a <a href="http://www.theartofsimple.net/">successful blog</a>. In 2011 she gathered up a lot of her great tips and published them as an e-book.
 
-<img src="/assets/img/writing/inspiration-vs-origination.jpg" alt="">
+<img src="/assets/img/writing/inspiration-vs-origination.jpg" alt="Inspiration vs. Origination">
 
 There are 52 &ldquo;life simplification projects&rdquo; to organize and categorize. It was my first time to do an e-book and it brought some new things to the table. I really like how it turned out. If you&rsquo;re interested, it&rsquo;s available to <a href="http://52bites.com/">purchase here</a>.
