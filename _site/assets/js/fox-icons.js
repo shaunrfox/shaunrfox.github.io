@@ -1,111 +1,111 @@
-// Variables
+(function() {
+	var iconList;
+	var searchInput;
+	var clearButton;
+	var svgCode;
 
-// var iconsContainer = $(".icons-column");
-var iconList = $("#fox-icons > defs > g");
-var searchInput = $(".search > input");
-var search;
-var hash;
+	// Generate Icons
+	function generateIcons() {
+		iconList.each(function() {
+			var thisIconID = $(this).attr("id");
+			// console.log(thisIconID);
 
-// Generate Icons
-function generateIcons() {
-	iconList.each(function() {
-		var thisIconID = $(this).attr("id");
-		// console.log(thisIconID);
+			$(".icons-column").append('\
+				<button class="icon-wrapper" data-name="' + thisIconID + '">\
+					<span class="title">.' + thisIconID + '</span>\
+					<svg viewBox="0 0 30 30" class="' + thisIconID + '">\
+						<use xlink:href="#' + thisIconID + '"></use>\
+					</svg>\
+				</button>\
+				');
+		});
+	};
 
-		$(".icons-column").append('\
-			<button class="icon-wrapper" data-name="' + thisIconID + '">\
-				<span class="title">.' + thisIconID + '</span>\
-				<svg viewBox="0 0 30 30" class="' + thisIconID + '">\
-					<use xlink:href="#' + thisIconID + '"></use>\
-				</svg>\
-			</button>\
-			');
-	});
-};
+	// Count Icons
+	function countIcons() {
+		var iconCount = iconList.length;
+		$(".count").append( " (" + iconCount + " and counting!)" );
+	};
 
-// Count Icons
-function countIcons() {
-	var iconCount = iconList.length;
-	$(".count").append( " (" + iconCount + " and counting!)" );
-};
+	// Check window hash and put value into search input
+	function checkHash() {
+		var hash = window.location.hash.substring(1);
 
-// Check window hash and put into search input
-function checkHash() {
-	// Check if hash has content
-	if (hash !== "") {
-		searchInput.val(hash);
-	}
-};
-
-// Filter Icons based on search input value
-function filterIcons() {
-	search = searchInput.val().toLowerCase();
-
-	if ( search.length > 0 ) {
-		$(".clear-search").addClass("has-text");
-		window.location.hash = "#"+search;
-	} else {
-		$(".clear-search").removeClass("has-text");
-		window.location.hash = "";
-	}
-
-	$(".icon-wrapper").each(function(index, element) {
-		 var dataName = $(this).attr("data-name");
-
-		 if ( dataName.indexOf(search) !== -1 ) {
-				$(this).show();
-				return;
-		 }
-
-		 $(this).hide();
-	});
-}
-
-
-$(document).ready(function() {
-	hash = window.location.hash.substring(1);
-	searchInput = $(".search > input");
-
-	generateIcons();
-	countIcons();
-	checkHash();
-	filterIcons();
-});
-
-$(document).ready(function() {
-
-	// Click to select icon
-	$(".icon-wrapper").on("click", function() {
-		var svgString =
-			"&lt;svg viewBox=&#34;0 0 30 30&#34; class=&#34;CLASS_NAME&#34;&gt;&#10;&#32;&#32;&lt;use xlink:href=&#34;#ICON_NAME&#34;&gt;&lt;/use&gt;&#10;&lt;/svg&gt;";
-		var clickDataName = $(this).attr("data-name");
-		var mySVGString = svgString + "";
-
-		var iconName = clickDataName;
-		var className = clickDataName;
-
-		if ( clickDataName.indexOf(" spin-the-spinner") !== -1 ) {
-			iconName = clickDataName.replace(/ spin-the-spinner/, "");
+		if (hash === "") {
+			return;
 		}
 
-		mySVGString = mySVGString.replace(/ICON_NAME/g, iconName);
-		mySVGString = mySVGString.replace(/CLASS_NAME/g, className);
+		setSearchInputValue(hash);
+	};
 
-		$(".prettyprint").html(mySVGString);
-	});
+	function filterIcons(filterString) {
+		var lowercaseFilterString = filterString.toLowerCase();
+		setHash(lowercaseFilterString);
+		toggleIconButtons(lowercaseFilterString);
+		clearButton.toggleClass("has-text", filterString !== "");
+	}
 
-	// Filter list on keyup
-	searchInput.on("keyup", function(e) {
-		filterIcons();
-	});
+	function toggleIconButtons(filterString) {
+		$(".icon-wrapper").each(function(index, element) {
+			 var dataName = $(this).attr("data-name");
 
-	// Clear Search button click
-	$(".clear-search").on("click", function() {
-		searchInput.val("");
-		$(this).removeClass("has-text");
-		window.location.hash = "";
-		$(".search > input").focus();
-		filterIcons();
-	});
+			 if ( dataName.indexOf(filterString) !== -1 ) {
+					$(this).show();
+					return;
+			 }
 
-});
+			 $(this).hide();
+		});
+	}
+
+	function setHash(hash){
+		if (hash === "") {
+			window.location.hash = "";
+			return;
+		}
+
+		window.location.hash = hash;
+	}
+
+	function setSearchInputValue(value) {
+		searchInput.val(value);
+
+		if (value === "") {
+			searchInput.focus();
+		}
+
+		filterIcons(value);
+	}
+
+	function iconWrapperClick() {
+		var clickDataName = $(this).attr("data-name");
+		var svgString = "&lt;svg viewBox=&#34;0 0 30 30&#34; class=&#34;" + clickDataName + "&#34;&gt;&#10;&#32;&#32;&lt;use xlink:href=&#34;#" + clickDataName + "&#34;&gt;&lt;/use&gt;&#10;&lt;/svg&gt;";
+		svgCode.html(svgString);
+	}
+
+	function clearSearch() {
+		setSearchInputValue("");
+	}
+
+	function searchInputKeyup() {
+		filterIcons(searchInput.val());
+	}
+
+	function initialize() {
+		iconList = $("#fox-icons > defs > g");
+		searchInput = $(".search > input");
+		clearButton = $(".clear-search");
+		svgCode = $(".prettyprint");
+
+		generateIcons();
+		countIcons();
+		checkHash();
+
+		$(".icon-wrapper").on("click", iconWrapperClick);
+		searchInput.on("keyup", searchInputKeyup);
+		clearButton.on("click", clearSearch);
+	}
+
+	$(document).ready(initialize);
+
+}());
