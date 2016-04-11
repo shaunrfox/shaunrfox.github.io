@@ -1366,91 +1366,56 @@ li.L9 {
 .writing-post {
   display: block;
   position: relative;
+  width: 90%;
   padding: 40px;
-  width: 48%;
-  margin: 20px 1%;
-  min-height: 200px; }
-  .writing-post .writing-home-image {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    opacity: .08;
-    z-index: 1;
-    -webkit-transition: 200ms ease all;
-    -moz-transition: 200ms ease all;
-    -o-transition: 200ms ease all;
-    transition: 200ms ease all; }
-    .writing-post .writing-home-image:before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: #0090cb;
-      opacity: 0;
-      -webkit-transition: 200ms ease all;
-      -moz-transition: 200ms ease all;
-      -o-transition: 200ms ease all;
-      transition: 200ms ease all; }
-  .writing-post h2 {
+  background: #f7f7f7;
+  box-shadow: 1px 1px 2px rgba(17, 17, 17, 0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(17, 17, 17, 0.2);
+  -webkit-box-shadow: 1px 1px 2px rgba(17, 17, 17, 0.2);
+  max-width: 700px;
+  float: none;
+  margin: 20px auto 40px;
+  height: auto; }
+  .writing-post a {
     position: relative;
     display: block;
-    font-size: 30px;
-    font-size: 3rem;
-    color: #111;
-    font-weight: 700;
-    z-index: 10; }
-    @media (max-width: 800px) {
-      .writing-post h2 {
-        font-size: 18px;
-        font-size: 1.8rem; } }
+    float: left;
+    font-family: "chaparral-pro", georgia, times, serif;
+    font-size: 40px;
+    font-size: 4rem;
+    color: #00ccff;
+    font-weight: 400;
+    z-index: 10;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 10px; }
+    .writing-post a:hover {
+      border-color: #00ccff; }
   .writing-post .meta {
-    font-size: 14px;
-    font-size: 1.4rem;
+    float: left;
+    clear: both;
+    font-size: 16px;
+    font-size: 1.6rem;
     font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: rgba(17, 17, 17, 0.5); }
+    color: #ccc; }
   .writing-post .excerpt {
+    float: left;
+    clear: both;
     position: relative;
     width: 100%;
-    font-size: 18px;
-    font-size: 1.8rem;
+    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.5em;
-    color: rgba(17, 17, 17, 0.5);
-    z-index: 10;
-    display: none; }
+    color: #666;
+    z-index: 10; }
   .writing-post:hover {
     border: none; }
     .writing-post:hover .writing-home-image {
       opacity: .2; }
       .writing-post:hover .writing-home-image:before {
         opacity: .5; }
-  .writing-post.first {
-    width: 100%;
-    margin: 20px 0 50px;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 51%;
-    min-height: 300px; }
-    .writing-post.first .writing-home-image {
-      left: 51%;
-      opacity: 1; }
-      .writing-post.first .writing-home-image:before {
-        display: none; }
-    .writing-post.first .excerpt {
-      display: block; }
-    .writing-post.first:hover {
-      background: rgba(0, 144, 203, 0.1); }
 
 .writing-post-wrapper {
   padding: 80px;

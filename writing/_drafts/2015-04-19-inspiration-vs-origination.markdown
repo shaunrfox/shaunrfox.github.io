@@ -3,7 +3,6 @@ layout: post
 title:  "Inspiration vs. Origination"
 date:   2015-04-19
 categories: writing
-home_image: inspiration-vs-origination.jpg
 excerpt: "Turducken turkey leberkas brisket ribeye short ribs chuck bresaola ground round venison prosciutto. Tenderloin pancetta tri-tip, short loin cupim biltong rump bresaola venison frankfurter short ribs."
 ---
 
