@@ -6,6 +6,7 @@ paginate_per_category: true
 highlighter: rouge
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
