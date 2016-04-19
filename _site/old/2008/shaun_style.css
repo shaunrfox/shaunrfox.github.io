@@ -1,0 +1,113 @@
+/*
+CSS for shaunfox.com site
+*/
+
+body	{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	}
+
+#content { 
+	float: left;
+	white-space: nowrap;
+	margin: 105px 0px 0px 150px;
+	}
+
+#body {
+	background-image: url(images/pattern2.gif);
+	background-position: top left;
+	}
+
+li	{
+	font-size: small;
+	list-style-type: none;
+	text-align: right;
+	line-height: 200%;
+	padding:0px;
+	margin:0px;
+	}
+	
+ul	{
+	font-size: small;
+	list-style-type: none;
+	text-align: right;
+	line-height: 200%;
+	padding:0px;
+	margin:0px;
+	}
+
+img {
+	border: 0px;
+	}
+	
+p	{
+	font-size: small;
+	color: grey;
+	font-size: 60%;
+	margin-top: 20px;
+	line-height: 1.4em;
+	}
+a	{
+	font-weight: normal;
+	text-decoration: none;
+	}
+a:link	{
+	color: black;
+	}
+a:visited	{
+	color: grey;
+	}
+a:hover	{
+	text-decoration: none;
+	color: #8D8B00;
+	}
+a:active	{
+	color: #8D8B00;
+	}
+	
+
+.gallery {
+	padding-left: 25px;
+	padding-right: 25px;
+	float: left;
+	position: relative;
+	}
+.bio {
+	padding-left: 25px;
+	padding-right: 25px;
+	position: fixed;
+	left: 590px;
+	width: 280px;
+	white-space: normal;
+	text-align: left;
+	}
+
+	
+/*
+This section deals with the position of the items on the screen. It uses absolute positioning - fixed x and y coordinates measured from the top-left corner of the browser's content display.
+*/
+
+#navigation	{
+	width: 130px;
+	height:100%;
+	top: 110px;
+	position:fixed;
+	background-image: url(images/pattern_trans4.gif);
+	background-repeat: no-repeat;
+	padding:5px 20px 0px 0px;
+	
+	}
+#header	{
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 108px;
+	padding-bottom: 10px;
+	position:fixed;
+	/*background-image: url(images/pattern_trans3.gif);*/
+	}
+.gallery p {
+	position: relative;
+	text-align: center;
+	padding: 0px;
+	}

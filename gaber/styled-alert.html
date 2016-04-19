@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>Sign up for text alerts</title>
+
+	<!--Responsive Viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	
+	<link rel="stylesheet" href="http://austinstone.org/templates/ascctemplate/css/styles.css" type="text/css" media="screen" />
+	
+	<style>
+	
+	body {
+		background-color: #DFDED2;
+		padding:20px;
+	}
+	
+	.logo {
+		/*background-image: url('http://austinstone.org/images/logo.png');
+		background-repeat: no-repeat;*/
+		width: 282px;
+		height: 57px;
+		position: relative;
+		margin:0 20px 40px 10px;
+	}
+	
+	.logo img {
+		width:100%;
+		height: auto;
+	}
+	
+	.main-form {
+		position: relative;
+		float: left;
+	}
+	
+	input.field {
+		width: 100%;
+	}
+	
+	input.text-submit {
+		float: left;
+	    width: 210px;
+	    height: 42px;
+	    background-image: url('http://austinstone.org/images/arrow.png');
+	    background-color: #fff;
+	    background-repeat: no-repeat;
+	    background-position: 170px 7px;
+	    margin: 0 10px 20px 0;
+	    padding: 0 0 0 10px;	
+	    line-height: 42px;
+	    border: none;
+	    color: #365871;
+	    line-height: 42px;
+	    text-align: left;
+	    font-size: 18px;
+	    font-family: "franklin-gothic-urw-cond", Arial Narrow, Arial, Helvetica, Verdana, sans-serif;
+	    text-transform: uppercase;
+	}
+	
+	
+	</style>
+	
+	<link rel="stylesheet" href="http://austinstone.org/templates/ascctemplate/css/responsive-text-alert.css" type="text/css" media="screen" />
+
+</head>
+<body>
+
+	<div class="container" style="background-color:#fff;">
+		
+		<div class="onecol">
+			<div class="logo"><img src="http://austinstone.org/images/logo.png"</div>
+		</div>
+					
+		<div class="onecol">
+			<h1 class="nocap">Sign Up For The Austin Stone Community Church Text Alerts</h1>
+		</div>
+		
+		<div class="onecol">
+			<div class="rule_wh"></div>
+		</div>
+		
+		<div class="main-form">
+			<form action="system/addMobile.php" method="post">
+			
+				<div class="threecol">
+					<h3>Your Info:</h3>
+					<p class="nomar">First Name:</p>
+					<input class="field" type="text" name="firstName">
+					<input type="hidden" name="id" value="120">
+					<p class="nomar" style="margin-top:10px;">Last Name:</p>
+					<input class="field" type="text" name="lastName">
+					
+					<div class="bump"></div>
+					
+					<h3>Your regular Campus:</h3>
+					<p class="nomar"><input type="checkbox" name="group[1977]" value="1"> Downtown Campus</p>
+					<p class="nomar"><input type="checkbox" name="group[1976]" value="1"> St. John Campus</p>
+					<p class="nomar"><input type="checkbox" name="group[1975]" value="1"> West Campus</p>
+				</div>
+				
+				<div class="threecol">
+					<h3>Phone Info:</h3>
+					<blockquote>Enter your cellphone number and your carrier to receive text-mobile alerts:</blockquote>
+
+					<p class="nomar">Phone Number:</p>
+					(<input type="text" style="width: 30px" size="3" name="areaCode">)
+					<input type="text" size="3" name="number1" style="width: 30px">-
+					<input type="text" size="4" name="number2" style="width: 40px">
+					
+					<p class="nomar" style="margin-top:10px;">Your phone company:</p>
+					
+					<select name="carrier" size="1" style="width: 218px">
+						<option value="76">Aerial</option>
+						<option value="37">Airtel</option>
+						<option value="29">Alaska Communications System</option>
+						<option value="17">Aliant (NBTel, MTT, NewTel, and Island Tel)</option>
+						<option value="70">Allied Wireless</option>
+						<option value="30">Alltell (Presently merging with Verizon)</option>
+						<option value="19">Ameritech (ACSWireless)</option>
+						<option value="72">Arch</option>
+						<option value="6">AT&amp;T (Old Cingular customers)</option>
+						<option value="2">AT&amp;T Wireless</option>
+						<option value="20">BeeLine GSM</option>
+						<option value="31">Bell Canada</option>
+						<option value="58">Bell/Solo Mobility</option>
+						<option value="21">Bellsouth</option>
+						<option value="22">BellSouth Mobility</option>
+						<option value="23">Blue Sky Frog</option>
+						<option value="18">Boost</option>
+						<option value="73">C Spire Wireless</option>
+						<option value="5">Cellular One (Dobson)</option>
+						<option value="27">Cellular South</option>
+						<option value="50">CenturyLink</option>
+						<option value="53">Cincinatti Bell</option>
+						<option value="32">Comcast</option>
+						<option value="71">Coral Wireless</option>
+						<option value="42">Coxcom</option>
+						<option value="8">Cricket</option>
+						<option value="35">Email Address</option>
+						<option value="51">Excel Upload</option>
+						<option value="59">Fido</option>
+						<option value="28">General Communications Inc</option>
+						<option value="60">Google Voice</option>
+						<option value="49">Invalid Number</option>
+						<option value="55">IWireless</option>
+						<option value="56">James Valley</option>
+						<option value="61">Koodo Mobile</option>
+						<option value="43">Level 3 Communication</option>
+						<option value="24">MetroPCS</option>
+						<option value="36">MTN</option>
+						<option value="62">MTS Mobility</option>
+						<option value="47">NationsLine</option>
+						<option value="9">Nextel (United States)</option>
+						<option value="54">Northwest Missouri Cellular Limited Partnership</option>
+						<option value="44">nTelos</option>
+						<option value="48">Pacific Bell</option>
+						<option value="63">PC Telecom</option>
+						<option value="40">Pioneer Cellular</option>
+						<option value="52">Plateau Wireless</option>
+						<option value="69">Pocket Wireless</option>
+						<option value="75">Powertel Memphis</option>
+						<option value="26">Qwert</option>
+						<option value="10">Qwest</option>
+						<option value="64">Rogers Wireless</option>
+						<option value="74">Sagebrush Cellular</option>
+						<option value="65">SaskTel</option>
+						<option value="12">Sprint (Nextel)</option>
+						<option value="11">Sprint (PCS)</option>
+						<option value="34">Straight Talk</option>
+						<option value="13">T-Mobile</option>
+						<option value="66">Telus Mobility</option>
+						<option value="25">Tracfone</option>
+						<option value="46">tw telecom</option>
+						<option value="41">Unknown</option>
+						<option value="14">US Cellular</option>
+						<option value="33">USA Mobility</option>
+						<option value="15">Verizon</option>
+						<option value="67">Virgin Mobile (Canada)</option>
+						<option value="16">Virgin Mobile (USA)</option>
+						<option value="38">Vodacom</option>
+						<option value="39">West Central Wireless</option>
+						<option value="68">Wind Mobile</option>
+						<option value="45">XO Communications</option>
+					</select>
+				</div>				
+				
+				<div class="threecol">
+					<input type="submit" class="text-submit" value="Sign up Now">
+				</div>
+				
+				<div class="onecol">
+					<div class="rule_wh"></div>
+				</div>
+				
+				<div class="onecol" style="margin-bottom:100px;">
+					<h3>To Unsubscribe:</h3>
+					<blockquote>You may text the word "Unsubscribe" to <span style="font-family:Arial Narrow, Arial, Helvetica, Verdana, sans-serif;text-transform: uppercase;font-style:normal;background-color:#ffdd00;padding:5px;"><strong>781 728 9542</strong></span> at any time to be removed from the list</blockquote>
+					<p class="caption">Powered by <a href="http://mobile-text-alerts.com">Mobile-Text-Alerts.com</a></p>
+				</div>
+				         
+			</form>
+		</div><!--/main-form-->
+	</div><!--/container-->
+</body>
+</html>

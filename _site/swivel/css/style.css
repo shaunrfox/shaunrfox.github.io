@@ -1,0 +1,535 @@
+@charset "utf-8";
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ul, dl {
+    list-style:none;
+ width:100%;
+}
+
+a {
+  text-decoration:none;
+  background: none;
+  }
+
+html,body {margin:0;padding:0;} 
+
+/* end reset */
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/*
+Theme Name: SwivelService
+Designer: Shaun Fox
+Developers: Shaun Fox 
+
+
+Colors:
+
+Gold:		#FED65A
+60% Grey:	#808285
+
+*/
+
+body {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+/* ------- Menu -------- */
+
+header {
+	height: 95px;
+	width: 100%;
+	margin: 0;
+	padding: 55px 0 0 0;
+}
+
+ul.menu {
+	width:720px;
+	height: 30px;
+	margin:0 auto;
+}
+
+ul.menu li a {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #000;
+	line-height: 30px;
+}
+
+.home-nav,
+.agile-nav,
+.summary-nav,
+.pricing-nav {
+	padding: 5px 10px;
+	margin: 0 20px;
+}
+
+.home-nav,
+.agile-nav {
+	float:left;
+}
+
+.summary-nav,
+.pricing-nav {
+	float: right;
+}
+
+.home-nav:hover,
+.agile-nav:hover,
+.summary-nav:hover,
+.pricing-nav:hover,
+.current {
+	border-bottom: 2px solid #FED65A;
+	text-decoration: none;
+}
+
+a.logo {
+	background-image: url('/swivel/images/swivel-logo.png');
+	background-repeat: no-repeat;
+	width: 165px;
+	height: 114px;
+	margin: -65px auto 0;
+	display: inline-block;
+}
+
+h1,
+h2 {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size:22px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size:16px;
+	margin-bottom: 30px;
+}
+
+p {
+	font-family: Georgia, times, serif;
+	font-size: 22px;
+	font-style: italic;
+	color: #000;
+	line-height: 1.4em;
+}
+
+p a {
+	color: #8d8d8d;
+	border-bottom: 2px solid #FED65A;
+}
+
+p a:hover {
+	background-color: #FED65A;
+	color: #fff;
+}
+
+p.label {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+}
+
+p.label span {
+	color: #FED65A;
+}
+
+p.label a {
+	color: #666;
+}
+
+p.label a:hover {
+	color: #000;
+}
+
+p.desc {
+	font-style: normal;
+	font-size: 16px;
+}
+
+p span {
+	color:#fff;
+}
+
+blockquote {
+	font-family: Georgia, times, serif;
+	font-size: 34px;
+	font-style: italic;
+	color: #000;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+blockquote.grey {
+	font-size: 25px;
+	color: #808285;
+}
+
+a {
+ 
+}
+
+a:hover {
+ 
+}
+
+img {
+ 
+}
+
+
+
+
+/* ------- Containers and Columns ----------- */
+
+/* Containers */
+
+.container-960,
+.container-720 {
+    height:auto;
+    margin:0px auto;
+    padding:0px;
+    clear:both;
+}
+
+.container-960 {
+    width:960px;
+}
+
+.container-720
+{
+	width:720px;
+}
+
+/* 960 columns */
+
+.onecol-960,
+.twocol-960,
+.threecol-960,
+.threecol_2-960,
+.fourcol-960,
+.fourcol_3-960,
+.fivecol-960,
+.fivecol_2-960,
+.fivecol_3-960,
+.fivecol_4-960,
+.sixcol-960 {
+	height: auto;
+    float: left;
+    margin: 0 10px;	
+}
+
+
+.onecol-960 {
+    width: 940px;
+}
+
+.twocol-960 {
+    width: 460px;
+}
+
+.threecol-960 {
+    width: 300px;
+}
+
+.threecol_2-960 {
+    width: 620px;
+}
+
+.fourcol-960 {
+    width: 220px;
+}
+
+.fourcol_3-960 {
+    width: 700px;
+}
+
+.fivecol-960 {
+    width: 172px;
+    padding:30px 0;
+    display: block;
+}
+
+.fivecol-960-lined {
+	width: 171px;
+	float: left;
+	padding:30px 0;
+	border-right: 1px solid #808285;
+	display: block;
+}
+
+.fivecol_2-960 {
+    width: 364px;
+}
+
+.fivecol_3-960 {
+    width: 556px;
+}
+
+.fivecol_4-960 {
+    width: 748px;
+}
+
+.sixcol-960 {
+    width: 140px;
+}
+
+
+/* 720 columns */
+
+.onecol-720,
+.twocol-720,
+.threecol-720,
+.threecol_2-720,
+.fourcol-720,
+.fourcol_3-720,
+.fivecol-720,
+.fivecol_2-720,
+.fivecol_3-720,
+.fivecol_4-720 {
+	margin:0 10px;
+	float:left;
+}
+
+.onecol-720 {
+	width:700px;
+}
+
+.twocol-720 {
+	width:340px;
+}
+
+.threecol-720 {
+	width:220px;
+}
+
+.threecol_2-720 {
+	width:460px;
+}
+
+.fourcol-720 {
+	width:160px;
+}
+
+.fourcol_3-720 {
+	width:520px;
+}
+
+.fivecol-720 {
+	width:124px;
+}
+
+.fivecol_2-720 {
+	width:268px;
+}
+
+.fivecol_3-720 {
+	width:412px;
+}
+
+.fivecol_4-720 {
+	width: 556px;
+}
+
+
+
+
+/* ------- General Stuff -------- */
+
+section.gold {
+	background-color: #FED65A;
+	width: 100%;
+	padding: 20px 0;
+	height: auto;
+	margin-bottom: 40px;
+	display: block;
+}
+
+.summary-button {
+	width: 250px;
+	height: 40px;
+	margin:70px auto 0;
+	text-align: center;
+}
+
+.summary-button a {
+	line-height: 40px;
+	padding: 0;
+	display: inline-block;
+	background-color: #808285;
+	width: 250px;
+	color: #fff;
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.summary-button a:hover,
+.agile-button a:hover {
+	background-color: #FED65A;
+	color: #000;
+}
+
+.agile-button {
+	width: 100%;
+	height: 40px;
+	margin:70px auto 0;
+	text-align: center;
+}
+
+.agile-button a {
+	width: 90%;
+	line-height: 40px;
+	padding: 0;
+	display: inline-block;
+	background-color: #808285;
+	color: #fff;
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.price-box {
+	width: 172px;
+	height: 150px;
+	background-color: #ebebeb;
+	display: inline-block;
+	color: #000;
+	-webkit-transition: background-color .2s ease-in; /*safari and chrome */
+    -o-transition: background-color .2s ease-in; /* opera */
+}
+
+.price-box h2 {
+	width: 132px;
+	height: 28px;
+	line-height: 30px;
+	margin:-5px 20px 20px;
+	padding: 0;
+	background-color: #fff;
+	-webkit-transition: color .2s ease-in; /*safari and chrome */
+    -o-transition: color .2s ease-in; /* opera */
+}
+
+.price-box h3 {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	-webkit-transition: color .2s ease-in; /*safari and chrome */
+    -o-transition: color .2s ease-in; /* opera */
+}
+
+.price-box h4 {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	color: #9e9e9e;
+}
+
+.price-box:hover {
+	background-color: #666;
+	color:#FED65A;
+	cursor: pointer;
+}
+
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	background-color: #ebebeb;
+	border-bottom: 10px solid #FED65A;
+}
+
+.ringtail-logo {
+	width: 100px;
+	height: auto;
+	padding: 30px 0 0 0;
+	margin: 0 auto;
+}
+
+.ringtail-logo img {
+	width: 100%;
+	height: auto;
+}
+
+.ringtail-logo:hover {
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/* ================================================================================
+
+SPECIAL STUFF
+
+================================================================================ */
+
+.grey {
+	color: #808285;
+}
+
+
+::selection,
+::-webkit-selection,
+::-moz-selection {
+ color:
+ background:
+}

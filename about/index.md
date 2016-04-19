@@ -84,7 +84,7 @@ page-title: "This is stuff about me."
 			<h2>Experiments &amp; Mockups</h2>
 
 			<ul class="list">
-				<li><a href="http://shaunfox.com/switch-swatch/">Switch Swatch</a></li>
+				<li><a href="/switch-swatch/">Switch Swatch</a></li>
 				<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
 				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/Scroll-highlight/index.html">Scroll Highlight</a></li>
 				<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>
@@ -92,11 +92,11 @@ page-title: "This is stuff about me."
 				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-licensing/index.html">Licensing Mockup</a></li>
 				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-online-order/index.html">Online Order Mockup</a></li>
 				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/lettering-links/index.html">Lettering Links</a></li>
-				<li><a href="http://shaunfox.com/liquid/svg.html">SVG Test</a></li>
+				<li><a href="/liquid/svg.html">SVG Test</a></li>
 				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/absolute-dashboard/index.html">Absolute Dashboard</a></li>
 				<li><a href="https://dl.dropbox.com/u/128045/Development/Layouts/index.html">Layouts</a></li>
-				<li><a href="http://shaunfox.com/gaber">Gaber</a></li>
-				<li><a href="http://shaunfox.com/thugs">Thugs</a></li>
+				<li><a href="/gaber">Gaber</a></li>
+				<li><a href="/thugs">Thugs</a></li>
 			</ul>
 		</div>
 		<div class="column links">

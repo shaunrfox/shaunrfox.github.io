@@ -1,0 +1,158 @@
+/*
+CSS for shaunfox.com site
+*/
+
+body	{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	}
+
+#content { 
+	float: left;
+	white-space: nowrap;
+	margin: 105px 0px 0px 150px;
+	}
+
+#body {
+	background-image: url(images/lightgray_bg2.jpg);
+	background-position: top left;
+	}
+
+li	{
+	font-size: small;
+	list-style-type: none;
+	text-align: right;
+	line-height: 200%;
+	padding:0px;
+	margin:0px;
+	}
+	
+ul	{
+	font-size: small;
+	list-style-type: none;
+	text-align: right;
+	line-height: 175%;
+	padding:0px;
+	margin:0px;
+	}
+
+img {
+	border: 0px;
+	}
+	
+p	{
+	font-size: small;
+	color: grey;
+	font-size: 13px;
+	margin-top: 2px;
+	line-height: 1.4em;
+	}
+a	{
+	font-weight: normal;
+	text-decoration: none;
+	}
+a:link	{
+	color: white;
+	}
+a:visited	{
+	color: #666666;
+	}
+a:hover	{
+	text-decoration: none;
+	color: #8D8B00;
+	}
+a:active	{
+	color: #8D8B00;
+	}
+	
+
+.gallery {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 100px;
+	float: left;
+	position: relative;
+	}
+.gallery1 {
+	padding-top: 15px;
+	padding-left: 55px;
+	padding-right: 25px;
+	padding-bottom: 100px;
+	width: 400px;
+	float: left;
+	position: relative;
+	white-space: normal;
+	}
+.galery1 p{
+	margin-top: 0;
+	}
+.bio {
+	font-size: 21px;
+	padding-left: 25px;
+	padding-right: 25px;
+	left: 180px;
+	width: 400px;
+	white-space: normal;
+	text-align: left;
+	float: left;
+	}
+/*.bio {
+	font-size: 21px;
+	padding-left: 25px;
+	padding-right: 25px;
+	position: fixed;
+	left: 180px;
+	width: 400px;
+	white-space: normal;
+	text-align: left;
+	background-image: url(images/lightgray_bg2.jpg);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 0px 0px;
+	}*/
+
+	
+/*
+This section deals with the position of the items on the screen. It uses absolute positioning - fixed x and y coordinates measured from the top-left corner of the browser's content display.
+*/
+
+#navigation	{
+	width: 130px;
+	height: 55px;
+	top: 115px;
+	position:fixed;
+	background-image: url(images/lightgray_bg2.jpg);
+	background-repeat: no-repeat;
+	padding:5px 20px 0px 0px;
+	
+	}
+#header	{
+	width: 295px;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 108px;
+	padding-bottom: 10px;
+	position:fixed;
+	background-image: url(images/lightgray_bg2.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: 185px 0px;
+	}
+#header1	{
+	width: 100%;
+	height: 75px;
+	padding-top: 10px;
+	padding-left: 108px;
+	padding-bottom: 10px;
+	position:fixed;
+	background-image: url(images/lightgray_bg2.jpg);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 0px 0px;
+	}
+.gallery p {
+	position: relative;
+	text-align: center;
+	padding: 0px;
+	}
