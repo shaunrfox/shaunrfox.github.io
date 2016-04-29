@@ -1,0 +1,4 @@
+environment: production
+url: http://shaunfox.com
+sass:
+  style: compressed
