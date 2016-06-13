@@ -6,7 +6,7 @@ page-title: "This is stuff about me."
 <section class="about-wrapper">
 	<div class="container">
 		<div class="column my-photo">
-			<img src="/assets/img/shaun-fox-hiking.jpg" alt="Shaun Fox" class="bio-pic">
+			<img src="/assets/img/shaun-fox-mayfield.jpg" alt="Shaun Fox" class="bio-pic">
 		</div>
 		<div class="column my-bio">
 			<p>I&rsquo;m the Creative Director at <a href="http://snaptrends.com/">Snaptrends</a> in beautiful Austin, Texas.</p>
