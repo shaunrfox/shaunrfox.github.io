@@ -1,6 +1,6 @@
 {
   "name": "fox-icons",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "homepage": "http://shaunfox.com/projects/fox-icons.html",
   "authors": [
     "Shaun Fox"
@@ -20,11 +20,11 @@
     "test",
     "tests"
   ],
-  "_release": "1.2.4",
+  "_release": "1.2.5",
   "_resolution": {
     "type": "version",
-    "tag": "v1.2.4",
-    "commit": "97596738f598b5fc6dfddb6dc63cfe6e2a175992"
+    "tag": "v1.2.5",
+    "commit": "fdd26a7fbeb0a6ae15ced78e5fecf3dbbc51faac"
   },
   "_source": "https://github.com/shaunrfox/fox-icons.git",
   "_target": "*",
