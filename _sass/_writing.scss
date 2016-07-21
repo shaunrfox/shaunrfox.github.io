@@ -20,12 +20,11 @@
 		position: relative;
 		display: block;
 		float: left;
-		@include chaparral();
 		@include font-size(4);
 		color: $cyan;
-		font-weight: 400;
+		font-weight: 700;
 		z-index: 10;
-		border-bottom: 1px solid transparent;
+		border-bottom: 2px solid transparent;
 		margin-bottom: 10px;
 
 		&:hover { border-color: $cyan; }
@@ -45,7 +44,8 @@
 		clear: both;
 		position: relative;
 		width: 100%;
-		@include font-size(1.4);
+		@include font-size(1.8);
+		@include chaparral();
 		line-height: 1.5em;
 		color: $dark-grey;
 		z-index: 10;
@@ -79,9 +79,25 @@
 		background: none;
 	}
 
-	h1 {
-		// margin-bottom: 0;
-		@include font-size(4);
+	h1 { @include font-size(4); }
+	h2 { @include font-size(2.6); }
+	h3 {
+		@include font-size(2.2);
+		@include uppercase();
+		color: $mid-grey;
+	}
+
+	blockquote {
+		border-left: 3px solid tint($cyan, 20);
+		margin-left: 0;
+		padding: 20px 20px 1px 20px;
+
+		p {
+			@include font-size(3);
+			font-weight: 600;
+
+			&:last-child { margin-bottom: .5em;}
+		}
 	}
 
 	.meta {

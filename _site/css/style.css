@@ -1380,13 +1380,12 @@ li.L9 {
     position: relative;
     display: block;
     float: left;
-    font-family: "chaparral-pro", georgia, times, serif;
     font-size: 40px;
     font-size: 4rem;
     color: #00ccff;
-    font-weight: 400;
+    font-weight: 700;
     z-index: 10;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     margin-bottom: 10px; }
     .writing-post a:hover {
       border-color: #00ccff; }
@@ -1405,8 +1404,9 @@ li.L9 {
     clear: both;
     position: relative;
     width: 100%;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: "chaparral-pro", georgia, times, serif;
     line-height: 1.5em;
     color: #666;
     z-index: 10; }
@@ -1436,6 +1436,26 @@ li.L9 {
   .writing-post-wrapper h1 {
     font-size: 40px;
     font-size: 4rem; }
+  .writing-post-wrapper h2 {
+    font-size: 26px;
+    font-size: 2.6rem; }
+  .writing-post-wrapper h3 {
+    font-size: 22px;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #aaa; }
+  .writing-post-wrapper blockquote {
+    border-left: 3px solid #ccf5ff;
+    margin-left: 0;
+    padding: 20px 20px 1px 20px; }
+    .writing-post-wrapper blockquote p {
+      font-size: 30px;
+      font-size: 3rem;
+      font-weight: 600; }
+      .writing-post-wrapper blockquote p:last-child {
+        margin-bottom: .5em; }
   .writing-post-wrapper .meta {
     font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
