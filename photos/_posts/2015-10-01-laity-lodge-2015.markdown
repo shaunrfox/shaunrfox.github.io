@@ -5,7 +5,7 @@ date:   2015-10-01
 categories: photos
 base-path: "/assets/img/photos/2015-laity-lodge"
 home_image: steve-garber.jpg
-page-title: "Laity Lodge Artists Retreat 2015."
+page-title: "Laity Lodge Vocational Retreat 2015."
 
 ---
 
