@@ -13,7 +13,7 @@ During my time at Bypass, my main task was updating the existing interface and w
 
 I also got the chance to create some new applications from scratch. Lots of times it&rsquo;s helpful in the process to make live mockups to see how things will play out. Here are a few that I made along the way:
 
-<a href="https://dl.dropboxusercontent.com/u/128045/Development/Scroll-highlight/index.html">Android Scroll Highlight</a><br>
-<a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-online-order/index.html">Bypass Online Ordering</a><br>
-<a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-licensing/index.html">Bypass Licensing Mockup</a><br>
-<a href="https://dl.dropboxusercontent.com/u/128045/Development/admin-experiment/index.html">Admin Material Design Experiment</a>
+<a href="/scroll-highlight/">Android Scroll Highlight</a><br>
+<a href="/bypass-online-order/">Bypass Online Ordering</a><br>
+<a href="/bypass-licensing/">Bypass Licensing Mockup</a><br>
+<a href="/admin-experiment/">Admin Material Design Experiment</a>

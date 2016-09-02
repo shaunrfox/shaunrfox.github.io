@@ -87,17 +87,17 @@ page-title: "This is stuff about me."
 				<li><a href="/switch-swatch/">Switch Swatch</a></li>
 				<li><a href="http://shaunfox.com/style-guide/">Front-end Style Guide</a></li>
 				<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/Scroll-highlight/index.html">Scroll Highlight</a></li>
+				<li><a href="/scroll-highlight/">Scroll Highlight</a></li>
 				<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/colores/index.html">Colores</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-licensing/index.html">Licensing Mockup</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/bypass-online-order/index.html">Online Order Mockup</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/lettering-links/index.html">Lettering Links</a></li>
+				<li><a href="/colores/">Colores</a></li>
+				<li><a href="/bypass-licensing/">Licensing Mockup</a></li>
+				<li><a href="/bypass-online-order/">Online Order Mockup</a></li>
+				<li><a href="/lettering-links/">Lettering Links</a></li>
 				<li><a href="/liquid/svg.html">SVG Test</a></li>
-				<li><a href="https://dl.dropboxusercontent.com/u/128045/Development/absolute-dashboard/index.html">Absolute Dashboard</a></li>
-				<li><a href="https://dl.dropbox.com/u/128045/Development/Layouts/index.html">Layouts</a></li>
-				<li><a href="/gaber">Gaber</a></li>
-				<li><a href="/thugs">Thugs</a></li>
+				<li><a href="/absolute-dashboard/">Absolute Dashboard</a></li>
+				<li><a href="/layouts/">Layouts</a></li>
+				<li><a href="/gaber/">Gaber</a></li>
+				<li><a href="/thugs/">Thugs</a></li>
 			</ul>
 		</div>
 		<div class="column links">
