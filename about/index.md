@@ -132,9 +132,9 @@ page-title: "This is stuff about me."
 
 			<h3>Thoughts to chew on</h3>
 			<ul class="list">
-				<li><a href="http://frankchimero.com/blog/2013/09/the-inferno-of-independence/">The Inferno of Independence</a></li>
-				<li><a href="http://frankchimero.com/writing/2009/ten-principles/">Ten Principles</a></li>
-				<li><a href="http://www.besquare.me/session/procrastiworking/">Procrastiworking</a></li>
+				<li><a href="http://www.frankchimero.com/writing/the-inferno-of-independence/">The Inferno of Independence</a></li>
+				<li><a href="http://www.frankchimero.com/writing/ten-principles/">Ten Principles</a></li>
+				<li><a href="https://www.youtube.com/watch?v=RZbqJxQJ5LY">Procrastiworking</a></li>
 				<li><a href="http://read.shapeofdesignbook.com/">The Shape of Design</a></li>
 				<li><a href="https://vimeo.com/63525054">The Map is Not The Territory</a></li>
 				<li><a href="http://www.youtube.com/watch?v=eXxEr5Aw5_0">Hard to Be</a></li>
