@@ -4,16 +4,16 @@ title:  "Snaptrends"
 date:   2015-04-29
 categories: work
 home_image: snaptrends-home.jpg
-home-description: "I have the privilege of working on a great team at Snaptrends, guiding interface design, and user experience as we build the best location-based social insight and analysis tool available."
+home-description: "I had the privilege of working on a great team at Snaptrends, guiding interface design, and user experience as we built the best location-based social insight and analysis tool available."
 page-title: "<strong>Snaptrends</strong> helps you discover and analyze social media users and their posts, leading to actionable insight about your area or interest."
 work_images: ["snaptrends-1.jpg", "snaptrends-2.jpg", "snaptrends-3.jpg", "snaptrends-4.jpg", "snaptrends-5.jpg", "snaptrends-6.jpg", "snaptrends-7.jpg", "snaptrends-8.jpg"]
 ---
 
-In my role as Director of Product Design at Snaptrends, I oversee the interface design and user experience of our application. We&rsquo;ve reworked the entire user interface and we&rsquo;re constantly adding new features and updating existing ones.
+In my role as Director of Product Design at Snaptrends, I oversaw the interface design and user experience of our application. We reworked the entire user interface and reworked much of the core functionality, as well as adding some new key features along the way.
 
-Some of the most recent work has been updating the existing charts. Through this effort we&rsquo;re not only bringing a new look, but also new interactions to allow the user to dig into the data behind the charts and take action on it.
+Much of the recent effort was directed towards updating the existing charts. Through this effort we not only brought a new look, but also new interactions to allow the user to dig into the data behind the charts and take action on it.
 
-In combination with the static mockups shown here, I've made many live mockups to prove out the choices I've made, from interface interactions and nuances to layout and responsive design.
+In combination with the static mockups shown here, I made many live mockups to prove out the choices we made, from interface interactions and nuances to layout and responsive design.
 
 Take a look:<br>
 <a href="http://codepen.io/shaunrfox/full/dPZobW/">Live Button Style Guide</a><br>
