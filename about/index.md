@@ -113,7 +113,7 @@ page-title: "This is stuff about me."
 				<li><a href="http://elyseholladay.github.io/get-sassy/#/">Nice Sass Presentation</a></li>
 				<li><a href="https://coderwall.com/p/7p7w2a">Some Sass Tips</a></li>
 				<li><a href="http://css-tricks.com/sass-style-guide/">Sass Style Guide</a></li>
-				<li><a href="http://sassme.arc90.com">Sass Color Tool</a></li>
+				<li><a href="http://scg.ar-ch.org/">Sass Color Tool</a></li>
 				<li><a href="http://css-tricks.com/examples/nth-child-tester/">Nth-child Tester</a></li>
 				<li><a href="http://jekyllrb.com/">Jekyll</a></li>
 				<li><a href="http://sass-lang.com/">Sass</a></li>
