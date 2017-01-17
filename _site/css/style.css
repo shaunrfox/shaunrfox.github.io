@@ -806,14 +806,9 @@ hr {
   font-size: 3rem;
   color: #111;
   font-weight: 700;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
-  -webkit-transition: 150ms ease all;
-  -moz-transition: 150ms ease all;
-  -o-transition: 150ms ease all;
-  transition: 150ms ease all; }
+  border-bottom: 1px solid transparent;
+  margin-bottom: 20px; }
   .home-projects .project-link h2:hover {
-    color: #00ccff;
     border-color: #00ccff; }
 .home-projects .project-home-description {
   float: left;
@@ -1211,7 +1206,7 @@ li.L9 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border-bottom: 2px solid transparent; }
+    border-bottom: 1px solid transparent; }
     .photo-post .photo-link:hover {
       border-color: #00ccff; }
   .photo-post .title-link h2 {
@@ -1221,18 +1216,13 @@ li.L9 {
     font-size: 2.5rem;
     color: #111;
     font-weight: 700;
-    border-bottom: 1px solid #ccc;
-    margin: 10px 0;
-    -webkit-transition: 150ms ease all;
-    -moz-transition: 150ms ease all;
-    -o-transition: 150ms ease all;
-    transition: 150ms ease all; }
+    border-bottom: 1px solid transparent;
+    margin: 10px 0; }
     @media (max-width: 800px) {
       .photo-post .title-link h2 {
         font-size: 18px;
         font-size: 1.8rem; } }
     .photo-post .title-link h2:hover {
-      color: #00ccff;
       border-color: #00ccff; }
 
 /* About */
@@ -1382,7 +1372,7 @@ li.L9 {
     float: left;
     font-size: 40px;
     font-size: 4rem;
-    color: #00ccff;
+    color: #111;
     font-weight: 700;
     z-index: 10;
     border-bottom: 2px solid transparent;

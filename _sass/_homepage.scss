@@ -97,12 +97,11 @@
     @include font-size(3);
     color: $off-black;
     font-weight: 700;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid transparent;
     margin-bottom: 20px;
-    @include transition(150ms ease all);
 
     &:hover {
-      color: $cyan;
+      // color: $cyan;
       border-color: $cyan;
     }
   }
