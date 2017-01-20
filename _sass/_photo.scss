@@ -29,7 +29,7 @@
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
-		border-bottom: 2px solid transparent;
+		border-bottom: 1px solid transparent;
 
 		&:hover {
 			border-color: $cyan;
@@ -42,16 +42,16 @@
     @include font-size(2.5);
     color: $off-black;
     font-weight: 700;
-    border-bottom: 1px solid $light-grey;
+    border-bottom: 1px solid transparent;
     margin: 10px 0;
-    @include transition(150ms ease all);
+    // @include transition(150ms ease all);
 
     @include breakpoint(medium) {
 			@include font-size(1.8);
 		}
 
     &:hover {
-      color: $cyan;
+      // color: $cyan;
       border-color: $cyan;
     }
 	}
