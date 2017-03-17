@@ -9,7 +9,7 @@ page-title: "<strong>Snaptrends</strong> helps you discover and analyze social m
 work_images: ["snaptrends-1.jpg", "snaptrends-2.jpg", "snaptrends-3.jpg", "snaptrends-4.jpg", "snaptrends-5.jpg", "snaptrends-6.jpg", "snaptrends-7.jpg", "snaptrends-8.jpg"]
 ---
 
-In my role as Director of Product Design at Snaptrends, I oversaw the interface design and user experience of our application. We reworked the entire user interface and reworked much of the core functionality, as well as adding some new key features along the way.
+In my role as Creative Director at Snaptrends, I oversaw the interface design and user experience of our application. We reworked the entire user interface and reworked much of the core functionality, as well as adding some new key features along the way.
 
 Much of the recent effort was directed towards updating the existing charts. Through this effort we not only brought a new look, but also new interactions to allow the user to dig into the data behind the charts and take action on it.
 
