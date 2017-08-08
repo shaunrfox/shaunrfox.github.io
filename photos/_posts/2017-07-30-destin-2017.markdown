@@ -3,7 +3,7 @@ layout: photography
 title:  "Destin, Florida"
 date:   2017-07-30
 categories: photos
-redirect_from: "/destin.html"
+redirect_from: "/photos/destin.html"
 base-path: "/assets/img/photos/2017-destin"
 home_image: seaside-14.jpg
 page-title: "Destin, Florida"

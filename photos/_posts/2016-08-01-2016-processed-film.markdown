@@ -3,7 +3,7 @@ layout: photography
 title:  "New old processed film"
 date:   2016-08-01
 categories: photos
-redirect_from: "/processed-film.html"
+redirect_from: "/photos/processed-film.html"
 base-path: "/assets/img/photos/2016-08-01-processed-film"
 home_image: train-2.jpg
 page-title: "New old processed film"
