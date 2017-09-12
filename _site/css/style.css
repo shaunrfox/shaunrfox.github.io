@@ -674,7 +674,7 @@ hr {
 .page-title {
   font-weight: 400;
   margin: 50px 0;
-  width: 66.66667%; }
+  width: 66.6666666667%; }
   @media (max-width: 800px) {
     .page-title {
       width: 100%; } }
@@ -872,7 +872,7 @@ hr {
 /* Project Template */
 .project-description {
   float: right;
-  width: 33.33333%; }
+  width: 33.3333333333%; }
   .project-description .post p {
     font-size: 24px;
     font-size: 2.4rem; }
@@ -882,7 +882,7 @@ hr {
 
 .project-images {
   float: left;
-  width: 66.66667%; }
+  width: 66.6666666667%; }
   @media (max-width: 1000px) {
     .project-images {
       width: 100%; } }
@@ -1016,7 +1016,7 @@ hr {
       width: 25%; } }
   @media (max-width: 800px) {
     .icon-wrapper {
-      width: 33.33333%; } }
+      width: 33.3333333333%; } }
   @media (max-width: 400px) {
     .icon-wrapper {
       height: 120px;
@@ -1182,7 +1182,7 @@ li.L9 {
     clear: both; }
 
 .photo-post {
-  width: 33.33333%;
+  width: 33.3333333333%;
   height: auto;
   float: left;
   padding: 15px; }

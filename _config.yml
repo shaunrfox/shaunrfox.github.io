@@ -4,7 +4,7 @@ permalink: /:categories/:title.html
 url: http://shaunfox.com
 paginate_per_category: true
 highlighter: rouge
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
