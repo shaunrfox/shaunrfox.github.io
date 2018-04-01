@@ -13,6 +13,13 @@
   margin-bottom: 30px;
 }
 
+.my-photo {
+  img {
+    border: 8px solid $white;
+    box-shadow: 2px 2px 3px rgba($midnight, .2);
+  }
+}
+
 .resume-title {
   @include font-size(2);
   @include uppercase();
@@ -22,7 +29,7 @@
 
 .resume-details {
   @include font-size(2);
-  color: $mid-grey;
+  color: rgba($dark-grey, .8);
   margin: 0;
 }
 
@@ -30,7 +37,7 @@
   @include source-sans();
   @include font-size(1.4);
   @include uppercase();
-  color: $mid-grey;
+  color: rgba($dark-grey, .8);
 }
 
 .resume-button {
@@ -51,7 +58,7 @@
 }
 
 .values p {
-  color: $mid-grey;
+  color: rgba($dark-grey, .8);
 
   &.label {
     @include source-sans();
@@ -77,14 +84,16 @@
   a {
     display: block;
     float: left;
-    background: $off-white;
+    background: $white;
     padding: 5px 10px;
     margin: 0 5px 5px 0;
-    border-bottom: 1px solid $off-white;
+    border-bottom: 1px solid $white;
     color: $off-black;
+    box-shadow: 1px 1px 1px rgba($midnight, .1);
 
     &:hover {
-      background: $cyan;
+      background: shade($body-background, 40);
+      border-color: shade($body-background, 40);
       color: $white;
     }
   }

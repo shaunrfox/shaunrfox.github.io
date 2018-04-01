@@ -15,9 +15,9 @@
 	text-align: center;
 	line-height: 30px;
 	margin-bottom: 30px;
-	background: $off-white;
+	background: $white;
 
-	@include breakpoint(large) { background: $off-white; }
+	@include breakpoint(large) { background: $white; }
 
 	&.post-right {
 		padding: 0 30px 0 10px;
@@ -43,7 +43,7 @@
 
 	&:hover {
 		color: $white;
-		background: $cyan;
+		background: shade($body-background, 40);
 		border: none;
 
 		svg { fill: $white; }

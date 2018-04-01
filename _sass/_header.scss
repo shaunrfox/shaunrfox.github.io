@@ -66,8 +66,11 @@
 			@include transition(200ms ease all);
 		}
 
-	 	&.active,
 		&:hover {
+			color: $cyan;
+		}
+
+	 	&.active {
 			color: $cyan;
 
 			&:before { top: 0; }

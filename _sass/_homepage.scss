@@ -11,34 +11,6 @@
     border-bottom: 1px solid $light-grey;
     padding: 30px 0;
     margin-bottom: -1px;
-
-    &.images {
-      &:before {
-        content: 'images';
-        position: absolute;
-        top: 0;
-        left: 45px;
-        width: auto;
-        height: 30px;
-        line-height: 30px;
-        padding: 0 10px;
-        background: $orange;
-      }
-    }
-
-    &.text {
-      &:after {
-        content: 'text';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: auto;
-        height: 30px;
-        line-height: 30px;
-        padding: 0 10px;
-        background: $green;
-      }
-    }
   }
 
   .project-info,
@@ -53,6 +25,22 @@
       img {
         width: 100%;
         margin: 0;
+      }
+    }
+  }
+
+  .project-image {
+    a { border: none; }
+
+    img {
+      border: 8px solid $white;
+      box-shadow: 2px 2px 3px rgba($midnight, .2);
+      transition: ease all 300ms;
+
+      &:hover {
+        border-color: $white;
+        transform: translate(-5px, -5px);
+        box-shadow: 7px 7px 8px rgba($midnight, .15);
       }
     }
   }
@@ -101,7 +89,6 @@
     margin-bottom: 20px;
 
     &:hover {
-      // color: $cyan;
       border-color: $cyan;
     }
   }

@@ -19,6 +19,8 @@
 		margin-bottom: 4em;
 		@include breakpoint(medium) { margin-bottom: 3em; }
 		@include breakpoint(small) { margin-bottom: 2em; }
+		box-shadow: 2px 2px 3px rgba($midnight, .2);
+		border: 8px solid $white;
 	}
 
 	&.photos {

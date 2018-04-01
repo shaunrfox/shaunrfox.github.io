@@ -29,10 +29,14 @@
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
-		border-bottom: 1px solid transparent;
+		border: 8px solid $white;
+		box-shadow: 2px 2px 3px rgba($midnight, .2);
+		transition: ease all 300ms;
 
 		&:hover {
-			border-color: $cyan;
+			border-color: $white;
+			transform: translate(-5px, -5px);
+			box-shadow: 7px 7px 8px rgba($midnight, .15);
 		}
 	}
 
@@ -44,14 +48,12 @@
     font-weight: 700;
     border-bottom: 1px solid transparent;
     margin: 10px 0;
-    // @include transition(150ms ease all);
 
     @include breakpoint(medium) {
 			@include font-size(1.8);
 		}
 
     &:hover {
-      // color: $cyan;
       border-color: $cyan;
     }
 	}
