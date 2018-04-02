@@ -69,8 +69,8 @@
 .writing-post-wrapper {
 	padding: 80px;
 	max-width: 860px;
-	background: tint($off-white, 50);
-	@include box-shadow(2px 2px 3px rgba($off-black, .2));
+	background: $white;
+	box-shadow: 2px 2px 3px rgba($midnight, .2);
 	margin: 0 auto;
 	@include transition(300ms ease all);
 
