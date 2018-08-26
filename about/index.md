@@ -6,7 +6,7 @@ page-title: "This is stuff about me."
 <section class="about-wrapper">
 	<div class="container">
 		<div class="column my-photo">
-			<img src="/assets/img/shaun-fox-mayfield.jpg" alt="Shaun Fox" class="bio-pic">
+			<img src="/assets/img/shaun-fox-2018.jpg" alt="Shaun Fox" class="bio-pic">
 		</div>
 		<div class="column my-bio">
 			<p>I&rsquo;m the Principal Product Designer at <a href="http://www.shipstation.com/">ShipStation</a> in beautiful Austin, Texas.</p>
@@ -96,11 +96,13 @@ page-title: "This is stuff about me."
 				<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
 				<li><a href="/scroll-highlight/">Scroll Highlight</a></li>
 				<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>
+				<li><a href="https://codepen.io/shaunrfox/full/yEzXaz/">Flexbox Modal</a></li>
+				<li><a href="https://codepen.io/shaunrfox/full/bxVpYX/">Flexbox Order Form</a></li>
+				<li><a href="https://codepen.io/shaunrfox/full/EoJRgN/">Pinned Column Using Sticky</a></li>
 				<li><a href="/colores/">Colores</a></li>
 				<li><a href="/bypass-licensing/">Licensing Mockup</a></li>
 				<li><a href="/bypass-online-order/">Online Order Mockup</a></li>
 				<li><a href="/lettering-links/">Lettering Links</a></li>
-				<li><a href="/liquid/svg.html">SVG Test</a></li>
 				<li><a href="/absolute-dashboard/">Absolute Dashboard</a></li>
 				<li><a href="/layouts/">Layouts</a></li>
 				<li><a href="/gaber/">Gaber</a></li>

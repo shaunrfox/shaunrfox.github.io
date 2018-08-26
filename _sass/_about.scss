@@ -18,6 +18,13 @@
     border: 8px solid $white;
     box-shadow: 2px 2px 3px rgba($midnight, .2);
   }
+
+  @include breakpoint(medium) {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
 }
 
 .resume-title {
