@@ -52,7 +52,6 @@
 		left: -6px;
 		width: 40px;
 		height: 40px;
-
 	}
 
 	&:hover,
@@ -71,8 +70,6 @@
 	width: 100%;
 	float: left;
 	margin-bottom: 30px;
-
-	/* @include breakpoint(small) { display: none; }; */
 }
 
 .icons-column {
@@ -89,7 +86,7 @@
 	width: percentage(1/5);
 	height: 160px;
 	padding-bottom: 40px;
-	border: 5px solid $body-background;
+	border: 5px solid $white;
 	margin-bottom: 0;
 	float: left;
 	display: block;
@@ -112,7 +109,7 @@
 	&:focus {
 		outline: none;
 		cursor: cell;
-		background: shade($body-background, 95);
+		background: tint($body-background, 50);
 
 		.title { color: $off-black; }
 	}
@@ -120,7 +117,6 @@
   @include breakpoint(large) { width: percentage(1/4); }
   @include breakpoint(medium) { width: percentage(1/3); }
   @include breakpoint(small) {
-  	//width: percentage(1/2);
   	height: 120px;
   	@include font-size(1.2);
   	margin-bottom: 10px;

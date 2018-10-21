@@ -53,7 +53,6 @@
 	 	@include uppercase();
 	 	@include font-size(1.4);
 		border: none;
-		@include transition(200ms ease all);
 
 		&:before {
 			content: '';
@@ -63,7 +62,6 @@
 			right: 0;
 			height: 3px;
 			background: $cyan;
-			@include transition(200ms ease all);
 		}
 
 		&:hover {

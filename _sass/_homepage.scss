@@ -33,14 +33,10 @@
     a { border: none; }
 
     img {
-      border: 8px solid $white;
-      box-shadow: 2px 2px 3px rgba($midnight, .2);
       transition: ease all 300ms;
 
       &:hover {
-        border-color: $white;
-        transform: translate(-5px, -5px);
-        box-shadow: 7px 7px 8px rgba($midnight, .15);
+        transform: scale(1.02);
       }
     }
   }
@@ -89,7 +85,7 @@
     margin-bottom: 20px;
 
     &:hover {
-      border-color: $cyan;
+      color: $cyan;
     }
   }
 

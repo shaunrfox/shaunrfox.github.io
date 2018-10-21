@@ -29,14 +29,11 @@
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
-		border: 8px solid $white;
-		box-shadow: 2px 2px 3px rgba($midnight, .2);
+		border-bottom: 1px solid transparent;
 		transition: ease all 300ms;
 
 		&:hover {
-			border-color: $white;
-			transform: translate(-5px, -5px);
-			box-shadow: 7px 7px 8px rgba($midnight, .15);
+			transform: scale(1.02);
 		}
 	}
 
@@ -54,7 +51,7 @@
 		}
 
     &:hover {
-      border-color: $cyan;
+      color: $cyan;
     }
 	}
 }

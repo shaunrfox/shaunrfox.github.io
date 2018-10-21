@@ -9,8 +9,8 @@
 	position: relative;
 	width: 90%;
 	padding: 40px;
-	background: $white;
-	box-shadow: 2px 2px 3px rgba($midnight, .2);
+	background: $off-white;
+	// box-shadow: 2px 2px 3px rgba($midnight, .2);
 	max-width: 700px;
 	float: none;
 	margin: 20px auto 40px;
@@ -27,7 +27,9 @@
 		border-bottom: 2px solid transparent;
 		margin-bottom: 10px;
 
-		&:hover { border-color: $cyan; }
+		&:hover {
+			color: $cyan;
+		}
 	}
 
 	.meta {
@@ -36,7 +38,7 @@
 		@include font-size(1.6);
 		@include source-sans();
 		@include uppercase;
-		color: $light-grey;
+		color: $mid-grey;
 	}
 
 	.excerpt {
@@ -69,8 +71,8 @@
 .writing-post-wrapper {
 	padding: 80px;
 	max-width: 860px;
-	background: $white;
-	box-shadow: 2px 2px 3px rgba($midnight, .2);
+	background: $off-white;
+	// box-shadow: 2px 2px 3px rgba($midnight, .2);
 	margin: 0 auto;
 	@include transition(300ms ease all);
 
@@ -110,10 +112,10 @@
 			content: '';
 			display: block;
 			width: 150px;
-			height: 3px;
+			height: 2px;
 			margin-top: 30px;
 			margin-bottom: 30px;
-			background: tint($cyan, 20);
+			background: rgba($off-black, .1);
 		}
 	}
 }

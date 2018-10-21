@@ -14,11 +14,6 @@
 }
 
 .my-photo {
-  img {
-    border: 8px solid $white;
-    box-shadow: 2px 2px 3px rgba($midnight, .2);
-  }
-
   @include breakpoint(medium) {
     max-width: 450px;
     margin-left: auto;
@@ -91,17 +86,15 @@
   a {
     display: block;
     float: left;
-    background: $white;
+    background: tint($off-white, 50);
+    border-radius: 4px;
     padding: 5px 10px;
     margin: 0 5px 5px 0;
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid rgba($off-black, .1);
     color: $off-black;
-    box-shadow: 1px 1px 1px rgba($midnight, .1);
 
     &:hover {
-      background: shade($body-background, 40);
-      border-color: shade($body-background, 40);
-      color: $white;
+      background: tint($cyan, 20);
     }
   }
 }
