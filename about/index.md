@@ -9,7 +9,7 @@ page-title: "This is stuff about me."
 			<img src="/assets/img/shaun-fox-2018.jpg" alt="Shaun Fox" class="bio-pic">
 		</div>
 		<div class="column my-bio">
-			<p>I&rsquo;m the Principal Product Designer at <a href="http://www.shipstation.com/">ShipStation</a> in beautiful Austin, Texas.</p>
+			<p>I&rsquo;m a Senior UX Designer at Indeed in beautiful Austin, Texas.</p>
 			<p>I&rsquo;m always learning new skills and technologies and I love experimenting with them. I love collaboration and finding good solutions to problems. I read a lot of science-fiction and I love a bowl of queso and a margarita after a long work week. My <a href="http://katiefox.net/">wonderful wife</a> and daughters keep me sane.</p>
 			<p>Don&rsquo;t be a stranger, <a href="https://shaunfox.typeform.com/to/yshc4b" target="_blank">get in touch!</a></p>
 			<hr>
@@ -22,9 +22,13 @@ page-title: "This is stuff about me."
 		<div class="column resume">
 			<h2 class="label">Experience</h2>
 
+			<h3 class="resume-title">Senior UX Designer</h3>
+			<p class="resume-details">Indeed</p>
+			<p class="resume-dates">November 2018–present; Austin, Texas</p>
+
 			<h3 class="resume-title">Principal Product Designer</h3>
 			<p class="resume-details">ShipStation</p>
-			<p class="resume-dates">April 2017–present; Austin, Texas</p>
+			<p class="resume-dates">April 2017–November 2018; Austin, Texas</p>
 
 			<h3 class="resume-title">Creative Director</h3>
 			<p class="resume-details">HotSchedules</p>
@@ -59,7 +63,7 @@ page-title: "This is stuff about me."
 			<p class="resume-details">Cum Laude; Texas State University</p>
 			<p class="resume-dates">December 2009; San Marcos, Texas</p>
 
-			<a class="button resume-button" href="/shaun-fox-resume-full.pdf" style="margin-top: 20px;">View full r&eacute;sum&eacute;
+			<a class="button resume-button" href="/shaun-fox-resume-2018.pdf" style="margin-top: 20px;">View full r&eacute;sum&eacute;
 				<svg viewBox="0 0 30 30" class="ico-document">
 					<use xlink:href="#ico-document"></use>
 				</svg>
