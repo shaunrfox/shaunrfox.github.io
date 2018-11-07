@@ -98,7 +98,7 @@ page-title: "This is stuff about me."
 				<li><a href="http://shaunfox.com/switch-swatch/">Switch Swatch</a></li>
 				<li><a href="http://shaunfox.com/style-guide/">Front-end Style Guide</a></li>
 				<li><a href="https://github.com/shaunrfox/fox-icons">Fox Icons on Github</a></li>
-				<li><a href="/scroll-highlight/">Scroll Highlight</a></li>
+				<li><a href="http://shaunfox.com/scroll-highlight/">Scroll Highlight</a></li>
 				<li><a href="http://codepen.io/shaunrfox/full/gbmGOp/">Button Tester</a></li>
 				<li><a href="https://codepen.io/shaunrfox/full/yEzXaz/">Flexbox Modal</a></li>
 				<li><a href="https://codepen.io/shaunrfox/full/bxVpYX/">Flexbox Order Form</a></li>
