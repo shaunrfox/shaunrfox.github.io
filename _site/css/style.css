@@ -1238,6 +1238,9 @@ li.L9 {
     margin-right: auto;
     float: none; } }
 
+.bio-pic {
+  max-width: 400px; }
+
 .resume-title {
   font-size: 20px;
   font-size: 2rem;
