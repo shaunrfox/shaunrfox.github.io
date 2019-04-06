@@ -1,7 +1,7 @@
 name: shaunfox.com
 site.name: shaunfox.com
 permalink: /:categories/:title.html
-url: http://shaunfox.com
+url: https://shaunfox.com
 paginate_per_category: true
 highlighter: rouge
 plugins:
