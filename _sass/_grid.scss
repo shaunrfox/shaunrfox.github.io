@@ -55,6 +55,10 @@
 	margin: 0 auto;
 	@include clearfix();
 	padding: 0 15px;
+
+	@include breakpoint(small) {
+		padding: 0 8px;
+	}
 }
 
 .column {

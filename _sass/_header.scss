@@ -54,6 +54,10 @@
 	 	@include font-size(1.4);
 		border: none;
 
+		@include breakpoint(small) {
+			margin-right: 13px;
+		}
+
 		&:before {
 			content: '';
 			position: absolute;

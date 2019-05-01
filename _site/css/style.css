@@ -396,6 +396,9 @@ table {
     content: '';
     display: table;
     clear: both; }
+  @media (max-width: 400px) {
+    .container {
+      padding: 0 8px; } }
 
 .column {
   float: left;
@@ -633,6 +636,9 @@ hr {
     font-size: 14px;
     font-size: 1.4rem;
     border: none; }
+    @media (max-width: 400px) {
+      #menu a {
+        margin-right: 13px; } }
     #menu a:before {
       content: '';
       position: absolute;
