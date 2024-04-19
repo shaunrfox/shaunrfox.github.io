@@ -4,6 +4,8 @@
  * * * * * * * * * * * * * * * * * * *
  */
 
+@use "sass:math";
+
 // Getting Source Sans
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic);
 
@@ -27,12 +29,12 @@
 
 // Slightly lighten a color
 @function tint($color, $percentage) {
-  @return mix($color, white, $percentage);
+  @return mix($color, white, math.percentage($percentage));
 }
 
 // Slightly darken a color
 @function shade($color, $percentage) {
-  @return mix($color, black, $percentage);
+  @return mix($color, black, math.percentage($percentage));
 }
 
 // Vertical align anything
@@ -59,16 +61,16 @@
 
 // Border Radius, all corners
 @mixin border-radius-all($cornervalue) {
-   -webkit-border-radius: $cornervalue;
-   -moz-border-radius: $cornervalue;
-   border-radius: $cornervalue;
+	-webkit-border-radius: $cornervalue;
+	-moz-border-radius: $cornervalue;
+	border-radius: $cornervalue;
 }
 
 // Border Radius, any configuration
 @mixin border-radius($topleft, $topright, $bottomright, $bottomleft) {
-   -webkit-border-radius: $topleft $topright $bottomright $bottomleft;
-   -moz-border-radius: $topleft $topright $bottomright $bottomleft;
-   border-radius: $topleft $topright $bottomright $bottomleft;
+	-webkit-border-radius: $topleft $topright $bottomright $bottomleft;
+	-moz-border-radius: $topleft $topright $bottomright $bottomleft;
+	border-radius: $topleft $topright $bottomright $bottomleft;
 }
 
 // Transition mixin

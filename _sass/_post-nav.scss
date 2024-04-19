@@ -7,7 +7,7 @@
 .post-nav {
 	display: inline-block;
 	position: relative;
- 	@include font-size(1.4);
+	@include font-size(1.4);
 	@include uppercase();
 	width: auto;
 	height: 30px;
@@ -43,7 +43,7 @@
 
 	&:hover {
 		color: $white;
-		background: shade($body-background, 40);
+		background: shade($body-background, 0.4);
 		border: none;
 
 		svg { fill: $white; }

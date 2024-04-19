@@ -1,8 +1,10 @@
 /* Project Template */
 
+@use "sass:math";
+
 .project-description {
 	float: right;
-	width: percentage(1/3);
+	width: math.percentage(math.div(1,3));
 
 	.post p { @include font-size(2.4); }
 
@@ -11,7 +13,7 @@
 
 .project-images {
 	float: left;
-	width: percentage(2/3);
+	width: math.percentage(math.div(2,3));
 
 	@include breakpoint(large) { width: 100%; }
 

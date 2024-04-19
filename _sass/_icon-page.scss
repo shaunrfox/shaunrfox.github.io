@@ -1,5 +1,7 @@
 /* Icon Page */
 
+@use "sass:math";
+
 .search {
 	position: relative;
 	height: auto;
@@ -18,19 +20,19 @@
 	}
 
 	input {
-	  width: 100%;
-	  height: 50px;
-	  padding: 0 10px 0 50px;
-	  font-size: 25px;
-	  background: $white;
-	  border: 1px solid $light-grey;
-	  @include border-radius-all(4px);
+		width: 100%;
+		height: 50px;
+		padding: 0 10px 0 50px;
+		font-size: 25px;
+		background: $white;
+		border: 1px solid $light-grey;
+		@include border-radius-all(4px);
 
-	  &:focus {
-	  	outline: none;
-	  	border-color: $cyan;
-	  	@include box-shadow(1px 1px 2px rgba($off-black, .2));
-	  }
+		&:focus {
+			outline: none;
+			border-color: $cyan;
+			@include box-shadow(1px 1px 2px rgba($off-black, .2));
+		}
 	}
 }
 
@@ -83,7 +85,7 @@
 .icon-wrapper {
 	background: none;
 	position: relative;
-	width: percentage(1/5);
+	width: math.div(1,5) + '%';
 	height: 160px;
 	padding-bottom: 40px;
 	border: 5px solid $white;
@@ -109,16 +111,16 @@
 	&:focus {
 		outline: none;
 		cursor: cell;
-		background: tint($body-background, 50);
+		background: tint($body-background, 0.5);
 
 		.title { color: $off-black; }
 	}
 
-  @include breakpoint(large) { width: percentage(1/4); }
-  @include breakpoint(medium) { width: percentage(1/3); }
+  @include breakpoint(large) { width: math.percentage(math.div(1,4)); }
+  @include breakpoint(medium) { width: math.percentage(math.div(1,3)); }
   @include breakpoint(small) {
-  	height: 120px;
-  	@include font-size(1.2);
-  	margin-bottom: 10px;
+		height: 120px;
+		@include font-size(1.2);
+		margin-bottom: 10px;
   }
 }

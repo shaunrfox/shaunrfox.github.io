@@ -1,5 +1,7 @@
 /* HEADER & MENU */
 
+@use "sass:math";
+
 .site-header {
 	position: relative;
 	width:100%;
@@ -100,7 +102,7 @@
 .page-title {
 	font-weight: 400;
 	margin: 50px 0;
-	width: percentage(2/3);
+	width: math.div(2,3) + '%';
 
 	@include breakpoint(medium) {
 		width: 100%;
