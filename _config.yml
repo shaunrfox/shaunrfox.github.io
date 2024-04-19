@@ -1,12 +1,13 @@
 name: shaunfox.com
-site.name: shaunfox.com
+title: shaunfox.com
 permalink: /:categories/:title.html
 url: http://shaunfox.com
 paginate_per_category: true
 highlighter: rouge
 plugins:
-  - jekyll-redirect-from
+  - jekyll-github-metadata
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown

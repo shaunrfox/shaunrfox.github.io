@@ -201,6 +201,9 @@
 <loc>http://localhost:4000/writing/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/assets/svg/fox-icons/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/absolute-dashboard/</loc>
 <lastmod>2024-04-18T21:27:07-05:00</lastmod>
 </url>

@@ -7,7 +7,8 @@
 @use "sass:math";
 
 // Getting Source Sans
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic);
+// @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 // Rooney Mixin
 @mixin chaparral() {
@@ -15,7 +16,10 @@
 }
 
 @mixin source-sans() {
-	font-family: "Source Sans Pro", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Source Sans 3", Verdana, Helvetica, Arial, sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
 // Helper to clear inner floats
@@ -29,12 +33,12 @@
 
 // Slightly lighten a color
 @function tint($color, $percentage) {
-  @return mix($color, white, math.percentage($percentage));
+  @return mix($color, white, percentage($percentage));
 }
 
 // Slightly darken a color
 @function shade($color, $percentage) {
-  @return mix($color, black, math.percentage($percentage));
+  @return mix($color, black, percentage($percentage));
 }
 
 // Vertical align anything
