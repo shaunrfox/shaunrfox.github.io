@@ -1,4 +1,9 @@
+import { type MetaFunction } from "@remix-run/react";
 import Rule from "../components/Rule";
+
+export const meta: MetaFunction = () => {
+  return [{ title: "Shaun Fox | Design + Technology Services" }];
+};
 
 export default function ServicesRoute() {
   return (

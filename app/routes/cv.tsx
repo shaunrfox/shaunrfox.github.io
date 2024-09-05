@@ -1,5 +1,10 @@
+import { type MetaFunction } from "@remix-run/react";
 import React from "react";
 import Rule from "~/components/Rule";
+
+export const meta: MetaFunction = () => {
+  return [{ title: "Shaun Fox | Work history" }];
+};
 
 const workJSON = [
   {
