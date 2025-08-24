@@ -32,16 +32,32 @@ export default function Index() {
           of a direction.
         </p>
         <p>
-          <span style={{ color: "#f1aaaa", fontStyle: "italic" }}>
+          <span
+            style={{
+              color: "#f1aaaa",
+              fontStyle: "italic",
+              textDecoration: "line-through",
+            }}
+          >
             I&rsquo;m currently taking on new clients.
           </span>{" "}
-          If you have a problem you think I could help solve or a gap on your
-          team, I&rsquo;d love to chat with you about it.
+          <br />
+          I'm currently working as the Director of Design at{" "}
+          <Link
+            to="https://cetecerp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cetec ERP
+          </Link>
+          .
+          {/* If you have a problem you think I could help solve or a gap on your
+          team, I&rsquo;d love to chat with you about it. */}
         </p>
       </div>
       <div className="home-aside">
         <img src="assets/shaun-photo.jpg" alt="Shaun Fox" />
-        <Link to="mailto:hello@okshaun.com">hello@okshaun.com</Link>
+        <Link to="mailto:shaun@shaunfox.com">shaun@shaunfox.com</Link>
       </div>
     </div>
   );

@@ -8,6 +8,23 @@ export const meta: MetaFunction = () => {
 
 const workJSON = [
   {
+    title: "Director of Design",
+    company: "Cetec ERP",
+    date: "2024–present",
+    location: "Austin, Texas",
+    desc: (
+      <>
+        <p>
+          In my time so far at Cetec ERP, I've done a mini rebrand, helped
+          solidify our brand voice, and begun a completed redesign and rebuild
+          of our marketing site. On the product side, I've introduced a new
+          design system and begun bringing user research and user-centric design
+          into our decision-making.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Lead UX Designer, Design Director, Design Technologist",
     company: "Indeed",
     date: "2018–2024",

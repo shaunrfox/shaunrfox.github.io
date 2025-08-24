@@ -29,7 +29,7 @@ export default function Footer(): JSX.Element {
       <div className="footer-content">
         <FoxLogo />
         <div className="footer-links">
-          <Link to="mailto:hello@okshaun.com">Mail</Link>
+          <Link to="mailto:shaun@shaunfox.com">Mail</Link>
           <Link
             to="https://www.linkedin.com/in/shaunrfox"
             target="_blank"
