@@ -1473,7 +1473,9 @@ footer .fox-logo {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 1.5rem;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -1486,6 +1488,19 @@ footer .fox-logo {
 .footer-links a:hover {
   color: #eacb2a;
   background-image: linear-gradient(90deg, #eacb2a 0%, #eacb2a 50%, #eacb2a 100%);
+}
+.footer-links a.pink {
+  background-color: transparent;
+  border: 1px solid #f1aaaa;
+  padding: 0 6px;
+  border-radius: 4px;
+  color: #f1aaaa;
+}
+.footer-links a.pink:hover {
+  background-image: none;
+  background-color: #f1aaaa;
+  font-weight: bold;
+  color: #1c1d1f;
 }
 
 .copyright {

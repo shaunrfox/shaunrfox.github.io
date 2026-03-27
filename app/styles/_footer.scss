@@ -31,7 +31,9 @@ footer {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: $space-8;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -54,6 +56,21 @@ footer {
         $yellow-60 50%,
         $yellow-60 100%
       );
+    }
+
+    &.pink {
+      background-color: transparent;
+      border: 1px solid $pink-60;
+      padding: 0 6px;
+      border-radius: 4px;
+      color: $pink-60;
+
+      &:hover {
+        background-image: none;
+        background-color: $pink-60;
+        font-weight: bold;
+        color: $gray-90;
+      }
     }
   }
 }

@@ -51,6 +51,14 @@ export default function Footer(): JSX.Element {
           >
             GitHub
           </Link>
+          <Link
+            to="https://shaunfox.com/dash"
+            target="_blank"
+            rel="noreferrer"
+            className="pink"
+          >
+            Dash
+          </Link>
         </div>
         <Copyright />
       </div>
