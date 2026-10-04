@@ -1,0 +1,6045 @@
+{
+"books": [
+{
+"id": "1984-george-orwell",
+"title": "1984",
+"subtitle": null,
+"author": [
+"George Orwell"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/1984-george-orwell.jpg"
+},
+{
+"id": "a-blink-of-the-screen-terry-pratchett",
+"title": "A Blink of the Screen",
+"subtitle": null,
+"author": [
+"Terry Pratchett"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Short Stories",
+"Humor"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/a-blink-of-the-screen-terry-pratchett.jpg"
+},
+{
+"id": "a-brief-history-of-chronomancy-andrew-rowe",
+"title": "A Brief History of Chronomancy",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 6,
+"genre": [
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/a-brief-history-of-chronomancy-andrew-rowe.jpg"
+},
+{
+"id": "a-circle-of-quiet-madeleine-l-engle",
+"title": "A Circle of Quiet",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "The Crosswicks Journals",
+"seriesNumber": 1,
+"genre": [
+"Faith",
+"Memoir & Biography",
+"Art & Creativity"
+],
+"status": null,
+"year": "2016",
+"cover": "covers/a-circle-of-quiet-madeleine-l-engle.jpg"
+},
+{
+"id": "a-gentleman-in-moscow-amor-towles",
+"title": "A Gentleman in Moscow",
+"subtitle": null,
+"author": [
+"Amor Towles"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/a-gentleman-in-moscow-amor-towles.jpg"
+},
+{
+"id": "a-little-manual-for-knowing-esther-lightcap-meek",
+"title": "A Little Manual for Knowing",
+"subtitle": null,
+"author": [
+"Esther Lightcap Meek"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Society & Politics"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/a-little-manual-for-knowing-esther-lightcap-meek.jpg"
+},
+{
+"id": "a-live-coal-in-the-sea-a-novel-madeleine-l-engle",
+"title": "A Live Coal in the Sea: A Novel",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Literary Fiction"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/a-live-coal-in-the-sea-a-novel-madeleine-l-engle.jpg"
+},
+{
+"id": "a-man-called-ove-fredrik-backman",
+"title": "A Man Called Ove",
+"subtitle": null,
+"author": [
+"Fredrik Backman"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Humor"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/a-man-called-ove-fredrik-backman.jpg"
+},
+{
+"id": "a-pocket-guide-to-css-animations-val-head",
+"title": "A Pocket Guide to CSS animations",
+"subtitle": null,
+"author": [
+"Val Head"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/a-pocket-guide-to-css-animations-val-head.jpg"
+},
+{
+"id": "a-praying-life-paul-e-miller",
+"title": "A Praying Life",
+"subtitle": "Connecting With God In A Distracting World",
+"author": [
+"Paul E. Miller"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/a-praying-life-paul-e-miller.jpg"
+},
+{
+"id": "a-scanner-darkly-philip-k-dick",
+"title": "A Scanner Darkly",
+"subtitle": null,
+"author": [
+"Philip K. Dick"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/a-scanner-darkly-philip-k-dick.jpg"
+},
+{
+"id": "a-swiftly-tilting-planet-madeleine-l-engle",
+"title": "A Swiftly Tilting Planet",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "Time Quintet",
+"seriesNumber": 3,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "1978",
+"cover": "covers/a-swiftly-tilting-planet-madeleine-l-engle.jpg"
+},
+{
+"id": "a-wind-in-the-door-madeleine-l-engle",
+"title": "A Wind in the Door",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "Time Quintet",
+"seriesNumber": 2,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/a-wind-in-the-door-madeleine-l-engle.jpg"
+},
+{
+"id": "a-world-of-curiosities-louise-penny",
+"title": "A World of Curiosities",
+"subtitle": null,
+"author": [
+"Louise Penny"
+],
+"series": "Chief Inspector Gamache",
+"seriesNumber": 18,
+"genre": [
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/a-world-of-curiosities-louise-penny.jpg"
+},
+{
+"id": "a-wrinkle-in-time-madeleine-l-engle",
+"title": "A Wrinkle in Time",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "Time Quintet",
+"seriesNumber": 1,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/a-wrinkle-in-time-madeleine-l-engle.jpg"
+},
+{
+"id": "abaddon-s-gate-james-s-a-corey",
+"title": "Abaddon's Gate",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/abaddon-s-gate-james-s-a-corey.jpg"
+},
+{
+"id": "about-face-3-alan-cooper",
+"title": "About Face 3",
+"subtitle": "The Essentials of Interaction Design",
+"author": [
+"Alan Cooper",
+"Robert Reimann",
+"Dave Cronin"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/about-face-3-alan-cooper.jpg"
+},
+{
+"id": "across-the-sand-hugh-howey",
+"title": "Across the Sand",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Sand Chronicles",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/across-the-sand-hugh-howey.jpg"
+},
+{
+"id": "adorning-the-dark-andrew-peterson",
+"title": "Adorning the Dark",
+"subtitle": null,
+"author": [
+"Andrew Peterson"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Art & Creativity",
+"Personal Growth"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/adorning-the-dark-andrew-peterson.jpg"
+},
+{
+"id": "again-dangerous-visions-stories-harlan-ellison",
+"title": "Again, Dangerous Visions: Stories",
+"subtitle": null,
+"author": [
+"Harlan Ellison"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Short Stories"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/again-dangerous-visions-stories-harlan-ellison.jpg"
+},
+{
+"id": "alexander-hamilton-ron-chernow",
+"title": "Alexander Hamilton",
+"subtitle": null,
+"author": [
+"Ron Chernow"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"History",
+"Society & Politics"
+],
+"status": null,
+"year": "2005",
+"cover": "covers/alexander-hamilton-ron-chernow.jpg"
+},
+{
+"id": "all-is-grace-a-ragamuffin-memoir-brennan-manning",
+"title": "All Is Grace: A Ragamuffin Memoir",
+"subtitle": null,
+"author": [
+"Brennan Manning",
+"John Blase"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/all-is-grace-a-ragamuffin-memoir-brennan-manning.jpg"
+},
+{
+"id": "all-my-knotted-up-life-beth-moore",
+"title": "All My Knotted-Up Life",
+"subtitle": null,
+"author": [
+"Beth Moore"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/all-my-knotted-up-life-beth-moore.jpg"
+},
+{
+"id": "all-systems-red-martha-wells",
+"title": "All Systems Red",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/all-systems-red-martha-wells.jpg"
+},
+{
+"id": "all-these-worlds-dennis-e-taylor",
+"title": "All These Worlds",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": "Bobiverse",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/all-these-worlds-dennis-e-taylor.jpg"
+},
+{
+"id": "all-the-devils-are-here-louise-penny",
+"title": "All the Devils Are Here",
+"subtitle": null,
+"author": [
+"Louise Penny"
+],
+"series": "Chief Inspector Gamache",
+"seriesNumber": 16,
+"genre": [
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/all-the-devils-are-here-louise-penny.jpg"
+},
+{
+"id": "all-the-light-we-cannot-see-anthony-doerr",
+"title": "All the Light We Cannot See",
+"subtitle": null,
+"author": [
+"Anthony Doerr"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/all-the-light-we-cannot-see-anthony-doerr.jpg"
+},
+{
+"id": "an-acceptable-time-madeleine-l-engle",
+"title": "An Acceptable Time",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "Time Quintet",
+"seriesNumber": 5,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/an-acceptable-time-madeleine-l-engle.jpg"
+},
+{
+"id": "an-american-childhood-annie-dillard",
+"title": "An American Childhood",
+"subtitle": null,
+"author": [
+"Annie Dillard"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"Art & Creativity"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/an-american-childhood-annie-dillard.jpg"
+},
+{
+"id": "an-unwelcome-quest-scott-meyer",
+"title": "An Unwelcome Quest",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/an-unwelcome-quest-scott-meyer.jpg"
+},
+{
+"id": "animal-dreams-barbara-kingsolver",
+"title": "Animal Dreams",
+"subtitle": null,
+"author": [
+"Barbara Kingsolver"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/animal-dreams-barbara-kingsolver.jpg"
+},
+{
+"id": "animal-vegetable-miracle-barbara-kingsolver",
+"title": "Animal, Vegetable, Miracle",
+"subtitle": "A Year of Food Life",
+"author": [
+"Barbara Kingsolver",
+"Camille Kingsolver",
+"Steven L. Hopp",
+"Lily Hopp Kingsolver"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"Art & Creativity",
+"Science"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/animal-vegetable-miracle-barbara-kingsolver.jpg"
+},
+{
+"id": "anna-karenina-leo-tolstoy",
+"title": "Anna Karenina",
+"subtitle": null,
+"author": [
+"Leo Tolstoy"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/anna-karenina-leo-tolstoy.jpg"
+},
+{
+"id": "anne-of-green-gables-lucy-maud-montgomery",
+"title": "Anne of Green Gables",
+"subtitle": null,
+"author": [
+"Lucy Maud Montgomery"
+],
+"series": "Anne of Green Gables",
+"seriesNumber": 1,
+"genre": [
+"Children's",
+"Mystery & Thriller",
+"Classics"
+],
+"status": "reading",
+"year": "2015",
+"cover": "covers/anne-of-green-gables-lucy-maud-montgomery.jpg"
+},
+{
+"id": "anne-of-green-gables-stories-lucy-maud-montgomery",
+"title": "Anne of Green Gables Stories",
+"subtitle": "12 Books, 142 Short Stories, Anne of Green Gables, Anne of Avonlea, Anne of the Island, Anne's House of Dreams, Rainbow Valley, Rilla of Ingleside, Chronicles and More",
+"author": [
+"Lucy Maud Montgomery",
+"Timeless Reads"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/anne-of-green-gables-stories-lucy-maud-montgomery.jpg"
+},
+{
+"id": "anne-of-windy-poplars-lucy-maud-montgomery",
+"title": "Anne of Windy Poplars",
+"subtitle": null,
+"author": [
+"Lucy Maud Montgomery",
+"Golden Deer Classics"
+],
+"series": "Anne of Green Gables",
+"seriesNumber": 4,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/anne-of-windy-poplars-lucy-maud-montgomery.jpg"
+},
+{
+"id": "arcanum-unbounded-brandon-sanderson",
+"title": "Arcanum Unbounded",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "The Cosmere",
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Short Stories"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/arcanum-unbounded-brandon-sanderson.jpg"
+},
+{
+"id": "armada-ernest-cline",
+"title": "Armada",
+"subtitle": null,
+"author": [
+"Ernest Cline"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/armada-ernest-cline.jpg"
+},
+{
+"id": "armor-john-steakley",
+"title": "Armor",
+"subtitle": null,
+"author": [
+"John Steakley"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/armor-john-steakley.jpg"
+},
+{
+"id": "art-fear-david-bayles",
+"title": "Art & Fear",
+"subtitle": "Observations on the Perils (and Rewards) of Artmaking",
+"author": [
+"David Bayles",
+"Ted Orland"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Art & Creativity"
+],
+"status": "reading",
+"year": "2023",
+"cover": "covers/art-fear-david-bayles.jpg"
+},
+{
+"id": "artemis-andy-weir",
+"title": "Artemis",
+"subtitle": null,
+"author": [
+"Andy Weir"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/artemis-andy-weir.jpg"
+},
+{
+"id": "artificial-condition-martha-wells",
+"title": "Artificial Condition",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/artificial-condition-martha-wells.jpg"
+},
+{
+"id": "at-home-in-the-world-tsh-oxenreider",
+"title": "At Home in the World",
+"subtitle": "Reflections on Belonging While Wandering the Globe",
+"author": [
+"Tsh Oxenreider"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography",
+"Writing & Literature"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/at-home-in-the-world-tsh-oxenreider.jpg"
+},
+{
+"id": "babylon-s-ashes-james-s-a-corey",
+"title": "Babylon's Ashes",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 6,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/babylon-s-ashes-james-s-a-corey.jpg"
+},
+{
+"id": "beverly-right-here-kate-dicamillo",
+"title": "Beverly, Right Here",
+"subtitle": null,
+"author": [
+"Kate DiCamillo"
+],
+"series": "Three Rancheros",
+"seriesNumber": 3,
+"genre": [
+"Children's",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/beverly-right-here-kate-dicamillo.jpg"
+},
+{
+"id": "big-dumb-eyes-nate-bargatze",
+"title": "Big Dumb Eyes",
+"subtitle": null,
+"author": [
+"Nate Bargatze"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/big-dumb-eyes-nate-bargatze.jpg"
+},
+{
+"id": "big-magic-elizabeth-gilbert",
+"title": "Big Magic",
+"subtitle": null,
+"author": [
+"Elizabeth Gilbert"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership",
+"Art & Creativity",
+"Personal Growth"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/big-magic-elizabeth-gilbert.jpg"
+},
+{
+"id": "blue-like-jazz-donald-miller",
+"title": "Blue Like Jazz",
+"subtitle": null,
+"author": [
+"Donald Miller"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Personal Growth",
+"Parenting & Family"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/blue-like-jazz-donald-miller.jpg"
+},
+{
+"id": "brave-new-world-aldous-huxley",
+"title": "Brave New World",
+"subtitle": null,
+"author": [
+"Aldous Huxley"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Classics",
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/brave-new-world-aldous-huxley.jpg"
+},
+{
+"id": "business-thinking-for-designers-ryan-rumsey",
+"title": "Business Thinking for Designers",
+"subtitle": null,
+"author": [
+"Ryan Rumsey"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership"
+],
+"status": null,
+"year": null,
+"cover": "covers/business-thinking-for-designers-ryan-rumsey.jpg"
+},
+{
+"id": "c-s-lewis-a-life-alister-e-mcgrath",
+"title": "C. S. Lewis - A Life",
+"subtitle": null,
+"author": [
+"Alister E. McGrath"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography",
+"Art & Creativity"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/c-s-lewis-a-life-alister-e-mcgrath.jpg"
+},
+{
+"id": "css3-for-web-designers-dan-cederholm",
+"title": "CSS3 for Web Designers",
+"subtitle": null,
+"author": [
+"Dan Cederholm"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/css3-for-web-designers-dan-cederholm.jpg"
+},
+{
+"id": "caliban-s-war-james-s-a-corey",
+"title": "Caliban's War",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/caliban-s-war-james-s-a-corey.jpg"
+},
+{
+"id": "catch-me-if-you-can-frank-w-abagnale",
+"title": "Catch Me If You Can",
+"subtitle": "The True Story of a Real Fake",
+"author": [
+"Frank W. Abagnale",
+"Stan Redding"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Memoir & Biography"
+],
+"status": null,
+"year": "2002",
+"cover": "covers/catch-me-if-you-can-frank-w-abagnale.jpg"
+},
+{
+"id": "catherine-called-birdy-karen-cushman",
+"title": "Catherine, Called Birdy",
+"subtitle": null,
+"author": [
+"Karen Cushman"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Classics",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/catherine-called-birdy-karen-cushman.jpg"
+},
+{
+"id": "children-of-dune-frank-herbert",
+"title": "Children of Dune",
+"subtitle": null,
+"author": [
+"Frank Herbert"
+],
+"series": "Dune",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/children-of-dune-frank-herbert.jpg"
+},
+{
+"id": "children-of-the-mind-orson-scott-card",
+"title": "Children of the Mind",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Ender Quintet",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/children-of-the-mind-orson-scott-card.jpg"
+},
+{
+"id": "cibola-burn-james-s-a-corey",
+"title": "Cibola Burn",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/cibola-burn-james-s-a-corey.jpg"
+},
+{
+"id": "cloud-atlas-a-novel-david-mitchell",
+"title": "Cloud Atlas: A Novel",
+"subtitle": null,
+"author": [
+"David Mitchell"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Science Fiction"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/cloud-atlas-a-novel-david-mitchell.jpg"
+},
+{
+"id": "cloud-cuckoo-land-anthony-doerr",
+"title": "Cloud Cuckoo Land",
+"subtitle": null,
+"author": [
+"Anthony Doerr"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/cloud-cuckoo-land-anthony-doerr.jpg"
+},
+{
+"id": "congo-michael-crichton",
+"title": "Congo",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/congo-michael-crichton.jpg"
+},
+{
+"id": "content-strategy-for-mobile-karen-mcgrane",
+"title": "Content Strategy for Mobile",
+"subtitle": null,
+"author": [
+"Karen McGrane"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/content-strategy-for-mobile-karen-mcgrane.jpg"
+},
+{
+"id": "conversational-design-erika-hall",
+"title": "Conversational Design",
+"subtitle": null,
+"author": [
+"Erika Hall"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": null,
+"cover": "covers/conversational-design-erika-hall.jpg"
+},
+{
+"id": "coraline-neil-gaiman",
+"title": "Coraline",
+"subtitle": null,
+"author": [
+"Neil Gaiman"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Horror"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/coraline-neil-gaiman.jpg"
+},
+{
+"id": "culture-care-makoto-fujimura",
+"title": "Culture Care",
+"subtitle": null,
+"author": [
+"Makoto Fujimura"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Society & Politics"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/culture-care-makoto-fujimura.jpg"
+},
+{
+"id": "death-comes-for-the-archbishop-willa-cather",
+"title": "Death Comes for the Archbishop",
+"subtitle": null,
+"author": [
+"Willa Cather"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/death-comes-for-the-archbishop-willa-cather.jpg"
+},
+{
+"id": "design-engineering-handbook-natalya-shelburne-adekunle-oduye-kim-williams-eddie-",
+"title": "Design Engineering Handbook",
+"subtitle": null,
+"author": [
+"Natalya Shelburne| Adekunle Oduye| Kim Williams| Eddie Lou"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2020",
+"cover": "covers/design-engineering-handbook-natalya-shelburne-adekunle-oduye-kim-williams-eddie-.jpg"
+},
+{
+"id": "design-for-care-peter-h-jones",
+"title": "Design For Care",
+"subtitle": null,
+"author": [
+"Peter H. Jones"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/design-for-care-peter-h-jones.jpg"
+},
+{
+"id": "design-is-a-job-mike-monteiro",
+"title": "Design Is a Job",
+"subtitle": null,
+"author": [
+"Mike Monteiro"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/design-is-a-job-mike-monteiro.jpg"
+},
+{
+"id": "design-is-the-problem-nathan-shedroff",
+"title": "Design Is the Problem",
+"subtitle": "The Future of Design Must be Sustainable",
+"author": [
+"Nathan Shedroff"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": null,
+"cover": "covers/design-is-the-problem-nathan-shedroff.jpg"
+},
+{
+"id": "designing-multi-device-experiences-michal-levin",
+"title": "Designing Multi-Device Experiences",
+"subtitle": null,
+"author": [
+"Michal Levin"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/designing-multi-device-experiences-michal-levin.jpg"
+},
+{
+"id": "designing-for-emotion-aarron-walter",
+"title": "Designing for Emotion",
+"subtitle": null,
+"author": [
+"Aarron Walter"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/designing-for-emotion-aarron-walter.jpg"
+},
+{
+"id": "designing-for-touch-josh-clark",
+"title": "Designing for Touch",
+"subtitle": null,
+"author": [
+"Josh Clark"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/designing-for-touch-josh-clark.jpg"
+},
+{
+"id": "devotions-mary-oliver",
+"title": "Devotions",
+"subtitle": null,
+"author": [
+"Mary Oliver"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Poetry"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/devotions-mary-oliver.jpg"
+},
+{
+"id": "diamantine-andrew-rowe",
+"title": "Diamantine",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Weapons and Wielders",
+"seriesNumber": 2,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/diamantine-andrew-rowe.jpg"
+},
+{
+"id": "disclosure-michael-crichton",
+"title": "Disclosure",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2001",
+"cover": "covers/disclosure-michael-crichton.jpg"
+},
+{
+"id": "dominion-tom-holland",
+"title": "Dominion",
+"subtitle": null,
+"author": [
+"Tom Holland"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"History"
+],
+"status": null,
+"year": null,
+"cover": "covers/dominion-tom-holland.jpg"
+},
+{
+"id": "don-t-make-me-think-steve-krug",
+"title": "Don't Make Me Think!",
+"subtitle": "A Common Sense Approach to Web Usability (2nd edition)",
+"author": [
+"Steve Krug"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": null,
+"cover": "covers/don-t-make-me-think-steve-krug.jpg"
+},
+{
+"id": "dune-frank-herbert",
+"title": "Dune",
+"subtitle": null,
+"author": [
+"Frank Herbert"
+],
+"series": "Dune",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": "1990",
+"cover": "covers/dune-frank-herbert.jpg"
+},
+{
+"id": "dune-house-atreides-brian-herbert",
+"title": "Dune: House Atreides",
+"subtitle": null,
+"author": [
+"Brian Herbert",
+"Kevin J. Anderson"
+],
+"series": "Prelude to Dune",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": "2003",
+"cover": "covers/dune-house-atreides-brian-herbert.jpg"
+},
+{
+"id": "dune-messiah-frank-herbert",
+"title": "Dune Messiah",
+"subtitle": null,
+"author": [
+"Frank Herbert"
+],
+"series": "Dune",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/dune-messiah-frank-herbert.jpg"
+},
+{
+"id": "dust-hugh-howey",
+"title": "Dust",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Silo Saga",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/dust-hugh-howey.jpg"
+},
+{
+"id": "edge-of-the-dream-andrew-rowe",
+"title": "Edge of the Dream",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "The Lost Edge",
+"seriesNumber": 2,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/edge-of-the-dream-andrew-rowe.jpg"
+},
+{
+"id": "edge-of-the-woods-andrew-rowe",
+"title": "Edge of the Woods",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "The Lost Edge",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/edge-of-the-woods-andrew-rowe.jpg"
+},
+{
+"id": "emily-climbs-l-m-montgomery",
+"title": "Emily Climbs",
+"subtitle": null,
+"author": [
+"L.M. Montgomery"
+],
+"series": "Emily",
+"seriesNumber": 2,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/emily-climbs-l-m-montgomery.jpg"
+},
+{
+"id": "emily-of-new-moon-l-m-montgomery",
+"title": "Emily of New Moon",
+"subtitle": null,
+"author": [
+"L. M. Montgomery"
+],
+"series": "Emily",
+"seriesNumber": 1,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/emily-of-new-moon-l-m-montgomery.jpg"
+},
+{
+"id": "emily-s-quest-l-m-montgomery",
+"title": "Emily's Quest",
+"subtitle": null,
+"author": [
+"L.M. Montgomery"
+],
+"series": "Emily",
+"seriesNumber": 3,
+"genre": [
+"Children's",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/emily-s-quest-l-m-montgomery.jpg"
+},
+{
+"id": "emily-s-runaway-imagination-beverly-cleary",
+"title": "Emily's Runaway Imagination",
+"subtitle": null,
+"author": [
+"Beverly Cleary"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Humor"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/emily-s-runaway-imagination-beverly-cleary.jpg"
+},
+{
+"id": "emma-jane-austen",
+"title": "Emma",
+"subtitle": null,
+"author": [
+"Jane Austen"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Historical Fiction",
+"Romance"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/emma-jane-austen.jpg"
+},
+{
+"id": "ender-in-exile-orson-scott-card",
+"title": "Ender in Exile",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Ender Quintet",
+"seriesNumber": 1.5,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/ender-in-exile-orson-scott-card.jpg"
+},
+{
+"id": "ender-s-game-orson-scott-card",
+"title": "Ender's Game",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Ender Quintet",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/ender-s-game-orson-scott-card.jpg"
+},
+{
+"id": "escape-james-clavell",
+"title": "Escape",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 7,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/escape-james-clavell.jpg"
+},
+{
+"id": "everything-is-illuminated-jonathan-safran-foer",
+"title": "Everything Is Illuminated",
+"subtitle": null,
+"author": [
+"Jonathan Safran Foer"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Humor"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/everything-is-illuminated-jonathan-safran-foer.jpg"
+},
+{
+"id": "exit-strategy-martha-wells",
+"title": "Exit Strategy",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/exit-strategy-martha-wells.jpg"
+},
+{
+"id": "expressive-design-systems-yesenia-perez-cruz",
+"title": "Expressive Design Systems",
+"subtitle": null,
+"author": [
+"Yesenia Perez-Cruz"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2019",
+"cover": "covers/expressive-design-systems-yesenia-perez-cruz.jpg"
+},
+{
+"id": "extremely-loud-and-incredibly-close-jonathan-safran-foer",
+"title": "Extremely Loud and Incredibly Close",
+"subtitle": null,
+"author": [
+"Jonathan Safran Foer"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/extremely-loud-and-incredibly-close-jonathan-safran-foer.jpg"
+},
+{
+"id": "faithful-place-tana-french",
+"title": "Faithful Place",
+"subtitle": null,
+"author": [
+"Tana French"
+],
+"series": "Dublin Murder Squad",
+"seriesNumber": 3,
+"genre": [
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/faithful-place-tana-french.jpg"
+},
+{
+"id": "fight-and-flight-scott-meyer",
+"title": "Fight and Flight",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/fight-and-flight-scott-meyer.jpg"
+},
+{
+"id": "flannery-o-connor-and-the-scandal-of-faith-jessica-hooten-wilson",
+"title": "Flannery O'Connor and the Scandal of Faith",
+"subtitle": null,
+"author": [
+"Jessica Hooten Wilson"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"History",
+"Art & Creativity"
+],
+"status": null,
+"year": null,
+"cover": "covers/flannery-o-connor-and-the-scandal-of-faith-jessica-hooten-wilson.jpg"
+},
+{
+"id": "for-we-are-many-dennis-e-taylor",
+"title": "For We Are Many",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": "Bobiverse",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/for-we-are-many-dennis-e-taylor.jpg"
+},
+{
+"id": "for-the-life-of-the-world-alexander-schmemann",
+"title": "For the Life of the World",
+"subtitle": null,
+"author": [
+"Alexander Schmemann"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/for-the-life-of-the-world-alexander-schmemann.jpg"
+},
+{
+"id": "form-design-patterns-adam-silver",
+"title": "Form Design Patterns",
+"subtitle": null,
+"author": [
+"Adam Silver"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": null,
+"cover": "covers/form-design-patterns-adam-silver.jpg"
+},
+{
+"id": "forward-the-foundation-isaac-asimov",
+"title": "Forward the Foundation",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/forward-the-foundation-isaac-asimov.jpg"
+},
+{
+"id": "foundation-isaac-asimov",
+"title": "Foundation",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": "2004",
+"cover": "covers/foundation-isaac-asimov.jpg"
+},
+{
+"id": "foundation-and-earth-isaac-asimov",
+"title": "Foundation and Earth",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 7,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/foundation-and-earth-isaac-asimov.jpg"
+},
+{
+"id": "foundation-and-empire-isaac-asimov",
+"title": "Foundation and Empire",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": "2004",
+"cover": "covers/foundation-and-empire-isaac-asimov.jpg"
+},
+{
+"id": "foundation-s-edge-isaac-asimov",
+"title": "Foundation's Edge",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 6,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/foundation-s-edge-isaac-asimov.jpg"
+},
+{
+"id": "fugitive-telemetry-martha-wells",
+"title": "Fugitive Telemetry",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 6,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/fugitive-telemetry-martha-wells.jpg"
+},
+{
+"id": "gai-jin-james-clavell",
+"title": "Gai-Jin",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 3,
+"genre": [
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/gai-jin-james-clavell.jpg"
+},
+{
+"id": "getting-real-37signals",
+"title": "Getting Real",
+"subtitle": null,
+"author": [
+"37signals"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership",
+"Technology"
+],
+"status": null,
+"year": "2006",
+"cover": "covers/getting-real-37signals.jpg"
+},
+{
+"id": "gilead-marilynne-robinson",
+"title": "Gilead",
+"subtitle": null,
+"author": [
+"Marilynne Robinson"
+],
+"series": "Gilead",
+"seriesNumber": 1,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2004",
+"cover": "covers/gilead-marilynne-robinson.jpg"
+},
+{
+"id": "glorious-ruin-tullian-tchividjian",
+"title": "Glorious Ruin",
+"subtitle": "How Suffering Sets You Free",
+"author": [
+"Tullian Tchividjian"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/glorious-ruin-tullian-tchividjian.jpg"
+},
+{
+"id": "golden-son-pierce-brown",
+"title": "Golden Son",
+"subtitle": null,
+"author": [
+"Pierce Brown"
+],
+"series": "Red Rising",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/golden-son-pierce-brown.jpg"
+},
+{
+"id": "good-to-great-jim-collins",
+"title": "Good to Great",
+"subtitle": null,
+"author": [
+"Jim Collins"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership"
+],
+"status": null,
+"year": null,
+"cover": "covers/good-to-great-jim-collins.jpg"
+},
+{
+"id": "grand-theft-astro-scott-meyer",
+"title": "Grand Theft Astro",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/grand-theft-astro-scott-meyer.jpg"
+},
+{
+"id": "grid-systems-in-graphic-design-josef-m-ller-brockmann",
+"title": "Grid Systems in Graphic Design",
+"subtitle": null,
+"author": [
+"Josef Müller-Brockmann"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2006",
+"cover": "covers/grid-systems-in-graphic-design-josef-m-ller-brockmann.jpg"
+},
+{
+"id": "html5-for-web-designers-jeremy-keith",
+"title": "HTML5 for Web Designers",
+"subtitle": null,
+"author": [
+"Jeremy Keith"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/html5-for-web-designers-jeremy-keith.jpg"
+},
+{
+"id": "hack-the-design-system-idean",
+"title": "Hack the Design System",
+"subtitle": null,
+"author": [
+"Idean"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": null,
+"cover": "covers/hack-the-design-system-idean.jpg"
+},
+{
+"id": "ham-on-rye-charles-bukowski",
+"title": "Ham On Rye",
+"subtitle": null,
+"author": [
+"Charles Bukowski"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/ham-on-rye-charles-bukowski.jpg"
+},
+{
+"id": "handcrafted-css-dan-cederholm",
+"title": "Handcrafted CSS",
+"subtitle": null,
+"author": [
+"Dan Cederholm"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": null,
+"cover": "covers/handcrafted-css-dan-cederholm.jpg"
+},
+{
+"id": "hardboiled-web-design-andy-clarke",
+"title": "Hardboiled Web Design",
+"subtitle": null,
+"author": [
+"Andy Clarke"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/hardboiled-web-design-andy-clarke.jpg"
+},
+{
+"id": "harry-potter-and-the-chamber-of-secrets-book-2-j-k-rowling",
+"title": "Harry Potter and the Chamber of Secrets, Book 2",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 2,
+"genre": [
+"Children's"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/harry-potter-and-the-chamber-of-secrets-book-2-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-deathly-hallows-book-7-j-k-rowling",
+"title": "Harry Potter and the Deathly Hallows, Book 7",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 7,
+"genre": [
+"Children's"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/harry-potter-and-the-deathly-hallows-book-7-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-goblet-of-fire-book-4-j-k-rowling",
+"title": "Harry Potter and the Goblet of Fire, Book 4",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 4,
+"genre": [
+"Children's"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/harry-potter-and-the-goblet-of-fire-book-4-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-half-blood-prince-book-6-j-k-rowling",
+"title": "Harry Potter and the Half-Blood Prince, Book 6",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 6,
+"genre": [
+"Children's"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/harry-potter-and-the-half-blood-prince-book-6-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-order-of-the-phoenix-book-5-j-k-rowling",
+"title": "Harry Potter and the Order of the Phoenix, Book 5",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 5,
+"genre": [
+"Children's"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/harry-potter-and-the-order-of-the-phoenix-book-5-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling",
+"title": "Harry Potter and the Prisoner of Azkaban, Book 3",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 3,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": null,
+"cover": "covers/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling.jpg"
+},
+{
+"id": "harry-potter-and-the-sorcerer-s-stone-book-1-j-k-rowling",
+"title": "Harry Potter and the Sorcerer's Stone, Book 1",
+"subtitle": null,
+"author": [
+"J.K. Rowling"
+],
+"series": "Harry Potter",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/harry-potter-and-the-sorcerer-s-stone-book-1-j-k-rowling.jpg"
+},
+{
+"id": "heaven-s-river-dennis-e-taylor",
+"title": "Heaven's River",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": "Bobiverse",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/heaven-s-river-dennis-e-taylor.jpg"
+},
+{
+"id": "how-designers-think-bryan-lawson",
+"title": "How Designers Think",
+"subtitle": null,
+"author": [
+"Bryan Lawson"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2005",
+"cover": "covers/how-designers-think-bryan-lawson.jpg"
+},
+{
+"id": "how-they-got-there-khoi-vinh",
+"title": "How They Got There",
+"subtitle": null,
+"author": [
+"Khoi Vinh"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Memoir & Biography"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/how-they-got-there-khoi-vinh.jpg"
+},
+{
+"id": "how-to-stop-worrying-and-start-living-dale-carnegie",
+"title": "How to Stop Worrying and start living",
+"subtitle": null,
+"author": [
+"Dale Carnegie"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership",
+"Art & Creativity",
+"Personal Growth"
+],
+"status": "reading",
+"year": "2016",
+"cover": "covers/how-to-stop-worrying-and-start-living-dale-carnegie.jpg"
+},
+{
+"id": "how-to-think-like-a-great-graphic-designer-debbie-millman",
+"title": "How to Think Like a Great Graphic Designer",
+"subtitle": null,
+"author": [
+"Debbie Millman"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership",
+"Art & Creativity"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/how-to-think-like-a-great-graphic-designer-debbie-millman.jpg"
+},
+{
+"id": "i-am-number-four-pittacus-lore",
+"title": "I Am Number Four",
+"subtitle": null,
+"author": [
+"Pittacus Lore"
+],
+"series": "The Lorien Legacies",
+"seriesNumber": 1,
+"genre": [
+"Young Adult"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/i-am-number-four-pittacus-lore.jpg"
+},
+{
+"id": "i-am-number-four-the-lost-files-legacies-reborn-pittacus-lore",
+"title": "I Am Number Four: The Lost Files: Legacies Reborn",
+"subtitle": null,
+"author": [
+"Pittacus Lore"
+],
+"series": "The Lorien Legacies",
+"seriesNumber": null,
+"genre": [
+"Young Adult",
+"Science Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/i-am-number-four-the-lost-files-legacies-reborn-pittacus-lore.jpg"
+},
+{
+"id": "i-ll-be-your-blue-sky-a-novel-marisa-de-los-santos",
+"title": "I'll Be Your Blue Sky: A Novel",
+"subtitle": null,
+"author": [
+"Marisa de los Santos"
+],
+"series": "Cornelia Brown",
+"seriesNumber": 3,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2018",
+"cover": "covers/i-ll-be-your-blue-sky-a-novel-marisa-de-los-santos.jpg"
+},
+{
+"id": "ilsa-a-novel-madeleine-l-engle",
+"title": "Ilsa: A Novel",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/ilsa-a-novel-madeleine-l-engle.jpg"
+},
+{
+"id": "imagine-steve-turner",
+"title": "Imagine",
+"subtitle": null,
+"author": [
+"Steve Turner"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Art & Creativity"
+],
+"status": null,
+"year": "2016",
+"cover": "covers/imagine-steve-turner.jpg"
+},
+{
+"id": "in-the-beginning-chaim-potok",
+"title": "In the Beginning",
+"subtitle": null,
+"author": [
+"Chaim Potok"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/in-the-beginning-chaim-potok.jpg"
+},
+{
+"id": "interworld-neil-gaiman",
+"title": "InterWorld",
+"subtitle": null,
+"author": [
+"Neil Gaiman"
+],
+"series": "InterWorld",
+"seriesNumber": 1,
+"genre": [
+"Young Adult"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/interworld-neil-gaiman.jpg"
+},
+{
+"id": "interviewing-users-steve-portigal",
+"title": "Interviewing Users",
+"subtitle": null,
+"author": [
+"Steve Portigal"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Technology"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/interviewing-users-steve-portigal.jpg"
+},
+{
+"id": "invitation-to-retreat-ruth-haley-barton",
+"title": "Invitation to Retreat",
+"subtitle": null,
+"author": [
+"Ruth Haley Barton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Personal Growth",
+"Parenting & Family"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/invitation-to-retreat-ruth-haley-barton.jpg"
+},
+{
+"id": "iron-gold-pierce-brown",
+"title": "Iron Gold",
+"subtitle": null,
+"author": [
+"Pierce Brown"
+],
+"series": "Red Rising",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/iron-gold-pierce-brown.jpg"
+},
+{
+"id": "jane-eyre-charlotte-bront",
+"title": "Jane Eyre",
+"subtitle": null,
+"author": [
+"Charlotte Brontë"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Historical Fiction",
+"Horror"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/jane-eyre-charlotte-bront.jpg"
+},
+{
+"id": "jayber-crow-wendell-berry",
+"title": "Jayber Crow",
+"subtitle": null,
+"author": [
+"Wendell Berry"
+],
+"series": "A Port William Novel",
+"seriesNumber": 5,
+"genre": [
+"Literary Fiction",
+"Faith"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/jayber-crow-wendell-berry.jpg"
+},
+{
+"id": "jonathan-strange-and-mr-norrell-susanna-clarke",
+"title": "Jonathan Strange and Mr Norrell",
+"subtitle": null,
+"author": [
+"Susanna Clarke"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Historical Fiction"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/jonathan-strange-and-mr-norrell-susanna-clarke.jpg"
+},
+{
+"id": "journey-to-star-wars-claudia-gray",
+"title": "Journey to Star Wars",
+"subtitle": "The Force Awakens: Lost Stars",
+"author": [
+"Claudia Gray"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Young Adult"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/journey-to-star-wars-claudia-gray.jpg"
+},
+{
+"id": "jubilee-50th-anniversary-edition-margaret-walker",
+"title": "Jubilee, 50th Anniversary Edition",
+"subtitle": null,
+"author": [
+"Margaret Walker"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/jubilee-50th-anniversary-edition-margaret-walker.jpg"
+},
+{
+"id": "jurassic-park-a-novel-michael-crichton",
+"title": "Jurassic Park: A Novel",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": "Jurassic Park",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/jurassic-park-a-novel-michael-crichton.jpg"
+},
+{
+"id": "just-enough-research-erika-hall",
+"title": "Just Enough Research",
+"subtitle": null,
+"author": [
+"Erika Hall"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/just-enough-research-erika-hall.jpg"
+},
+{
+"id": "king-rat-james-clavell",
+"title": "King Rat",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 4,
+"genre": [
+"Mystery & Thriller",
+"Classics",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/king-rat-james-clavell.jpg"
+},
+{
+"id": "lean-ux-jeff-gothelf",
+"title": "Lean UX",
+"subtitle": null,
+"author": [
+"Jeff Gothelf",
+"Josh Seiden"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Technology",
+"Business & Leadership",
+"Science"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/lean-ux-jeff-gothelf.jpg"
+},
+{
+"id": "leonardo-da-vinci-jay-williams",
+"title": "Leonardo da Vinci",
+"subtitle": null,
+"author": [
+"Jay Williams"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/leonardo-da-vinci-jay-williams.jpg"
+},
+{
+"id": "les-mis-rables-english-language-victor-hugo",
+"title": "Les Misérables (English language)",
+"subtitle": null,
+"author": [
+"Victor Hugo"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Historical Fiction"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/les-mis-rables-english-language-victor-hugo.jpg"
+},
+{
+"id": "let-us-keep-the-feast-rachel-telander",
+"title": "Let Us Keep The Feast",
+"subtitle": "living the Church Year at home (Advent)",
+"author": [
+"Rachel Telander"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/let-us-keep-the-feast-rachel-telander.jpg"
+},
+{
+"id": "leviathan-falls-james-s-a-corey",
+"title": "Leviathan Falls",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 9,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/leviathan-falls-james-s-a-corey.jpg"
+},
+{
+"id": "leviathan-wakes-james-s-a-corey",
+"title": "Leviathan Wakes",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/leviathan-wakes-james-s-a-corey.jpg"
+},
+{
+"id": "living-into-community-christine-d-pohl",
+"title": "Living into Community",
+"subtitle": null,
+"author": [
+"Christine D. Pohl"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Business & Leadership"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/living-into-community-christine-d-pohl.jpg"
+},
+{
+"id": "long-obedience-in-the-same-direction-eugene-h-peterson",
+"title": "Long Obedience in the Same Direction",
+"subtitle": null,
+"author": [
+"Eugene H. Peterson"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": null,
+"cover": "covers/long-obedience-in-the-same-direction-eugene-h-peterson.jpg"
+},
+{
+"id": "lost-and-found-orson-scott-card",
+"title": "Lost and Found",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Young Adult",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2019",
+"cover": "covers/lost-and-found-orson-scott-card.jpg"
+},
+{
+"id": "louisiana-s-way-home-kate-dicamillo",
+"title": "Louisiana's Way Home",
+"subtitle": null,
+"author": [
+"Kate DiCamillo"
+],
+"series": "Three Rancheros",
+"seriesNumber": 2,
+"genre": [
+"Children's",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/louisiana-s-way-home-kate-dicamillo.jpg"
+},
+{
+"id": "machine-learning-hugh-howey",
+"title": "Machine Learning",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Short Stories"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/machine-learning-hugh-howey.jpg"
+},
+{
+"id": "making-it-right-rian-van-der-merwe",
+"title": "Making It Right",
+"subtitle": "Product Management for a Startup World",
+"author": [
+"Rian van der Merwe"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/making-it-right-rian-van-der-merwe.jpg"
+},
+{
+"id": "many-waters-madeleine-l-engle",
+"title": "Many Waters",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": "Time Quintet",
+"seriesNumber": 4,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/many-waters-madeleine-l-engle.jpg"
+},
+{
+"id": "master-and-commander-patrick-o-brian",
+"title": "Master and Commander",
+"subtitle": null,
+"author": [
+"Patrick O'Brian"
+],
+"series": "Aubrey/Maturin",
+"seriesNumber": 1,
+"genre": [
+"Mystery & Thriller",
+"Historical Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/master-and-commander-patrick-o-brian.jpg"
+},
+{
+"id": "mental-models-indi-young",
+"title": "Mental Models",
+"subtitle": "Aligning design strategy with human behavior",
+"author": [
+"Indi Young"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/mental-models-indi-young.jpg"
+},
+{
+"id": "micro-michael-crichton",
+"title": "Micro",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/micro-michael-crichton.jpg"
+},
+{
+"id": "mobile-design-pattern-gallery-second-edition-theresa-neil",
+"title": "Mobile Design Pattern Gallery, Second Edition",
+"subtitle": null,
+"author": [
+"Theresa Neil"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/mobile-design-pattern-gallery-second-edition-theresa-neil.jpg"
+},
+{
+"id": "mobile-first-luke-wroblewski",
+"title": "Mobile First",
+"subtitle": null,
+"author": [
+"Luke Wroblewski"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/mobile-first-luke-wroblewski.jpg"
+},
+{
+"id": "mobile-html5-estelle-weyl",
+"title": "Mobile HTML5",
+"subtitle": null,
+"author": [
+"Estelle Weyl"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Technology"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/mobile-html5-estelle-weyl.jpg"
+},
+{
+"id": "moby-dick-herman-melville",
+"title": "Moby Dick",
+"subtitle": "or, the White Whale",
+"author": [
+"Herman Melville"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Classics",
+"Literary Fiction"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/moby-dick-herman-melville.jpg"
+},
+{
+"id": "morning-star-pierce-brown",
+"title": "Morning Star",
+"subtitle": null,
+"author": [
+"Pierce Brown"
+],
+"series": "Red Rising",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/morning-star-pierce-brown.jpg"
+},
+{
+"id": "my-dear-hamilton-stephanie-dray",
+"title": "My Dear Hamilton",
+"subtitle": null,
+"author": [
+"Stephanie Dray"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/my-dear-hamilton-stephanie-dray.jpg"
+},
+{
+"id": "my-name-is-asher-lev-chaim-potok",
+"title": "My Name Is Asher Lev",
+"subtitle": null,
+"author": [
+"Chaim Potok"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Art & Creativity"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/my-name-is-asher-lev-chaim-potok.jpg"
+},
+{
+"id": "nemesis-games-james-s-a-corey",
+"title": "Nemesis Games",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 5,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/nemesis-games-james-s-a-corey.jpg"
+},
+{
+"id": "network-effect-martha-wells",
+"title": "Network Effect",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 5,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/network-effect-martha-wells.jpg"
+},
+{
+"id": "never-split-the-difference-chris-voss",
+"title": "Never Split the Difference",
+"subtitle": null,
+"author": [
+"Chris Voss",
+"Tahl Raz"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership",
+"Personal Growth",
+"Parenting & Family"
+],
+"status": null,
+"year": "2016",
+"cover": "covers/never-split-the-difference-chris-voss.jpg"
+},
+{
+"id": "night-elie-wiesel",
+"title": "Night",
+"subtitle": null,
+"author": [
+"Elie Wiesel"
+],
+"series": "Night Trilogy",
+"seriesNumber": 1,
+"genre": [
+"Memoir & Biography",
+"History"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/night-elie-wiesel.jpg"
+},
+{
+"id": "noble-house-james-clavell",
+"title": "Noble House",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 5,
+"genre": [
+"Mystery & Thriller",
+"Romance"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/noble-house-james-clavell.jpg"
+},
+{
+"id": "not-till-we-are-lost-dennis-e-taylor",
+"title": "Not Till We Are Lost",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": "Bobiverse",
+"seriesNumber": 5,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/not-till-we-are-lost-dennis-e-taylor.jpg"
+},
+{
+"id": "notes-from-a-blue-bike-tsh-oxenreider",
+"title": "Notes from a Blue Bike",
+"subtitle": null,
+"author": [
+"Tsh Oxenreider"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Personal Growth",
+"Parenting & Family"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/notes-from-a-blue-bike-tsh-oxenreider.jpg"
+},
+{
+"id": "off-to-be-the-wizard-scott-meyer",
+"title": "Off to Be the Wizard",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/off-to-be-the-wizard-scott-meyer.jpg"
+},
+{
+"id": "old-man-s-war-john-scalzi",
+"title": "Old Man's War",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": "Old Man's War",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/old-man-s-war-john-scalzi.jpg"
+},
+{
+"id": "on-the-shoulders-of-titans-andrew-rowe",
+"title": "On The Shoulders of Titans",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 2,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/on-the-shoulders-of-titans-andrew-rowe.jpg"
+},
+{
+"id": "on-web-typography-jason-santa-maria",
+"title": "On Web Typography",
+"subtitle": null,
+"author": [
+"Jason Santa Maria"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/on-web-typography-jason-santa-maria.jpg"
+},
+{
+"id": "on-writing-charles-bukowski",
+"title": "On Writing",
+"subtitle": null,
+"author": [
+"Charles Bukowski"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Writing & Literature",
+"Memoir & Biography"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/on-writing-charles-bukowski.jpg"
+},
+{
+"id": "on-the-edge-of-the-dark-sea-of-darkness-andrew-peterson",
+"title": "On the Edge of the Dark Sea of Darkness",
+"subtitle": null,
+"author": [
+"Andrew Peterson"
+],
+"series": "The Wingfeather Saga",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/on-the-edge-of-the-dark-sea-of-darkness-andrew-peterson.jpg"
+},
+{
+"id": "on-the-incarnation-athanasius-of-alexandria",
+"title": "On the Incarnation",
+"subtitle": null,
+"author": [
+"Athanasius of Alexandria"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Society & Politics"
+],
+"status": null,
+"year": null,
+"cover": "covers/on-the-incarnation-athanasius-of-alexandria.jpg"
+},
+{
+"id": "ordering-disorder-khoi-vinh",
+"title": "Ordering Disorder",
+"subtitle": "Grid Principles for Web Design",
+"author": [
+"Khoi Vinh"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/ordering-disorder-khoi-vinh.jpg"
+},
+{
+"id": "out-of-spite-out-of-mind-scott-meyer",
+"title": "Out of Spite, Out of Mind",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 5,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/out-of-spite-out-of-mind-scott-meyer.jpg"
+},
+{
+"id": "pathfinder-orson-scott-card",
+"title": "Pathfinder",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Pathfinder",
+"seriesNumber": 1,
+"genre": [
+"Young Adult"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/pathfinder-orson-scott-card.jpg"
+},
+{
+"id": "patriot-games-tom-clancy",
+"title": "Patriot Games",
+"subtitle": null,
+"author": [
+"Tom Clancy"
+],
+"series": "Jack Ryan",
+"seriesNumber": 2,
+"genre": [
+"Mystery & Thriller",
+"Society & Politics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/patriot-games-tom-clancy.jpg"
+},
+{
+"id": "peace-like-a-river-leif-enger",
+"title": "Peace Like a River",
+"subtitle": null,
+"author": [
+"Leif Enger"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/peace-like-a-river-leif-enger.jpg"
+},
+{
+"id": "pebble-in-the-sky-isaac-asimov",
+"title": "Pebble in the Sky",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Galactic Empire",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/pebble-in-the-sky-isaac-asimov.jpg"
+},
+{
+"id": "percy-jackson-and-the-olympians-books-i-iii-rick-riordan",
+"title": "Percy Jackson and the Olympians: Books I-III",
+"subtitle": null,
+"author": [
+"Rick Riordan"
+],
+"series": "Percy Jackson and the Olympians",
+"seriesNumber": null,
+"genre": [
+"Young Adult"
+],
+"status": null,
+"year": null,
+"cover": "covers/percy-jackson-and-the-olympians-books-i-iii-rick-riordan.jpg"
+},
+{
+"id": "persepolis-rising-james-s-a-corey",
+"title": "Persepolis Rising",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 7,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/persepolis-rising-james-s-a-corey.jpg"
+},
+{
+"id": "platform-decay-martha-wells",
+"title": "Platform Decay",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 8,
+"genre": [
+"Science Fiction",
+"Humor"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/platform-decay-martha-wells.jpg"
+},
+{
+"id": "playful-design-john-ferrara",
+"title": "Playful Design",
+"subtitle": "Creating Game Experiences in Everyday Interfaces",
+"author": [
+"John Ferrara"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/playful-design-john-ferrara.jpg"
+},
+{
+"id": "power-and-prediction-ajay-agrawal",
+"title": "Power and Prediction",
+"subtitle": null,
+"author": [
+"Ajay Agrawal",
+"Joshua Gans",
+"Avi Goldfarb"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Technology",
+"Business & Leadership"
+],
+"status": null,
+"year": "2022",
+"cover": "covers/power-and-prediction-ajay-agrawal.jpg"
+},
+{
+"id": "prelude-to-foundation-isaac-asimov",
+"title": "Prelude to Foundation",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/prelude-to-foundation-isaac-asimov.jpg"
+},
+{
+"id": "pride-and-prejudice-jane-austen",
+"title": "Pride and Prejudice",
+"subtitle": null,
+"author": [
+"Jane Austen"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Historical Fiction"
+],
+"status": "reading",
+"year": "2012",
+"cover": "covers/pride-and-prejudice-jane-austen.jpg"
+},
+{
+"id": "project-hail-mary-andy-weir",
+"title": "Project Hail Mary",
+"subtitle": null,
+"author": [
+"Andy Weir"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/project-hail-mary-andy-weir.jpg"
+},
+{
+"id": "prototyping-for-on-screen-use",
+"title": "Prototyping for On-screen Use",
+"subtitle": null,
+"author": [],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/prototyping-for-on-screen-use.jpg"
+},
+{
+"id": "ptolemy-s-gate-jonathan-stroud",
+"title": "Ptolemy's Gate",
+"subtitle": "A Bartimaeus Novel, Book 3",
+"author": [
+"Jonathan Stroud"
+],
+"series": "Bartimaeus",
+"seriesNumber": 3,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/ptolemy-s-gate-jonathan-stroud.jpg"
+},
+{
+"id": "quiet-susan-cain",
+"title": "Quiet",
+"subtitle": null,
+"author": [
+"Susan Cain"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Art & Creativity",
+"Personal Growth",
+"Parenting & Family"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/quiet-susan-cain.jpg"
+},
+{
+"id": "radical-candor-kim-scott",
+"title": "Radical Candor",
+"subtitle": "Fully Revised & Updated Edition",
+"author": [
+"Kim Scott"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership"
+],
+"status": "reading",
+"year": "2019",
+"cover": "covers/radical-candor-kim-scott.jpg"
+},
+{
+"id": "raymie-nightingale-kate-dicamillo",
+"title": "Raymie Nightingale",
+"subtitle": null,
+"author": [
+"Kate DiCamillo"
+],
+"series": "Three Rancheros",
+"seriesNumber": 1,
+"genre": [
+"Children's",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/raymie-nightingale-kate-dicamillo.jpg"
+},
+{
+"id": "ready-player-one-ernest-cline",
+"title": "Ready Player One",
+"subtitle": null,
+"author": [
+"Ernest Cline"
+],
+"series": "Ready Player One",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/ready-player-one-ernest-cline.jpg"
+},
+{
+"id": "red-rising-pierce-brown",
+"title": "Red Rising",
+"subtitle": null,
+"author": [
+"Pierce Brown"
+],
+"series": "Red Rising",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/red-rising-pierce-brown.jpg"
+},
+{
+"id": "redshirts-john-scalzi",
+"title": "Redshirts",
+"subtitle": "A Novel with Three Codas",
+"author": [
+"John Scalzi"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/redshirts-john-scalzi.jpg"
+},
+{
+"id": "rembrandt-is-in-the-wind-russ-ramsey",
+"title": "Rembrandt Is in the Wind",
+"subtitle": null,
+"author": [
+"Russ Ramsey"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Art & Creativity"
+],
+"status": null,
+"year": null,
+"cover": "covers/rembrandt-is-in-the-wind-russ-ramsey.jpg"
+},
+{
+"id": "responsive-design-patterns-principles-ethan-marcotte",
+"title": "Responsive Design: Patterns & Principles",
+"subtitle": null,
+"author": [
+"Ethan Marcotte"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/responsive-design-patterns-principles-ethan-marcotte.jpg"
+},
+{
+"id": "responsive-web-design-ethan-marcotte",
+"title": "Responsive Web Design",
+"subtitle": null,
+"author": [
+"Ethan Marcotte"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/responsive-web-design-ethan-marcotte.jpg"
+},
+{
+"id": "rise-and-shine-anna-quindlen",
+"title": "Rise and Shine",
+"subtitle": null,
+"author": [
+"Anna Quindlen"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction"
+],
+"status": null,
+"year": "2006",
+"cover": "covers/rise-and-shine-anna-quindlen.jpg"
+},
+{
+"id": "rising-sun-a-novel-michael-crichton",
+"title": "Rising Sun: A Novel",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Literary Fiction"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/rising-sun-a-novel-michael-crichton.jpg"
+},
+{
+"id": "robots-and-empire-isaac-asimov",
+"title": "Robots and Empire",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Robot",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/robots-and-empire-isaac-asimov.jpg"
+},
+{
+"id": "rogue-protocol-martha-wells",
+"title": "Rogue Protocol",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/rogue-protocol-martha-wells.jpg"
+},
+{
+"id": "roll-of-thunder-hear-my-cry-mildred-d-taylor",
+"title": "Roll of Thunder, Hear My Cry",
+"subtitle": null,
+"author": [
+"Mildred D. Taylor"
+],
+"series": "Logan Family Saga",
+"seriesNumber": 2,
+"genre": [
+"Children's",
+"Classics",
+"Historical Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/roll-of-thunder-hear-my-cry-mildred-d-taylor.jpg"
+},
+{
+"id": "roots-and-sky-christie-purifoy",
+"title": "Roots and Sky",
+"subtitle": null,
+"author": [
+"Christie Purifoy"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2016",
+"cover": "covers/roots-and-sky-christie-purifoy.jpg"
+},
+{
+"id": "ruins-orson-scott-card",
+"title": "Ruins",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Pathfinder",
+"seriesNumber": 2,
+"genre": [
+"Young Adult"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/ruins-orson-scott-card.jpg"
+},
+{
+"id": "sacred-rhythms-ruth-haley-barton",
+"title": "Sacred Rhythms",
+"subtitle": null,
+"author": [
+"Ruth Haley Barton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Business & Leadership",
+"Health"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/sacred-rhythms-ruth-haley-barton.jpg"
+},
+{
+"id": "sand-hugh-howey",
+"title": "Sand",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Sand Chronicles",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/sand-hugh-howey.jpg"
+},
+{
+"id": "sass-for-web-designers-dan-cederholm",
+"title": "Sass for Web Designers",
+"subtitle": null,
+"author": [
+"Dan Cederholm"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/sass-for-web-designers-dan-cederholm.jpg"
+},
+{
+"id": "seabiscuit-laura-hillenbrand",
+"title": "Seabiscuit",
+"subtitle": null,
+"author": [
+"Laura Hillenbrand"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"History"
+],
+"status": null,
+"year": "2003",
+"cover": "covers/seabiscuit-laura-hillenbrand.jpg"
+},
+{
+"id": "second-foundation-isaac-asimov",
+"title": "Second Foundation",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Foundation",
+"seriesNumber": 5,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2004",
+"cover": "covers/second-foundation-isaac-asimov.jpg"
+},
+{
+"id": "see-what-i-mean-kevin-cheng",
+"title": "See What I Mean",
+"subtitle": "How to Use Comics to Communicate Ideas",
+"author": [
+"Kevin Cheng"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/see-what-i-mean-kevin-cheng.jpg"
+},
+{
+"id": "sense-and-sensibility-jane-austen",
+"title": "Sense and Sensibility",
+"subtitle": null,
+"author": [
+"Jane Austen"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Young Adult",
+"Classics",
+"Historical Fiction"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/sense-and-sensibility-jane-austen.jpg"
+},
+{
+"id": "service-design-andy-polaine",
+"title": "Service Design",
+"subtitle": "From Insight to Implementation",
+"author": [
+"Andy Polaine",
+"Lavrans Løvlie",
+"Ben Reason"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/service-design-andy-polaine.jpg"
+},
+{
+"id": "seven-brief-lessons-on-physics-carlo-rovelli",
+"title": "Seven Brief Lessons on Physics",
+"subtitle": null,
+"author": [
+"Carlo Rovelli"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science"
+],
+"status": null,
+"year": "2016",
+"cover": "covers/seven-brief-lessons-on-physics-carlo-rovelli.jpg"
+},
+{
+"id": "shadows-of-self-brandon-sanderson",
+"title": "Shadows of Self",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn: Wax and Wayne",
+"seriesNumber": 2,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/shadows-of-self-brandon-sanderson.jpg"
+},
+{
+"id": "shift-hugh-howey",
+"title": "Shift",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Silo Saga",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/shift-hugh-howey.jpg"
+},
+{
+"id": "sh-gun-part-one-james-clavell",
+"title": "Shōgun, Part One",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 1,
+"genre": [
+"Classics",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/sh-gun-part-one-james-clavell.jpg"
+},
+{
+"id": "sh-gun-part-two-james-clavell",
+"title": "Shōgun, Part Two",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 1,
+"genre": [
+"Classics",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/sh-gun-part-two-james-clavell.jpg"
+},
+{
+"id": "six-sacred-swords-andrew-rowe",
+"title": "Six Sacred Swords",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Weapons and Wielders",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/six-sacred-swords-andrew-rowe.jpg"
+},
+{
+"id": "soulbrand-andrew-rowe",
+"title": "Soulbrand",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Weapons and Wielders",
+"seriesNumber": 3,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/soulbrand-andrew-rowe.jpg"
+},
+{
+"id": "speaker-for-the-dead-orson-scott-card",
+"title": "Speaker for the Dead",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Ender Quintet",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/speaker-for-the-dead-orson-scott-card.jpg"
+},
+{
+"id": "spell-or-high-water-scott-meyer",
+"title": "Spell or High Water",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 2,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/spell-or-high-water-scott-meyer.jpg"
+},
+{
+"id": "sphere-michael-crichton",
+"title": "Sphere",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/sphere-michael-crichton.jpg"
+},
+{
+"id": "star-wars-trilogy-george-lucas",
+"title": "Star Wars Trilogy",
+"subtitle": null,
+"author": [
+"George Lucas",
+"James Kahn"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/star-wars-trilogy-george-lucas.jpg"
+},
+{
+"id": "starter-villain-john-scalzi",
+"title": "Starter Villain",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/starter-villain-john-scalzi.jpg"
+},
+{
+"id": "state-of-fear-michael-crichton",
+"title": "State of Fear",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/state-of-fear-michael-crichton.jpg"
+},
+{
+"id": "storytelling-for-user-experience-whitney-quesenbery",
+"title": "Storytelling for User Experience",
+"subtitle": "Crafting Stories for Better Design",
+"author": [
+"Whitney Quesenbery",
+"Kevin Brooks"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/storytelling-for-user-experience-whitney-quesenbery.jpg"
+},
+{
+"id": "stuck-terry-walling",
+"title": "Stuck!",
+"subtitle": "Navigating Life and Leadership Transitions",
+"author": [
+"Terry Walling"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/stuck-terry-walling.jpg"
+},
+{
+"id": "sufficiently-advanced-magic-andrew-rowe",
+"title": "Sufficiently Advanced Magic",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/sufficiently-advanced-magic-andrew-rowe.jpg"
+},
+{
+"id": "surprised-by-hope-n-t-wright",
+"title": "Surprised by Hope",
+"subtitle": null,
+"author": [
+"N. T. Wright"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/surprised-by-hope-n-t-wright.jpg"
+},
+{
+"id": "system-collapse-martha-wells",
+"title": "System Collapse",
+"subtitle": null,
+"author": [
+"Martha Wells"
+],
+"series": "Murderbot Diaries",
+"seriesNumber": 7,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/system-collapse-martha-wells.jpg"
+},
+{
+"id": "tai-pan-james-clavell",
+"title": "Tai-Pan",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 2,
+"genre": [
+"Classics",
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/tai-pan-james-clavell.jpg"
+},
+{
+"id": "take-eat-remember-and-believe-brett-dewing",
+"title": "Take, Eat, Remember, and Believe",
+"subtitle": null,
+"author": [
+"Brett Dewing"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": null,
+"cover": "covers/take-eat-remember-and-believe-brett-dewing.jpg"
+},
+{
+"id": "taking-your-talent-to-the-web-jeffrey-zeldman",
+"title": "Taking Your Talent to the Web",
+"subtitle": "A Guide for the Transitioning Designer",
+"author": [
+"Jeffrey Zeldman"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2001",
+"cover": "covers/taking-your-talent-to-the-web-jeffrey-zeldman.jpg"
+},
+{
+"id": "tales-from-the-perilous-realm-j-r-r-tolkien",
+"title": "Tales from the Perilous Realm",
+"subtitle": null,
+"author": [
+"J. R. R. Tolkien"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/tales-from-the-perilous-realm-j-r-r-tolkien.jpg"
+},
+{
+"id": "terminal-man-michael-crichton",
+"title": "Terminal Man",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/terminal-man-michael-crichton.jpg"
+},
+{
+"id": "the-abolition-of-man-the-great-divorce-c-s-lewis",
+"title": "The Abolition of Man & The Great Divorce",
+"subtitle": null,
+"author": [
+"C. S. Lewis"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-abolition-of-man-the-great-divorce-c-s-lewis.jpg"
+},
+{
+"id": "the-alchemist-paulo-coelho",
+"title": "The Alchemist",
+"subtitle": null,
+"author": [
+"Paulo Coelho"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Literary Fiction",
+"Personal Growth"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/the-alchemist-paulo-coelho.jpg"
+},
+{
+"id": "the-alloy-of-law-brandon-sanderson",
+"title": "The Alloy of Law",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn: Wax and Wayne",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-alloy-of-law-brandon-sanderson.jpg"
+},
+{
+"id": "the-amulet-of-samarkand-jonathan-stroud",
+"title": "The Amulet of Samarkand",
+"subtitle": "A Bartimaeus Novel, Book 1",
+"author": [
+"Jonathan Stroud"
+],
+"series": "Bartimaeus",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-amulet-of-samarkand-jonathan-stroud.jpg"
+},
+{
+"id": "the-andromeda-strain-michael-crichton",
+"title": "The Andromeda Strain",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": "The Andromeda Strain",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-andromeda-strain-michael-crichton.jpg"
+},
+{
+"id": "the-art-of-the-commonplace-wendell-berry",
+"title": "The Art of the Commonplace",
+"subtitle": null,
+"author": [
+"Wendell Berry"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Society & Politics"
+],
+"status": null,
+"year": "2018",
+"cover": "covers/the-art-of-the-commonplace-wendell-berry.jpg"
+},
+{
+"id": "the-bands-of-mourning-brandon-sanderson",
+"title": "The Bands of Mourning",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn: Wax and Wayne",
+"seriesNumber": 3,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-bands-of-mourning-brandon-sanderson.jpg"
+},
+{
+"id": "the-beatryce-prophecy-kate-dicamillo",
+"title": "The Beatryce Prophecy",
+"subtitle": null,
+"author": [
+"Kate DiCamillo"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-beatryce-prophecy-kate-dicamillo.jpg"
+},
+{
+"id": "the-black-wolf-louise-penny",
+"title": "The Black Wolf",
+"subtitle": null,
+"author": [
+"Louise Penny"
+],
+"series": "Chief Inspector Gamache",
+"seriesNumber": 20,
+"genre": [
+"Mystery & Thriller",
+"Society & Politics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-black-wolf-louise-penny.jpg"
+},
+{
+"id": "the-book-thief-markus-zusak",
+"title": "The Book Thief",
+"subtitle": null,
+"author": [
+"Markus Zusak"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Young Adult",
+"Historical Fiction"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/the-book-thief-markus-zusak.jpg"
+},
+{
+"id": "the-book-of-the-dun-cow-walter-wangerin-jr",
+"title": "The Book of the Dun Cow",
+"subtitle": null,
+"author": [
+"Walter Wangerin Jr."
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Faith"
+],
+"status": null,
+"year": "2013",
+"cover": "covers/the-book-of-the-dun-cow-walter-wangerin-jr.jpg"
+},
+{
+"id": "the-boys-in-the-boat-daniel-james-brown",
+"title": "The Boys in the Boat",
+"subtitle": null,
+"author": [
+"Daniel James Brown"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"History"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-boys-in-the-boat-daniel-james-brown.jpg"
+},
+{
+"id": "the-brand-gap-marty-neumeier",
+"title": "The Brand Gap",
+"subtitle": "How to Bridge the Distance Between Business Strategy and Design",
+"author": [
+"Marty Neumeier"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Technology",
+"Business & Leadership"
+],
+"status": null,
+"year": "2003",
+"cover": "covers/the-brand-gap-marty-neumeier.jpg"
+},
+{
+"id": "the-brothers-karamazov-fyodor-dostoyevsky",
+"title": "The Brothers Karamazov",
+"subtitle": null,
+"author": [
+"Fyodor Dostoyevsky"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Literary Fiction"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-brothers-karamazov-fyodor-dostoyevsky.jpg"
+},
+{
+"id": "the-c-s-lewis-collection-academic-works-c-s-lewis",
+"title": "The C. S. Lewis Collection: Academic Works",
+"subtitle": null,
+"author": [
+"C. S. Lewis"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Writing & Literature"
+],
+"status": null,
+"year": "2017",
+"cover": "covers/the-c-s-lewis-collection-academic-works-c-s-lewis.jpg"
+},
+{
+"id": "the-call-of-earth-orson-scott-card",
+"title": "The Call of Earth",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Homecoming",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-call-of-earth-orson-scott-card.jpg"
+},
+{
+"id": "the-call-of-the-wild-jack-london",
+"title": "The Call of the Wild",
+"subtitle": null,
+"author": [
+"Jack London"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Classics",
+"Historical Fiction"
+],
+"status": "reading",
+"year": "2012",
+"cover": "covers/the-call-of-the-wild-jack-london.jpg"
+},
+{
+"id": "the-cardinal-of-the-kremlin-tom-clancy",
+"title": "The Cardinal of the Kremlin",
+"subtitle": null,
+"author": [
+"Tom Clancy"
+],
+"series": "Jack Ryan",
+"seriesNumber": 3,
+"genre": [
+"Mystery & Thriller",
+"Society & Politics"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-cardinal-of-the-kremlin-tom-clancy.jpg"
+},
+{
+"id": "the-chekhov-collection-of-short-stories-anton-chekhov",
+"title": "The Chekhov Collection of Short Stories",
+"subtitle": null,
+"author": [
+"Anton Chekhov"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-chekhov-collection-of-short-stories-anton-chekhov.jpg"
+},
+{
+"id": "the-chronicles-of-narnia-complete-audio-collection-c-s-lewis",
+"title": "The Chronicles of Narnia Complete Audio Collection",
+"subtitle": null,
+"author": [
+"C. S. Lewis"
+],
+"series": "The Chronicles of Narnia (Publication Order)",
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-chronicles-of-narnia-complete-audio-collection-c-s-lewis.jpg"
+},
+{
+"id": "the-city-and-the-stars-arthur-c-clarke",
+"title": "The City and the Stars",
+"subtitle": null,
+"author": [
+"Arthur C. Clarke"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-city-and-the-stars-arthur-c-clarke.jpg"
+},
+{
+"id": "the-collapsing-empire-john-scalzi",
+"title": "The Collapsing Empire",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": "The Interdependency",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-collapsing-empire-john-scalzi.jpg"
+},
+{
+"id": "the-color-of-compromise-jemar-tisby",
+"title": "The Color of Compromise",
+"subtitle": null,
+"author": [
+"Jemar Tisby"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Faith",
+"History"
+],
+"status": null,
+"year": "2019",
+"cover": "covers/the-color-of-compromise-jemar-tisby.jpg"
+},
+{
+"id": "the-color-of-magic-terry-pratchett",
+"title": "The Color of Magic",
+"subtitle": "A Novel of Discworld",
+"author": [
+"Terry Pratchett"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Humor"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/the-color-of-magic-terry-pratchett.jpg"
+},
+{
+"id": "the-complete-project-gutenberg-works-of-jane-austen-a-linked-index-of-all-pg-edi",
+"title": "The Complete Project Gutenberg Works of Jane Austen A Linked Index of all PG Editions of Jane Austen",
+"subtitle": null,
+"author": [
+"Jane Austen 1775-1817"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics"
+],
+"status": null,
+"year": "2010",
+"cover": null
+},
+{
+"id": "the-complete-sherlock-holmes-arthur-conan-doyle",
+"title": "The Complete Sherlock Holmes",
+"subtitle": "with an introduction from Robert Ryan",
+"author": [
+"Arthur Conan Doyle"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Classics",
+"Short Stories"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-complete-sherlock-holmes-arthur-conan-doyle.jpg"
+},
+{
+"id": "the-complete-stories-flannery-o-connor",
+"title": "The Complete Stories",
+"subtitle": null,
+"author": [
+"Flannery O'Connor"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Short Stories",
+"Classics"
+],
+"status": null,
+"year": "1971",
+"cover": "covers/the-complete-stories-flannery-o-connor.jpg"
+},
+{
+"id": "the-confessions-of-st-augustine-modern-english-version-augustine",
+"title": "The Confessions of St. Augustine: Modern English Version",
+"subtitle": null,
+"author": [
+"Augustine"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": "reading",
+"year": "2008",
+"cover": "covers/the-confessions-of-st-augustine-modern-english-version-augustine.jpg"
+},
+{
+"id": "the-currents-of-space-isaac-asimov",
+"title": "The Currents of Space",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Galactic Empire",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-currents-of-space-isaac-asimov.jpg"
+},
+{
+"id": "the-elements-of-content-strategy-erin-kissane",
+"title": "The Elements of Content Strategy",
+"subtitle": null,
+"author": [
+"Erin Kissane"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Technology"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-elements-of-content-strategy-erin-kissane.jpg"
+},
+{
+"id": "the-elements-of-style-william-strunk",
+"title": "The Elements of Style",
+"subtitle": null,
+"author": [
+"William Strunk"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Writing & Literature"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-elements-of-style-william-strunk.jpg"
+},
+{
+"id": "the-fellowship-of-the-ring-j-r-r-tolkien",
+"title": "The Fellowship of the Ring",
+"subtitle": "Being the First Part of The Lord of the Rings",
+"author": [
+"J.R.R. Tolkien"
+],
+"series": "The Lord of the Rings",
+"seriesNumber": 1,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "reading",
+"year": "2012",
+"cover": "covers/the-fellowship-of-the-ring-j-r-r-tolkien.jpg"
+},
+{
+"id": "the-final-empire-brandon-sanderson",
+"title": "The Final Empire",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-final-empire-brandon-sanderson.jpg"
+},
+{
+"id": "the-first-fowler-s-d-smith",
+"title": "The First Fowler",
+"subtitle": null,
+"author": [
+"S. D. Smith"
+],
+"series": "Green Ember Archer",
+"seriesNumber": 2,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2019",
+"cover": "covers/the-first-fowler-s-d-smith.jpg"
+},
+{
+"id": "the-five-dysfunctions-of-a-team-patrick-lencioni",
+"title": "The Five Dysfunctions of a Team",
+"subtitle": null,
+"author": [
+"Patrick Lencioni"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-five-dysfunctions-of-a-team-patrick-lencioni.jpg"
+},
+{
+"id": "the-forever-war-joe-haldeman",
+"title": "The Forever War",
+"subtitle": null,
+"author": [
+"Joe Haldeman"
+],
+"series": "The Forever War",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-forever-war-joe-haldeman.jpg"
+},
+{
+"id": "the-getaway-car-ann-patchett",
+"title": "The Getaway Car",
+"subtitle": "A Practical Memoir About Writing and Life (Kindle Single)",
+"author": [
+"Ann Patchett"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Writing & Literature",
+"Memoir & Biography"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-getaway-car-ann-patchett.jpg"
+},
+{
+"id": "the-ghost-brigades-john-scalzi",
+"title": "The Ghost Brigades",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": "Old Man's War",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-ghost-brigades-john-scalzi.jpg"
+},
+{
+"id": "the-gift-of-asher-lev-chaim-potok",
+"title": "The Gift of Asher Lev",
+"subtitle": null,
+"author": [
+"Chaim Potok"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Literary Fiction",
+"Art & Creativity"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/the-gift-of-asher-lev-chaim-potok.jpg"
+},
+{
+"id": "the-giver-illustrated-gift-edition-lois-lowry",
+"title": "The Giver (illustrated; gift edition)",
+"subtitle": null,
+"author": [
+"Lois Lowry"
+],
+"series": "Giver Quartet",
+"seriesNumber": 1,
+"genre": [
+"Young Adult"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-giver-illustrated-gift-edition-lois-lowry.jpg"
+},
+{
+"id": "the-golem-s-eye-jonathan-stroud",
+"title": "The Golem's Eye",
+"subtitle": "A Bartimaeus Novel, Book 2",
+"author": [
+"Jonathan Stroud"
+],
+"series": "Bartimaeus",
+"seriesNumber": 2,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-golem-s-eye-jonathan-stroud.jpg"
+},
+{
+"id": "the-gospel-comes-with-a-house-key-rosaria-butterfield",
+"title": "The Gospel Comes with a House Key",
+"subtitle": null,
+"author": [
+"Rosaria Butterfield"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-gospel-comes-with-a-house-key-rosaria-butterfield.jpg"
+},
+{
+"id": "the-great-discontent-issue-one-ryan-essmaker",
+"title": "The Great Discontent, Issue One",
+"subtitle": null,
+"author": [
+"Ryan Essmaker",
+"Tina Essmaker"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Art & Creativity",
+"Design"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/the-great-discontent-issue-one-ryan-essmaker.jpg"
+},
+{
+"id": "the-great-train-robbery-michael-crichton",
+"title": "The Great Train Robbery",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Historical Fiction"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-great-train-robbery-michael-crichton.jpg"
+},
+{
+"id": "the-grey-wolf-louise-penny",
+"title": "The Grey Wolf",
+"subtitle": null,
+"author": [
+"Louise Penny"
+],
+"series": "Chief Inspector Gamache",
+"seriesNumber": 19,
+"genre": [
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-grey-wolf-louise-penny.jpg"
+},
+{
+"id": "the-help-kathryn-stockett",
+"title": "The Help",
+"subtitle": null,
+"author": [
+"Kathryn Stockett"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": "finished",
+"year": "2009",
+"cover": "covers/the-help-kathryn-stockett.jpg"
+},
+{
+"id": "the-hero-of-ages-brandon-sanderson",
+"title": "The Hero of Ages",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn",
+"seriesNumber": 3,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-hero-of-ages-brandon-sanderson.jpg"
+},
+{
+"id": "the-hiding-place-corrie-ten-boom",
+"title": "The Hiding Place",
+"subtitle": null,
+"author": [
+"Corrie ten Boom"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-hiding-place-corrie-ten-boom.jpg"
+},
+{
+"id": "the-hitchhiker-s-guide-to-the-galaxy-douglas-adams",
+"title": "The Hitchhiker's Guide to the Galaxy",
+"subtitle": null,
+"author": [
+"Douglas Adams"
+],
+"series": "Hitchhiker's Guide to the Galaxy",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Humor"
+],
+"status": null,
+"year": "2007",
+"cover": "covers/the-hitchhiker-s-guide-to-the-galaxy-douglas-adams.jpg"
+},
+{
+"id": "the-hobbit-lord-of-the-rings-j-r-r-tolkien",
+"title": "The Hobbit (Lord of the Rings)",
+"subtitle": null,
+"author": [
+"J.R.R. Tolkien"
+],
+"series": "The Lord of the Rings",
+"seriesNumber": 0.5,
+"genre": [
+"Young Adult",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-hobbit-lord-of-the-rings-j-r-r-tolkien.jpg"
+},
+{
+"id": "the-hunt-for-red-october-tom-clancy",
+"title": "The Hunt for Red October",
+"subtitle": null,
+"author": [
+"Tom Clancy"
+],
+"series": "Jack Ryan",
+"seriesNumber": 1,
+"genre": [
+"Mystery & Thriller",
+"Society & Politics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-hunt-for-red-october-tom-clancy.jpg"
+},
+{
+"id": "the-last-colony-john-scalzi",
+"title": "The Last Colony",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": "Old Man's War",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-last-colony-john-scalzi.jpg"
+},
+{
+"id": "the-left-hand-of-darkness-ursula-k-le-guin",
+"title": "The Left Hand of Darkness",
+"subtitle": null,
+"author": [
+"Ursula K. Le Guin"
+],
+"series": "The Hainish Cycle",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-left-hand-of-darkness-ursula-k-le-guin.jpg"
+},
+{
+"id": "the-lost-metal-brandon-sanderson",
+"title": "The Lost Metal",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn: Wax and Wayne",
+"seriesNumber": 4,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-lost-metal-brandon-sanderson.jpg"
+},
+{
+"id": "the-lost-world-a-novel-michael-crichton",
+"title": "The Lost World: A Novel",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": "Jurassic Park",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Mystery & Thriller"
+],
+"status": null,
+"year": "2001",
+"cover": "covers/the-lost-world-a-novel-michael-crichton.jpg"
+},
+{
+"id": "the-madness-of-crowds-louise-penny",
+"title": "The Madness of Crowds",
+"subtitle": null,
+"author": [
+"Louise Penny"
+],
+"series": "Chief Inspector Gamache",
+"seriesNumber": 17,
+"genre": [
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-madness-of-crowds-louise-penny.jpg"
+},
+{
+"id": "the-martian-andy-weir",
+"title": "The Martian",
+"subtitle": null,
+"author": [
+"Andy Weir"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": "2014",
+"cover": "covers/the-martian-andy-weir.jpg"
+},
+{
+"id": "the-minor-miracle-meredith-davis",
+"title": "The Minor Miracle",
+"subtitle": null,
+"author": [
+"Meredith Davis"
+],
+"series": "The Amazing Adventures of Noah Minor",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-minor-miracle-meredith-davis.jpg"
+},
+{
+"id": "the-minor-rescue-meredith-davis",
+"title": "The Minor Rescue",
+"subtitle": null,
+"author": [
+"Meredith Davis"
+],
+"series": "The Amazing Adventures of Noah Minor",
+"seriesNumber": 2,
+"genre": [
+"Children's"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-minor-rescue-meredith-davis.jpg"
+},
+{
+"id": "the-mysterious-benedict-society-trenton-lee-stewart",
+"title": "The Mysterious Benedict Society",
+"subtitle": null,
+"author": [
+"Trenton Lee Stewart"
+],
+"series": "The Mysterious Benedict Society",
+"seriesNumber": 1,
+"genre": [
+"Children's",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-mysterious-benedict-society-trenton-lee-stewart.jpg"
+},
+{
+"id": "the-mysterious-benedict-society-and-the-perilous-journe-trenton-lee-stewart",
+"title": "The Mysterious Benedict Society and the Perilous Journe",
+"subtitle": null,
+"author": [
+"Trenton Lee Stewart"
+],
+"series": "The Mysterious Benedict Society",
+"seriesNumber": 2,
+"genre": [
+"Children's",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-mysterious-benedict-society-and-the-perilous-journe-trenton-lee-stewart.jpg"
+},
+{
+"id": "the-mysterious-benedict-society-and-the-prisoner-s-dilemma-trenton-lee-stewart",
+"title": "The Mysterious Benedict Society and the Prisoner's Dilemma",
+"subtitle": null,
+"author": [
+"Trenton Lee Stewart"
+],
+"series": "The Mysterious Benedict Society",
+"seriesNumber": 3,
+"genre": [
+"Children's",
+"Mystery & Thriller"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-mysterious-benedict-society-and-the-prisoner-s-dilemma-trenton-lee-stewart.jpg"
+},
+{
+"id": "the-mysterious-benedict-society-and-the-riddle-of-ages-trenton-lee-stewart",
+"title": "The Mysterious Benedict Society and the Riddle of Ages",
+"subtitle": null,
+"author": [
+"Trenton Lee Stewart"
+],
+"series": "The Mysterious Benedict Society",
+"seriesNumber": 4,
+"genre": [
+"Children's",
+"Mystery & Thriller"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-mysterious-benedict-society-and-the-riddle-of-ages-trenton-lee-stewart.jpg"
+},
+{
+"id": "the-naked-sun-isaac-asimov",
+"title": "The Naked Sun",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Robot",
+"seriesNumber": 2,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-naked-sun-isaac-asimov.jpg"
+},
+{
+"id": "the-one-and-only-ivan-katherine-applegate",
+"title": "The One and Only Ivan",
+"subtitle": null,
+"author": [
+"Katherine Applegate"
+],
+"series": "One and Only Ivan",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-one-and-only-ivan-katherine-applegate.jpg"
+},
+{
+"id": "the-outlander-series-7-book-bundle-diana-gabaldon",
+"title": "The Outlander Series 7-Book Bundle",
+"subtitle": "Outlander, Dragonfly in Amber, Voyager, Drums of Autumn, The Fiery Cross, A Breath of Snow and Ashes, An Echo in the Bone",
+"author": [
+"Diana Gabaldon"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Romance"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-outlander-series-7-book-bundle-diana-gabaldon.jpg"
+},
+{
+"id": "the-poisonwood-bible-barbara-kingsolver",
+"title": "The Poisonwood Bible",
+"subtitle": null,
+"author": [
+"Barbara Kingsolver"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/the-poisonwood-bible-barbara-kingsolver.jpg"
+},
+{
+"id": "the-puppets-of-spelhorst-kate-dicamillo",
+"title": "The Puppets of Spelhorst",
+"subtitle": null,
+"author": [
+"Kate DiCamillo"
+],
+"series": "Norendy Tales",
+"seriesNumber": 1,
+"genre": [
+"Children's"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-puppets-of-spelhorst-kate-dicamillo.jpg"
+},
+{
+"id": "the-pursuit-of-god-a-w-aiden-wilson-tozer",
+"title": "The Pursuit of God",
+"subtitle": null,
+"author": [
+"A. W. (Aiden Wilson) Tozer"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-pursuit-of-god-a-w-aiden-wilson-tozer.jpg"
+},
+{
+"id": "the-quotidian-mysteries-kathleen-norris",
+"title": "The Quotidian Mysteries",
+"subtitle": "Laundry, Liturgy, and \"Women's Work\"",
+"author": [
+"Kathleen Norris"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith"
+],
+"status": null,
+"year": "1998",
+"cover": "covers/the-quotidian-mysteries-kathleen-norris.jpg"
+},
+{
+"id": "the-ramona-quimby-audio-collection-beverly-cleary",
+"title": "The Ramona Quimby Audio Collection",
+"subtitle": null,
+"author": [
+"Beverly Cleary"
+],
+"series": "Ramona Quimby",
+"seriesNumber": null,
+"genre": [
+"Children's",
+"Humor"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-ramona-quimby-audio-collection-beverly-cleary.jpg"
+},
+{
+"id": "the-return-of-the-king-j-r-r-tolkien",
+"title": "The Return of the King",
+"subtitle": null,
+"author": [
+"J. R. R. Tolkien"
+],
+"series": "The Lord of the Rings",
+"seriesNumber": 3,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-return-of-the-king-j-r-r-tolkien.jpg"
+},
+{
+"id": "the-ring-of-solomon-prequel-to-bartimaeus-trilogy-jonathan-stroud",
+"title": "The Ring of Solomon (Prequel to Bartimaeus Trilogy)",
+"subtitle": null,
+"author": [
+"Jonathan Stroud"
+],
+"series": "Bartimaeus",
+"seriesNumber": 0.5,
+"genre": [
+"Children's",
+"Fantasy"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-ring-of-solomon-prequel-to-bartimaeus-trilogy-jonathan-stroud.jpg"
+},
+{
+"id": "the-robots-of-dawn-isaac-asimov",
+"title": "The Robots of Dawn",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Robot",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": "2011",
+"cover": "covers/the-robots-of-dawn-isaac-asimov.jpg"
+},
+{
+"id": "the-secret-life-of-bees-sue-monk-kidd",
+"title": "The Secret Life of Bees",
+"subtitle": null,
+"author": [
+"Sue Monk Kidd"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Historical Fiction",
+"Literary Fiction"
+],
+"status": null,
+"year": "2003",
+"cover": "covers/the-secret-life-of-bees-sue-monk-kidd.jpg"
+},
+{
+"id": "the-secret-thoughts-of-an-unlikely-convert-rosaria-champagne-butter",
+"title": "The Secret Thoughts of an Unlikely Convert",
+"subtitle": null,
+"author": [
+"Rosaria Champagne Butter"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Memoir & Biography"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-secret-thoughts-of-an-unlikely-convert-rosaria-champagne-butter.jpg"
+},
+{
+"id": "the-shape-of-design-frank-chimero",
+"title": "The Shape of Design",
+"subtitle": null,
+"author": [
+"Frank Chimero"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-shape-of-design-frank-chimero.jpg"
+},
+{
+"id": "the-silence-of-unworthy-gods-andrew-rowe",
+"title": "The Silence of Unworthy Gods",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-silence-of-unworthy-gods-andrew-rowe.jpg"
+},
+{
+"id": "the-silmarillion-j-r-r-tolkien",
+"title": "The Silmarillion",
+"subtitle": null,
+"author": [
+"J.R.R. Tolkien"
+],
+"series": "The Lord of the Rings",
+"seriesNumber": 0,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": null,
+"year": "2012",
+"cover": "covers/the-silmarillion-j-r-r-tolkien.jpg"
+},
+{
+"id": "the-silo-saga-omnibus-hugh-howey",
+"title": "The Silo Saga Omnibus",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Silo Saga",
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2020",
+"cover": "covers/the-silo-saga-omnibus-hugh-howey.jpg"
+},
+{
+"id": "the-singularity-trap-dennis-e-taylor",
+"title": "The Singularity Trap",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-singularity-trap-dennis-e-taylor.jpg"
+},
+{
+"id": "the-space-trilogy-omnib-c-s-lewis",
+"title": "The Space Trilogy, Omnib",
+"subtitle": null,
+"author": [
+"C. S. Lewis"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction",
+"Faith"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/the-space-trilogy-omnib-c-s-lewis.jpg"
+},
+{
+"id": "the-stars-like-dust-isaac-asimov",
+"title": "The Stars, Like Dust",
+"subtitle": null,
+"author": [
+"Isaac Asimov"
+],
+"series": "Galactic Empire",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Classics"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-stars-like-dust-isaac-asimov.jpg"
+},
+{
+"id": "the-three-body-problem-cixin-liu",
+"title": "The Three-Body Problem",
+"subtitle": null,
+"author": [
+"Cixin Liu"
+],
+"series": "The Remembrance of Earth's Past",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Literary Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/the-three-body-problem-cixin-liu.jpg"
+},
+{
+"id": "the-torch-that-ignites-the-stars-andrew-rowe",
+"title": "The Torch That Ignites the Stars",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 3,
+"genre": [
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-torch-that-ignites-the-stars-andrew-rowe.jpg"
+},
+{
+"id": "the-two-towers-j-r-r-tolkien",
+"title": "The Two Towers",
+"subtitle": null,
+"author": [
+"J. R. R. Tolkien"
+],
+"series": "The Lord of the Rings",
+"seriesNumber": 2,
+"genre": [
+"Fantasy",
+"Classics"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-two-towers-j-r-r-tolkien.jpg"
+},
+{
+"id": "the-vexed-generation-scott-meyer",
+"title": "The Vexed Generation",
+"subtitle": null,
+"author": [
+"Scott Meyer"
+],
+"series": "Magic 2.0",
+"seriesNumber": 6,
+"genre": [
+"Young Adult",
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-vexed-generation-scott-meyer.jpg"
+},
+{
+"id": "the-way-of-kings-brandon-sanderson",
+"title": "The Way of Kings",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "The Stormlight Archive",
+"seriesNumber": 1,
+"genre": [
+"Fantasy"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/the-way-of-kings-brandon-sanderson.jpg"
+},
+{
+"id": "the-well-of-ascension-brandon-sanderson",
+"title": "The Well of Ascension",
+"subtitle": null,
+"author": [
+"Brandon Sanderson"
+],
+"series": "Mistborn",
+"seriesNumber": 2,
+"genre": [
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/the-well-of-ascension-brandon-sanderson.jpg"
+},
+{
+"id": "theo-of-golden-allen-levi",
+"title": "Theo of Golden",
+"subtitle": null,
+"author": [
+"Allen Levi"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Classics",
+"Literary Fiction"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/theo-of-golden-allen-levi.jpg"
+},
+{
+"id": "tiamat-s-wrath-james-s-a-corey",
+"title": "Tiamat's Wrath",
+"subtitle": null,
+"author": [
+"James S. A. Corey"
+],
+"series": "The Expanse",
+"seriesNumber": 8,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/tiamat-s-wrath-james-s-a-corey.jpg"
+},
+{
+"id": "till-we-have-faces-c-s-lewis",
+"title": "Till We Have Faces",
+"subtitle": null,
+"author": [
+"C. S. Lewis"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Classics",
+"Historical Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/till-we-have-faces-c-s-lewis.jpg"
+},
+{
+"id": "timeline-michael-crichton",
+"title": "Timeline",
+"subtitle": null,
+"author": [
+"Michael Crichton"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Fantasy",
+"Mystery & Thriller",
+"Historical Fiction"
+],
+"status": null,
+"year": "2003",
+"cover": "covers/timeline-michael-crichton.jpg"
+},
+{
+"id": "traction-gabriel-weinberg",
+"title": "Traction",
+"subtitle": null,
+"author": [
+"Gabriel Weinberg",
+"Justin Mares"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Business & Leadership"
+],
+"status": null,
+"year": "2015",
+"cover": "covers/traction-gabriel-weinberg.jpg"
+},
+{
+"id": "treason-orson-scott-card",
+"title": "Treason",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/treason-orson-scott-card.jpg"
+},
+{
+"id": "unbroken-laura-hillenbrand",
+"title": "Unbroken",
+"subtitle": null,
+"author": [
+"Laura Hillenbrand"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Memoir & Biography",
+"History"
+],
+"status": null,
+"year": "2010",
+"cover": "covers/unbroken-laura-hillenbrand.jpg"
+},
+{
+"id": "visitors-orson-scott-card",
+"title": "Visitors",
+"subtitle": null,
+"author": [
+"Orson Scott Card"
+],
+"series": "Pathfinder",
+"seriesNumber": 3,
+"genre": [
+"Young Adult"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/visitors-orson-scott-card.jpg"
+},
+{
+"id": "walking-on-water-madeleine-l-engle",
+"title": "Walking on Water",
+"subtitle": null,
+"author": [
+"Madeleine L'Engle"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Faith",
+"Society & Politics"
+],
+"status": "reading",
+"year": "2016",
+"cover": "covers/walking-on-water-madeleine-l-engle.jpg"
+},
+{
+"id": "we-are-legion-we-are-bob-dennis-e-taylor",
+"title": "We Are Legion (We Are Bob)",
+"subtitle": null,
+"author": [
+"Dennis E. Taylor"
+],
+"series": "Bobiverse",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/we-are-legion-we-are-bob-dennis-e-taylor.jpg"
+},
+{
+"id": "web-form-design-luke-wroblewski",
+"title": "Web Form Design",
+"subtitle": "Filling in the Blanks",
+"author": [
+"Luke Wroblewski"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design"
+],
+"status": null,
+"year": "2008",
+"cover": "covers/web-form-design-luke-wroblewski.jpg"
+},
+{
+"id": "when-wizards-follow-fools-andrew-rowe",
+"title": "When Wizards Follow Fools",
+"subtitle": null,
+"author": [
+"Andrew Rowe"
+],
+"series": "Arcane Ascension",
+"seriesNumber": 5,
+"genre": [
+"Fantasy",
+"Humor"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/when-wizards-follow-fools-andrew-rowe.jpg"
+},
+{
+"id": "whirlwind-james-clavell",
+"title": "Whirlwind",
+"subtitle": null,
+"author": [
+"James Clavell"
+],
+"series": "The Asian Saga",
+"seriesNumber": 6,
+"genre": [
+"Mystery & Thriller",
+"Classics",
+"Historical Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/whirlwind-james-clavell.jpg"
+},
+{
+"id": "wool-hugh-howey",
+"title": "Wool",
+"subtitle": null,
+"author": [
+"Hugh Howey"
+],
+"series": "The Silo Saga",
+"seriesNumber": 1,
+"genre": [
+"Science Fiction"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/wool-hugh-howey.jpg"
+},
+{
+"id": "wrath-of-the-triple-goddess-rick-riordan",
+"title": "Wrath of the Triple Goddess",
+"subtitle": null,
+"author": [
+"Rick Riordan"
+],
+"series": "Percy Jackson and the Olympians",
+"seriesNumber": 7,
+"genre": [
+"Children's",
+"Art & Creativity"
+],
+"status": "reading",
+"year": null,
+"cover": "covers/wrath-of-the-triple-goddess-rick-riordan.jpg"
+},
+{
+"id": "wuthering-heights-emily-bront",
+"title": "Wuthering Heights",
+"subtitle": null,
+"author": [
+"Emily Brontë"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Mystery & Thriller",
+"Classics",
+"Historical Fiction"
+],
+"status": null,
+"year": null,
+"cover": "covers/wuthering-heights-emily-bront.jpg"
+},
+{
+"id": "xenocide-orson-scott-card",
+"title": "Xenocide",
+"subtitle": "Volume Three of the Ender Quintet",
+"author": [
+"Orson Scott Card"
+],
+"series": "Ender Quintet",
+"seriesNumber": 3,
+"genre": [
+"Science Fiction"
+],
+"status": null,
+"year": "2009",
+"cover": "covers/xenocide-orson-scott-card.jpg"
+},
+{
+"id": "you-re-my-favorite-client-mike-monteiro",
+"title": "You're My Favorite Client",
+"subtitle": null,
+"author": [
+"Mike Monteiro"
+],
+"series": null,
+"seriesNumber": null,
+"genre": [
+"Design",
+"Business & Leadership"
+],
+"status": null,
+"year": "2014",
+"cover": "covers/you-re-my-favorite-client-mike-monteiro.jpg"
+},
+{
+"id": "zoe-s-tale-john-scalzi",
+"title": "Zoe's Tale",
+"subtitle": null,
+"author": [
+"John Scalzi"
+],
+"series": "Old Man's War",
+"seriesNumber": 4,
+"genre": [
+"Science Fiction",
+"Fantasy"
+],
+"status": "finished",
+"year": null,
+"cover": "covers/zoe-s-tale-john-scalzi.jpg"
+}
+]
+}
