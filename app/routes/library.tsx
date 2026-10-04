@@ -16,7 +16,8 @@ type Book = {
 };
 
 export const meta: MetaFunction = () => {
-  return [{ title: "Shaun Fox | Library" }];
+  // noindex until the page is launched and linked from the nav
+  return [{ title: "Shaun Fox | Library" }, { name: "robots", content: "noindex" }];
 };
 
 export const clientLoader = async () => {
