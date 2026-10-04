@@ -134,7 +134,7 @@
 "Literary Fiction",
 "Humor"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/a-man-called-ove-fredrik-backman.jpg"
 },
@@ -185,7 +185,7 @@
 "Fantasy",
 "Mystery & Thriller"
 ],
-"status": null,
+"status": "finished",
 "year": "2011",
 "cover": "covers/a-scanner-darkly-philip-k-dick.jpg"
 },
@@ -202,7 +202,7 @@
 "Children's",
 "Classics"
 ],
-"status": null,
+"status": "finished",
 "year": "1978",
 "cover": "covers/a-swiftly-tilting-planet-madeleine-l-engle.jpg"
 },
@@ -219,7 +219,7 @@
 "Children's",
 "Classics"
 ],
-"status": null,
+"status": "finished",
 "year": "2010",
 "cover": "covers/a-wind-in-the-door-madeleine-l-engle.jpg"
 },
@@ -252,7 +252,7 @@
 "Children's",
 "Classics"
 ],
-"status": null,
+"status": "finished",
 "year": "2010",
 "cover": "covers/a-wrinkle-in-time-madeleine-l-engle.jpg"
 },
@@ -320,7 +320,7 @@
 "Art & Creativity",
 "Personal Growth"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/adorning-the-dark-andrew-peterson.jpg"
 },
@@ -581,7 +581,7 @@
 "Mystery & Thriller",
 "Classics"
 ],
-"status": "reading",
+"status": "finished",
 "year": "2015",
 "cover": "covers/anne-of-green-gables-lucy-maud-montgomery.jpg"
 },
@@ -635,7 +635,7 @@
 "Fantasy",
 "Short Stories"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/arcanum-unbounded-brandon-sanderson.jpg"
 },
@@ -685,7 +685,7 @@
 "genre": [
 "Art & Creativity"
 ],
-"status": "reading",
+"status": "finished",
 "year": "2023",
 "cover": "covers/art-fear-david-bayles.jpg"
 },
@@ -805,7 +805,7 @@
 "Art & Creativity",
 "Personal Growth"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/big-magic-elizabeth-gilbert.jpg"
 },
@@ -1461,7 +1461,7 @@
 "Children's",
 "Classics"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/emily-of-new-moon-l-m-montgomery.jpg"
 },
@@ -1495,7 +1495,7 @@
 "Children's",
 "Humor"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/emily-s-runaway-imagination-beverly-cleary.jpg"
 },
@@ -1513,7 +1513,7 @@
 "Historical Fiction",
 "Romance"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/emma-jane-austen.jpg"
 },
@@ -1580,7 +1580,7 @@
 "Literary Fiction",
 "Humor"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/everything-is-illuminated-jonathan-safran-foer.jpg"
 },
@@ -1713,7 +1713,7 @@
 "genre": [
 "Faith"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/for-the-life-of-the-world-alexander-schmemann.jpg"
 },
@@ -2063,7 +2063,7 @@
 "genre": [
 "Children's"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/harry-potter-and-the-chamber-of-secrets-book-2-j-k-rowling.jpg"
 },
@@ -2095,7 +2095,7 @@
 "genre": [
 "Children's"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/harry-potter-and-the-goblet-of-fire-book-4-j-k-rowling.jpg"
 },
@@ -2111,7 +2111,7 @@
 "genre": [
 "Children's"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/harry-potter-and-the-half-blood-prince-book-6-j-k-rowling.jpg"
 },
@@ -2127,7 +2127,7 @@
 "genre": [
 "Children's"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/harry-potter-and-the-order-of-the-phoenix-book-5-j-k-rowling.jpg"
 },
@@ -2143,7 +2143,7 @@
 "genre": [
 "Children's"
 ],
-"status": null,
+"status": "finished",
 "year": null,
 "cover": "covers/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling.jpg"
 },
@@ -2227,7 +2227,7 @@
 "Art & Creativity",
 "Personal Growth"
 ],
-"status": "reading",
+"status": null,
 "year": "2016",
 "cover": "covers/how-to-stop-worrying-and-start-living-dale-carnegie.jpg"
 },
@@ -2393,7 +2393,7 @@
 "Personal Growth",
 "Parenting & Family"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/invitation-to-retreat-ruth-haley-barton.jpg"
 },
@@ -2664,7 +2664,7 @@
 "Faith",
 "Business & Leadership"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/living-into-community-christine-d-pohl.jpg"
 },
@@ -2731,7 +2731,7 @@
 "Science Fiction",
 "Short Stories"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/machine-learning-hugh-howey.jpg"
 },
@@ -3149,7 +3149,7 @@
 "genre": [
 "Children's"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/on-the-edge-of-the-dark-sea-of-darkness-andrew-peterson.jpg"
 },
@@ -3315,7 +3315,7 @@
 "Science Fiction",
 "Humor"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/platform-decay-martha-wells.jpg"
 },
@@ -3384,7 +3384,7 @@
 "Classics",
 "Historical Fiction"
 ],
-"status": "reading",
+"status": "finished",
 "year": "2012",
 "cover": "covers/pride-and-prejudice-jane-austen.jpg"
 },
@@ -3465,7 +3465,7 @@
 "genre": [
 "Business & Leadership"
 ],
-"status": "reading",
+"status": "finished",
 "year": "2019",
 "cover": "covers/radical-candor-kim-scott.jpg"
 },
@@ -3820,7 +3820,7 @@
 "Classics",
 "Historical Fiction"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/sense-and-sensibility-jane-austen.jpg"
 },
@@ -3887,7 +3887,7 @@
 "genre": [
 "Science Fiction"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/shift-hugh-howey.jpg"
 },
@@ -4121,7 +4121,7 @@
 "genre": [
 "Faith"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/surprised-by-hope-n-t-wright.jpg"
 },
@@ -4457,7 +4457,7 @@
 "Classics",
 "Literary Fiction"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-brothers-karamazov-fyodor-dostoyevsky.jpg"
 },
@@ -4491,7 +4491,7 @@
 "Science Fiction",
 "Fantasy"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-call-of-earth-orson-scott-card.jpg"
 },
@@ -4509,7 +4509,7 @@
 "Classics",
 "Historical Fiction"
 ],
-"status": "reading",
+"status": null,
 "year": "2012",
 "cover": "covers/the-call-of-the-wild-jack-london.jpg"
 },
@@ -4526,7 +4526,7 @@
 "Mystery & Thriller",
 "Society & Politics"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-cardinal-of-the-kremlin-tom-clancy.jpg"
 },
@@ -4560,7 +4560,7 @@
 "Fantasy",
 "Classics"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-chronicles-of-narnia-complete-audio-collection-c-s-lewis.jpg"
 },
@@ -4695,7 +4695,7 @@
 "genre": [
 "Faith"
 ],
-"status": "reading",
+"status": null,
 "year": "2008",
 "cover": "covers/the-confessions-of-st-augustine-modern-english-version-augustine.jpg"
 },
@@ -4762,7 +4762,7 @@
 "Fantasy",
 "Classics"
 ],
-"status": "reading",
+"status": null,
 "year": "2012",
 "cover": "covers/the-fellowship-of-the-ring-j-r-r-tolkien.jpg"
 },
@@ -4810,7 +4810,7 @@
 "genre": [
 "Business & Leadership"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-five-dysfunctions-of-a-team-patrick-lencioni.jpg"
 },
@@ -5428,7 +5428,7 @@
 "Fantasy",
 "Classics"
 ],
-"status": "finished",
+"status": "reading",
 "year": null,
 "cover": "covers/the-return-of-the-king-j-r-r-tolkien.jpg"
 },
@@ -5700,7 +5700,7 @@
 "genre": [
 "Fantasy"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/the-way-of-kings-brandon-sanderson.jpg"
 },
@@ -5733,7 +5733,7 @@
 "Classics",
 "Literary Fiction"
 ],
-"status": "reading",
+"status": null,
 "year": null,
 "cover": "covers/theo-of-golden-allen-levi.jpg"
 },
@@ -5868,7 +5868,7 @@
 "Faith",
 "Society & Politics"
 ],
-"status": "reading",
+"status": "finished",
 "year": "2016",
 "cover": "covers/walking-on-water-madeleine-l-engle.jpg"
 },
@@ -5969,7 +5969,7 @@
 "Children's",
 "Art & Creativity"
 ],
-"status": "reading",
+"status": "finished",
 "year": null,
 "cover": "covers/wrath-of-the-triple-goddess-rick-riordan.jpg"
 },
