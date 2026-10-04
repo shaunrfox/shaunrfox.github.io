@@ -281,11 +281,6 @@ main ul.book-row {
   }
 }
 
-.library-more {
-  display: block;
-  margin: $space-10 auto 0;
-}
-
 // "More genres" only exists on small screens; on wider ones every genre shows.
 .genre-more {
   display: none;

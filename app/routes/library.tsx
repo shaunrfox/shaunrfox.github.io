@@ -26,7 +26,6 @@ export const clientLoader = async () => {
   return data.books;
 };
 
-const PAGE = 60;
 // On small screens only the most common genres show until "More genres" is pressed.
 const GENRES_COLLAPSED = 8;
 
@@ -91,7 +90,6 @@ export default function LibraryRoute() {
   const [genre, setGenre] = useState<string | null>(null);
   const [sort, setSort] = useState("title");
   const [query, setQuery] = useState("");
-  const [limit, setLimit] = useState(PAGE);
   const [allGenres, setAllGenres] = useState(false);
 
   const reading = books.filter((b) => b.status === "reading");
@@ -104,11 +102,6 @@ export default function LibraryRoute() {
   }, [books]);
 
   const seriesCount = new Set(books.filter((b) => b.series).map((b) => b.series)).size;
-
-  const pickGenre = (g: string | null) => {
-    setGenre(g);
-    setLimit(PAGE);
-  };
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -191,17 +184,14 @@ export default function LibraryRoute() {
             type="search"
             placeholder="Search title, author, series"
             value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-              setLimit(PAGE);
-            }}
+            onChange={(e) => setQuery(e.target.value)}
             aria-label="Search the library"
           />
           <div
             className={`chip-group genre-chips${allGenres ? " expanded" : ""}`}
             aria-label="Genre"
           >
-            <button aria-pressed={genre === null} onClick={() => pickGenre(null)}>
+            <button aria-pressed={genre === null} onClick={() => setGenre(null)}>
               All
             </button>
             {genres.map(([g, n], i) => (
@@ -209,7 +199,7 @@ export default function LibraryRoute() {
                 key={g}
                 className={i >= GENRES_COLLAPSED && genre !== g ? "extra" : undefined}
                 aria-pressed={genre === g}
-                onClick={() => pickGenre(g)}
+                onClick={() => setGenre(g)}
               >
                 {g} <span>{n}</span>
               </button>
@@ -243,15 +233,10 @@ export default function LibraryRoute() {
               {genre && <> in {genre}</>}
             </p>
             <ul className="book-grid">
-              {visible.slice(0, limit).map((b) => (
-                <BookCard key={b.id} book={b} onGenre={pickGenre} />
+              {visible.map((b) => (
+                <BookCard key={b.id} book={b} onGenre={setGenre} />
               ))}
             </ul>
-            {visible.length > limit && (
-              <button className="library-more" onClick={() => setLimit(limit + PAGE)}>
-                Show more ({visible.length - limit} left)
-              </button>
-            )}
           </>
         ) : (
           <div className="series-list">

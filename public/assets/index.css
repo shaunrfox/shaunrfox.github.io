@@ -1932,11 +1932,6 @@ main ul.book-row li::before {
   padding-left: 0.25rem;
 }
 
-.library-more {
-  display: block;
-  margin: 2.5rem auto 0;
-}
-
 .genre-more {
   display: none;
 }
