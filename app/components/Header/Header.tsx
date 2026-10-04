@@ -23,13 +23,6 @@ export function Navbar() {
         <li>
           {pathname === "/cv" ? <span>CV</span> : <Link to="/cv">CV</Link>}
         </li>
-        <li>
-          {pathname === "/library" ? (
-            <span>Library</span>
-          ) : (
-            <Link to="/library">Library</Link>
-          )}
-        </li>
       </ul>
     </nav>
   );
