@@ -143,8 +143,7 @@ export default function LibraryRoute() {
     <div className="library-container">
       <div className="callout">
         <p>
-          Everything I&rsquo;ve read, am reading, or mean to read: the
-          shelves at home, the Kindle, and a long queue of audiobooks.
+          Everything I&rsquo;ve read, am reading, or mean to read.
         </p>
         <p className="library-stats">
           {books.length} books &middot; {seriesCount} series &middot;{" "}
