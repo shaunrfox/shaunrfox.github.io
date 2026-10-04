@@ -20,6 +20,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap");
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;
   display: revert;
@@ -122,7 +123,9 @@ pre {
   font-style: normal;
 }
 
-.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
+.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li, .library-container h2, .library-container button, .library-stats,
+.library-count,
+.library-loading, .library-search, .chip-label, .book-number, .book-author, .series h3 span {
   font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
   font-weight: 400;
   font-style: normal;
@@ -281,7 +284,9 @@ pre {
   font-style: normal;
 }
 
-.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
+.ibm-plex-mono-regular, .series h3 span, .book-author, .book-number, .chip-label, .library-search, .library-stats,
+.library-count,
+.library-loading, .library-container button, .library-container h2, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
   font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
   font-weight: 400;
   font-style: normal;
@@ -805,7 +810,9 @@ pre {
   font-style: normal;
 }
 
-.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
+.ibm-plex-mono-regular, .series h3 span, .book-author, .book-number, .chip-label, .library-search, .library-stats,
+.library-count,
+.library-loading, .library-container button, .library-container h2, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
   font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
   font-weight: 400;
   font-style: normal;
@@ -1140,7 +1147,9 @@ pre {
   font-style: normal;
 }
 
-.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
+.ibm-plex-mono-regular, .series h3 span, .book-author, .book-number, .chip-label, .library-search, .library-stats,
+.library-count,
+.library-loading, .library-container button, .library-container h2, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
   font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
   font-weight: 400;
   font-style: normal;
@@ -1386,7 +1395,9 @@ pre {
   font-style: normal;
 }
 
-.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
+.ibm-plex-mono-regular, .series h3 span, .book-author, .book-number, .chip-label, .library-search, .library-stats,
+.library-count,
+.library-loading, .library-container button, .library-container h2, a, .cv-container h2, .cv-info, .services-container h2, .services-container li {
   font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
   font-weight: 400;
   font-style: normal;
@@ -1505,6 +1516,439 @@ footer .fox-logo {
 
 .copyright {
   color: #71767a;
+}
+
+/***
+    The new CSS reset - version 1.8.3 (last updated 21.1.2023)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a,
+button {
+  cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+input,
+textarea {
+  -webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* preformatted text - use only for this feature */
+pre {
+  all: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+  color: unset;
+}
+
+/* remove default dot (•) sign */
+::marker {
+  content: initial;
+}
+
+/* fix the feature of 'hidden' attribute.
+   display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+   - fix for the content editable attribute will work properly.
+   - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+:where([contenteditable]:not([contenteditable=false])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable=true]) {
+  -webkit-user-drag: element;
+}
+
+/* Revert Modal native behavior */
+:where(dialog:modal) {
+  all: revert;
+}
+
+.eczar {
+  font-family: "Piazzolla", Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular, a, .cv-container h2, .cv-info, .services-container h2, .services-container li, .library-container h2, .library-container button, .library-stats,
+.library-count,
+.library-loading, .library-search, .chip-label, .book-number, .book-author, .series h3 span {
+  font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold, header .name {
+  font-family: "IBM Plex Mono", Andale Mono, monaco, Consolas, Lucida Console, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.breakpoint-tester {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  background: #bea41f;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 15px;
+  z-index: 1001;
+}
+
+.breakpoint-tester:before {
+  content: "default";
+}
+
+@media (max-width: 1200px) {
+  .breakpoint-tester:before {
+    content: "extra-large";
+  }
+}
+@media (max-width: 1100px) {
+  .breakpoint-tester:before {
+    content: "large";
+  }
+}
+@media (max-width: 800px) {
+  .breakpoint-tester:before {
+    content: "medium";
+  }
+}
+@media (max-width: 600px) {
+  .breakpoint-tester:before {
+    content: "medium-step";
+  }
+}
+@media (max-width: 400px) {
+  .breakpoint-tester:before {
+    content: "small";
+  }
+}
+@media (max-width: 380px) {
+  .breakpoint-tester:before {
+    content: "dang-small";
+  }
+}
+body:has(.library-container) {
+  grid-template-columns: minmax(0, 90rem);
+}
+body:has(.library-container) > * {
+  max-width: 90rem;
+  min-width: 0;
+}
+
+.library-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.library-container h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #eacb2a;
+  margin-bottom: 1rem;
+}
+.library-container button {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #71767a;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  background-image: none;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+.library-container button:hover, .library-container button[aria-pressed=true], .library-container button[aria-selected=true] {
+  color: #eacb2a;
+  background-image: linear-gradient(90deg, #eacb2a 0%, #eacb2a 100%);
+}
+.library-container button:focus-visible {
+  outline: 1px solid #f1aaaa;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.library-stats,
+.library-count,
+.library-loading {
+  font-size: 0.875rem;
+  color: #71767a;
+}
+
+.library-loading {
+  padding: 2.5rem 0;
+}
+
+.library-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.library-tabs {
+  display: flex;
+  gap: 1.5rem;
+}
+.library-tabs button {
+  font-size: 1rem;
+}
+
+.library-search {
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: #dfe1e2;
+  background: #000000;
+  border: 1px solid #2d2e2f;
+  border-radius: 4px;
+}
+.library-search::placeholder {
+  color: #565c65;
+}
+.library-search:focus-visible {
+  outline: 1px solid #f1aaaa;
+  outline-offset: 2px;
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+
+.genre-chips button span {
+  color: #3d4551;
+  padding-left: 0.0625rem;
+}
+
+.genre-chips button[aria-pressed=true] span {
+  color: #907d15;
+}
+
+.chip-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #3d4551;
+}
+
+main ul.book-grid,
+main ul.book-row {
+  padding: 0;
+  gap: 1.5rem;
+}
+main ul.book-grid li::before,
+main ul.book-row li::before {
+  content: none;
+}
+
+.book-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  column-gap: 1.25rem !important;
+  row-gap: 2rem !important;
+}
+@media (max-width: 600px) {
+  .book-grid {
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+  }
+}
+
+.book-row {
+  flex-direction: row !important;
+  overflow-x: auto;
+  padding-bottom: 0.75rem !important;
+  scrollbar-width: thin;
+  scrollbar-color: #3d4551 transparent;
+}
+.book-row .book {
+  flex: 0 0 7.5rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.book-cover-box {
+  width: 100%;
+}
+
+.book-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: contain;
+  object-position: left bottom;
+}
+
+.book-cover--blank {
+  display: flex;
+  border: 1px solid #2d2e2f;
+  border-radius: 2px;
+  align-items: flex-end;
+  padding: 0.5rem;
+  background: linear-gradient(160deg, #2d2e2f, #000000);
+}
+.book-cover--blank span {
+  font-family: "Piazzolla", Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #c6cace;
+}
+
+.book-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.book-number {
+  font-size: 0.75rem;
+  color: #eacb2a;
+}
+
+.book-title {
+  font-family: "Piazzolla", Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #edeff0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.book-author {
+  font-size: 0.7rem;
+  color: #71767a;
+}
+
+.book-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.125rem 0.5rem;
+  margin-top: 0.125rem;
+}
+.library-container .book-genres button {
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: #565c65;
+}
+.library-container .book-genres button:hover {
+  color: #eacb2a;
+}
+
+.series-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.series h3 {
+  font-family: "Piazzolla", Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: #edeff0;
+  margin-bottom: 0.75rem;
+}
+.series h3 span {
+  font-size: 0.75rem;
+  color: #565c65;
+  padding-left: 0.25rem;
+}
+
+.library-more {
+  display: block;
+  margin: 2.5rem auto 0;
+}
+
+.genre-more {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .genre-chips:not(.expanded) .extra {
+    display: none;
+  }
+  .library-container .genre-more {
+    display: inline-block;
+    color: #f1aaaa;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
